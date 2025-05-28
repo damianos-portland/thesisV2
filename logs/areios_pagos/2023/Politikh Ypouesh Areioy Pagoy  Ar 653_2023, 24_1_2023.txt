@@ -1,0 +1,544 @@
+2025-04-23 13:04:26,899 - createAreiosPagosJudgmentsAkn.py - INFO - Starting conversion of Politikh Ypouesh Areioy Pagoy  Ar 653_2023, 24_1_2023.txt
+2025-04-23 13:04:26,899 - AknJudgementClass.py - INFO - initialiazing AknJudgmentXmlListener Object...
+2025-04-23 13:04:26,899 - AknJudgementClass.py - DEBUG - textType: judgment
+2025-04-23 13:04:26,899 - AknJudgementClass.py - DEBUG - author: #SCCC
+2025-04-23 13:04:26,899 - AknJudgementClass.py - DEBUG - foreas: SCCC
+2025-04-23 13:04:26,899 - AknJudgementClass.py - DEBUG - issueYear: 2023
+2025-04-23 13:04:26,899 - AknJudgementClass.py - DEBUG - decisionNumber: 653
+2025-04-23 13:04:26,899 - AknJudgementClass.py - DEBUG - ECLI: None
+2025-04-23 13:04:26,899 - AknJudgementClass.py - DEBUG - publicationDate: None
+2025-04-23 13:04:26,899 - AknJudgementClass.py - DEBUG - ada: None
+2025-04-23 13:04:26,899 - AknJudgementClass.py - DEBUG - status: None
+2025-04-23 13:04:26,899 - AknJudgementClass.py - DEBUG - summary: None
+2025-04-23 13:04:26,899 - AknJudgementClass.py - DEBUG - chairman: None
+2025-04-23 13:04:26,899 - AknJudgementClass.py - DEBUG - rapporteur: None
+2025-04-23 13:04:26,899 - AknJudgementClass.py - INFO - Creating meta Element...
+2025-04-23 13:04:26,899 - AknJudgementClass.py - INFO - Creating identification Element...
+2025-04-23 13:04:26,899 - AknJudgementClass.py - INFO - Creating FRBRWork Element...
+2025-04-23 13:04:26,899 - AknJudgementClass.py - INFO - Creating FRBRExpression Element...
+2025-04-23 13:04:26,899 - AknJudgementClass.py - INFO - Creating FRBRManifestation Element...
+2025-04-23 13:04:26,899 - AknJudgementClass.py - INFO - Creating Lifecycle Element...
+2025-04-23 13:04:26,899 - AknJudgementClass.py - INFO - Creating workflow Element...
+2025-04-23 13:04:26,899 - AknJudgementClass.py - INFO - Creating references Element...
+2025-04-23 13:04:42,020 - AknLegalReferencesClass.py - INFO - Parsing legal references...
+2025-04-23 13:04:42,021 - AknLegalReferencesClass.py - INFO - LEGAL REFERENCE FOUND...
+2025-04-23 13:04:42,021 - AknLegalReferencesClass.py - DEBUG - legal reference text: ΚΠολΔ
+2025-04-23 13:04:42,021 - AknLegalReferencesClass.py - DEBUG - Entering SingleLegislation node...
+2025-04-23 13:04:42,021 - AknLegalReferencesClass.py - DEBUG - SingleLegislation text: ΚΠολΔ
+2025-04-23 13:04:42,021 - AknLegalReferencesClass.py - DEBUG - Entering CompleteLegislation node...
+2025-04-23 13:04:42,021 - AknLegalReferencesClass.py - DEBUG - Entering ExplicitLegalType node...
+2025-04-23 13:04:42,021 - AknLegalReferencesClass.py - DEBUG - ExplicitLegalType text: ΚΠολΔ
+2025-04-23 13:04:42,021 - AknLegalReferencesClass.py - DEBUG - Entering ExplicitKwdikas node...
+2025-04-23 13:04:42,021 - AknLegalReferencesClass.py - DEBUG - ExplicitKwdikas text: ΚΠολΔ
+2025-04-23 13:04:42,022 - AknLegalReferencesClass.py - DEBUG - Kwdikas dictionary search result: act/presidentialDecree_503_1985
+2025-04-23 13:04:42,022 - AknLegalReferencesClass.py - DEBUG - splitMultHref: 0
+2025-04-23 13:04:42,022 - AknLegalReferencesClass.py - DEBUG - DictionaryOfElements: {'type': 'act/presidentialDecree', 'legalNumber': '503', 'legalYear': '1985'}
+2025-04-23 13:04:42,022 - AknLegalReferencesClass.py - DEBUG - This reference contains single ids in all elements!
+2025-04-23 13:04:42,022 - AknLegalReferencesClass.py - DEBUG - href: /akn/gr/act/presidentialDecree/1985/503/!main
+2025-04-23 13:04:42,022 - AknLegalReferencesClass.py - DEBUG - reference_text: /akn/gr/act/presidentialDecree/1985/503/!main
+2025-04-23 13:04:42,022 - AknLegalReferencesClass.py - DEBUG - CompleteLegislation text: <ref href = "/akn/gr/act/presidentialDecree/1985/503/!main">ΚΠολΔ</ref>
+2025-04-23 13:04:42,022 - AknLegalReferencesClass.py - DEBUG - CompleteLegislation node END
+2025-04-23 13:04:42,022 - AknLegalReferencesClass.py - INFO - LEGAL REFERENCE FOUND...
+2025-04-23 13:04:42,022 - AknLegalReferencesClass.py - DEBUG - legal reference text: 4962/2019 απόφαση του Μονομελούς Εφετείου Αθηνών
+2025-04-23 13:04:42,022 - AknLegalReferencesClass.py - DEBUG - CourtDecision node START
+2025-04-23 13:04:42,022 - AknLegalReferencesClass.py - DEBUG - SingleCourtDec node START
+2025-04-23 13:04:42,022 - AknLegalReferencesClass.py - DEBUG - completeCourtSingleDecision node START
+2025-04-23 13:04:42,022 - AknLegalReferencesClass.py - DEBUG - CompleteCourtSingleDecision text: 4962/2019 απόφαση του Μονομελούς Εφετείου Αθηνών
+2025-04-23 13:04:42,022 - AknLegalReferencesClass.py - DEBUG - Entering ExplicitCourt node...
+2025-04-23 13:04:42,022 - AknLegalReferencesClass.py - DEBUG - court text: του Μονομελούς Εφετείου Αθηνών
+2025-04-23 13:04:42,022 - AknLegalReferencesClass.py - DEBUG - courts dictionary search result: AppelateCourtAthens
+2025-04-23 13:04:42,022 - AknLegalReferencesClass.py - DEBUG - Entering ids node...
+2025-04-23 13:04:42,022 - AknLegalReferencesClass.py - DEBUG - splitter /
+2025-04-23 13:04:42,022 - AknLegalReferencesClass.py - DEBUG - year: 2019,  arithmos: 4962,   decision_id: 2019/4962
+2025-04-23 13:04:42,022 - AknLegalReferencesClass.py - DEBUG - href: /akn/gr/judgment/AppelateCourtAthens/2019/4962/!main
+2025-04-23 13:04:42,022 - AknLegalReferencesClass.py - DEBUG - CompleteCourtSingleDecision reference: <ref href ="/akn/gr/judgment/AppelateCourtAthens/2019/4962/!main">4962/2019 απόφαση του Μονομελούς Εφετείου Αθηνών</ref>
+2025-04-23 13:04:42,022 - AknLegalReferencesClass.py - DEBUG - completeCourtSingleDecision END
+2025-04-23 13:04:42,022 - AknLegalReferencesClass.py - INFO - LEGAL REFERENCE FOUND...
+2025-04-23 13:04:42,022 - AknLegalReferencesClass.py - DEBUG - legal reference text: 4962/4-9-2019 απόφαση του Μονομελούς Εφετείου Αθηνών
+2025-04-23 13:04:42,022 - AknLegalReferencesClass.py - DEBUG - CourtDecision node START
+2025-04-23 13:04:42,022 - AknLegalReferencesClass.py - DEBUG - SingleCourtDec node START
+2025-04-23 13:04:42,022 - AknLegalReferencesClass.py - DEBUG - completeCourtSingleDecision node START
+2025-04-23 13:04:42,022 - AknLegalReferencesClass.py - DEBUG - CompleteCourtSingleDecision text: 4962/4-9-2019 απόφαση του Μονομελούς Εφετείου Αθηνών
+2025-04-23 13:04:42,022 - AknLegalReferencesClass.py - DEBUG - Entering ExplicitCourt node...
+2025-04-23 13:04:42,022 - AknLegalReferencesClass.py - DEBUG - court text: του Μονομελούς Εφετείου Αθηνών
+2025-04-23 13:04:42,023 - AknLegalReferencesClass.py - DEBUG - courts dictionary search result: AppelateCourtAthens
+2025-04-23 13:04:42,023 - AknLegalReferencesClass.py - DEBUG - Entering ids node...
+2025-04-23 13:04:42,023 - AknLegalReferencesClass.py - DEBUG - splitter /
+2025-04-23 13:04:42,023 - AknLegalReferencesClass.py - DEBUG - year: 2019,  arithmos: 4962,   decision_id: 2019/4962
+2025-04-23 13:04:42,023 - AknLegalReferencesClass.py - DEBUG - href: /akn/gr/judgment/AppelateCourtAthens/2019/4962/!main
+2025-04-23 13:04:42,023 - AknLegalReferencesClass.py - DEBUG - CompleteCourtSingleDecision reference: <ref href ="/akn/gr/judgment/AppelateCourtAthens/2019/4962/!main">4962/4-9-2019 απόφαση του Μονομελούς Εφετείου Αθηνών</ref>
+2025-04-23 13:04:42,023 - AknLegalReferencesClass.py - DEBUG - completeCourtSingleDecision END
+2025-04-23 13:04:42,023 - AknLegalReferencesClass.py - INFO - LEGAL REFERENCE FOUND...
+2025-04-23 13:04:42,023 - AknLegalReferencesClass.py - DEBUG - legal reference text: 740/2018 αποφάσεως του Μονομελούς Πρωτοδικείου Αθηνών
+2025-04-23 13:04:42,023 - AknLegalReferencesClass.py - DEBUG - CourtDecision node START
+2025-04-23 13:04:42,023 - AknLegalReferencesClass.py - DEBUG - SingleCourtDec node START
+2025-04-23 13:04:42,023 - AknLegalReferencesClass.py - DEBUG - completeCourtSingleDecision node START
+2025-04-23 13:04:42,023 - AknLegalReferencesClass.py - DEBUG - CompleteCourtSingleDecision text: 740/2018 αποφάσεως του Μονομελούς Πρωτοδικείου Αθηνών
+2025-04-23 13:04:42,023 - AknLegalReferencesClass.py - DEBUG - Entering ExplicitCourt node...
+2025-04-23 13:04:42,023 - AknLegalReferencesClass.py - DEBUG - court text: του Μονομελούς Πρωτοδικείου Αθηνών
+2025-04-23 13:04:42,023 - AknLegalReferencesClass.py - DEBUG - courts dictionary search result: FirstInstanceCourtAthens
+2025-04-23 13:04:42,023 - AknLegalReferencesClass.py - DEBUG - Entering ids node...
+2025-04-23 13:04:42,023 - AknLegalReferencesClass.py - DEBUG - splitter /
+2025-04-23 13:04:42,023 - AknLegalReferencesClass.py - DEBUG - year: 2018,  arithmos: 740,   decision_id: 2018/740
+2025-04-23 13:04:42,023 - AknLegalReferencesClass.py - DEBUG - href: /akn/gr/judgment/FirstInstanceCourtAthens/2018/740/!main
+2025-04-23 13:04:42,023 - AknLegalReferencesClass.py - DEBUG - CompleteCourtSingleDecision reference: <ref href ="/akn/gr/judgment/FirstInstanceCourtAthens/2018/740/!main">740/2018 αποφάσεως του Μονομελούς Πρωτοδικείου Αθηνών</ref>
+2025-04-23 13:04:42,023 - AknLegalReferencesClass.py - DEBUG - completeCourtSingleDecision END
+2025-04-23 13:04:42,023 - AknLegalReferencesClass.py - INFO - LEGAL REFERENCE FOUND...
+2025-04-23 13:04:42,023 - AknLegalReferencesClass.py - DEBUG - legal reference text: παρ. 1, 558, 564, 566 παρ. 1 ΚΠολΔ
+2025-04-23 13:04:42,023 - AknLegalReferencesClass.py - DEBUG - Entering SingleLegislation node...
+2025-04-23 13:04:42,023 - AknLegalReferencesClass.py - DEBUG - SingleLegislation text: παρ. 1, 558, 564, 566 παρ. 1 ΚΠολΔ
+2025-04-23 13:04:42,023 - AknLegalReferencesClass.py - DEBUG - Entering CompleteLegislation node...
+2025-04-23 13:04:42,023 - AknLegalReferencesClass.py - DEBUG - Entering ExplicitLegalType node...
+2025-04-23 13:04:42,023 - AknLegalReferencesClass.py - DEBUG - ExplicitLegalType text: ΚΠολΔ
+2025-04-23 13:04:42,023 - AknLegalReferencesClass.py - DEBUG - Entering ExplicitKwdikas node...
+2025-04-23 13:04:42,023 - AknLegalReferencesClass.py - DEBUG - ExplicitKwdikas text: ΚΠολΔ
+2025-04-23 13:04:42,023 - AknLegalReferencesClass.py - DEBUG - Kwdikas dictionary search result: act/presidentialDecree_503_1985
+2025-04-23 13:04:42,024 - AknLegalReferencesClass.py - DEBUG - splitMultHref: 1
+2025-04-23 13:04:42,024 - AknLegalReferencesClass.py - DEBUG - DictionaryOfElements: {'type': 'act/presidentialDecree', 'legalNumber': '503', 'legalYear': '1985', 'ExplicitParContext': '1'}
+2025-04-23 13:04:42,024 - AknLegalReferencesClass.py - DEBUG - This reference contains multiple ids in some elements!
+2025-04-23 13:04:42,024 - AknLegalReferencesClass.py - DEBUG - Entering ExplicitPar node...
+2025-04-23 13:04:42,024 - AknLegalReferencesClass.py - DEBUG - ExplicitPar text: παρ. 1, 558, 564, 566
+2025-04-23 13:04:42,024 - AknLegalReferencesClass.py - DEBUG - MultipleLegalElementIds found...
+2025-04-23 13:04:42,024 - AknLegalReferencesClass.py - DEBUG - href: /akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_1
+2025-04-23 13:04:42,024 - AknLegalReferencesClass.py - DEBUG - href: /akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_558
+2025-04-23 13:04:42,024 - AknLegalReferencesClass.py - DEBUG - href: /akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_564
+2025-04-23 13:04:42,024 - AknLegalReferencesClass.py - DEBUG - href: /akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_566
+2025-04-23 13:04:42,024 - AknLegalReferencesClass.py - DEBUG - ExplicitParText: παρ. <ref href = "/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_1">1</ref>, <ref href = "/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_558">558</ref>, <ref href = "/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_564">564</ref>, <ref href = "/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_566">566</ref>
+2025-04-23 13:04:42,024 - AknLegalReferencesClass.py - DEBUG - Entering ExplicitPar node...
+2025-04-23 13:04:42,024 - AknLegalReferencesClass.py - DEBUG - ExplicitPar text: παρ. 1
+2025-04-23 13:04:42,024 - AknLegalReferencesClass.py - DEBUG - SingleLegalElementId found...
+2025-04-23 13:04:42,024 - AknLegalReferencesClass.py - DEBUG - href: /akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_1
+2025-04-23 13:04:42,024 - AknLegalReferencesClass.py - DEBUG - ExplicitParText: παρ. <ref href = "/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_1">1</ref>
+2025-04-23 13:04:42,024 - AknLegalReferencesClass.py - DEBUG - Entering ExplicitLegalType node...
+2025-04-23 13:04:42,024 - AknLegalReferencesClass.py - DEBUG - ExplicitLegalType text: ΚΠολΔ
+2025-04-23 13:04:42,024 - AknLegalReferencesClass.py - DEBUG - Entering ExplicitKwdikas node...
+2025-04-23 13:04:42,024 - AknLegalReferencesClass.py - DEBUG - ExplicitKwdikas text: ΚΠολΔ
+2025-04-23 13:04:42,024 - AknLegalReferencesClass.py - DEBUG - Kwdikas dictionary search result: act/presidentialDecree_503_1985
+2025-04-23 13:04:42,024 - AknLegalReferencesClass.py - DEBUG - CompleteLegislation text: παρ. <ref href = "/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_1">1</ref>, <ref href = "/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_558">558</ref>, <ref href = "/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_564">564</ref>, <ref href = "/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_566">566</ref> παρ. <ref href = "/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_1">1</ref> <ref href = "/akn/gr/act/presidentialDecree/1985/503/!main">ΚΠολΔ</ref>
+2025-04-23 13:04:42,024 - AknLegalReferencesClass.py - DEBUG - CompleteLegislation node END
+2025-04-23 13:04:42,024 - AknLegalReferencesClass.py - INFO - LEGAL REFERENCE FOUND...
+2025-04-23 13:04:42,024 - AknLegalReferencesClass.py - DEBUG - legal reference text: άρθρο 577 παρ.1 ΚΠολΔ
+2025-04-23 13:04:42,024 - AknLegalReferencesClass.py - DEBUG - Entering SingleLegislation node...
+2025-04-23 13:04:42,024 - AknLegalReferencesClass.py - DEBUG - SingleLegislation text: άρθρο 577 παρ.1 ΚΠολΔ
+2025-04-23 13:04:42,024 - AknLegalReferencesClass.py - DEBUG - Entering CompleteLegislation node...
+2025-04-23 13:04:42,024 - AknLegalReferencesClass.py - DEBUG - Entering ExplicitLegalType node...
+2025-04-23 13:04:42,024 - AknLegalReferencesClass.py - DEBUG - ExplicitLegalType text: ΚΠολΔ
+2025-04-23 13:04:42,024 - AknLegalReferencesClass.py - DEBUG - Entering ExplicitKwdikas node...
+2025-04-23 13:04:42,024 - AknLegalReferencesClass.py - DEBUG - ExplicitKwdikas text: ΚΠολΔ
+2025-04-23 13:04:42,024 - AknLegalReferencesClass.py - DEBUG - Kwdikas dictionary search result: act/presidentialDecree_503_1985
+2025-04-23 13:04:42,024 - AknLegalReferencesClass.py - DEBUG - splitMultHref: 0
+2025-04-23 13:04:42,024 - AknLegalReferencesClass.py - DEBUG - DictionaryOfElements: {'type': 'act/presidentialDecree', 'legalNumber': '503', 'legalYear': '1985', 'ExplicitArthroContext': '577', 'ExplicitParContext': '1'}
+2025-04-23 13:04:42,024 - AknLegalReferencesClass.py - DEBUG - This reference contains single ids in all elements!
+2025-04-23 13:04:42,024 - AknLegalReferencesClass.py - DEBUG - href: /akn/gr/act/presidentialDecree/1985/503/!main#art_577__par_1
+2025-04-23 13:04:42,024 - AknLegalReferencesClass.py - DEBUG - reference_text: /akn/gr/act/presidentialDecree/1985/503/!main#art_577__par_1
+2025-04-23 13:04:42,024 - AknLegalReferencesClass.py - DEBUG - CompleteLegislation text: <ref href = "/akn/gr/act/presidentialDecree/1985/503/!main#art_577__par_1">άρθρο 577 παρ.1 ΚΠολΔ</ref>
+2025-04-23 13:04:42,024 - AknLegalReferencesClass.py - DEBUG - CompleteLegislation node END
+2025-04-23 13:04:42,024 - AknLegalReferencesClass.py - INFO - LEGAL REFERENCE FOUND...
+2025-04-23 13:04:42,024 - AknLegalReferencesClass.py - DEBUG - legal reference text: άρθρο 577 παρ. 3 Κ.Πολ.Δ
+2025-04-23 13:04:42,024 - AknLegalReferencesClass.py - DEBUG - Entering SingleLegislation node...
+2025-04-23 13:04:42,024 - AknLegalReferencesClass.py - DEBUG - SingleLegislation text: άρθρο 577 παρ. 3 Κ.Πολ.Δ
+2025-04-23 13:04:42,024 - AknLegalReferencesClass.py - DEBUG - Entering CompleteLegislation node...
+2025-04-23 13:04:42,024 - AknLegalReferencesClass.py - DEBUG - Entering ExplicitLegalType node...
+2025-04-23 13:04:42,024 - AknLegalReferencesClass.py - DEBUG - ExplicitLegalType text: Κ.Πολ.Δ
+2025-04-23 13:04:42,024 - AknLegalReferencesClass.py - DEBUG - Entering ExplicitKwdikas node...
+2025-04-23 13:04:42,024 - AknLegalReferencesClass.py - DEBUG - ExplicitKwdikas text: Κ.Πολ.Δ
+2025-04-23 13:04:42,024 - AknLegalReferencesClass.py - DEBUG - Kwdikas dictionary search result: act/presidentialDecree_503_1985
+2025-04-23 13:04:42,024 - AknLegalReferencesClass.py - DEBUG - splitMultHref: 0
+2025-04-23 13:04:42,024 - AknLegalReferencesClass.py - DEBUG - DictionaryOfElements: {'type': 'act/presidentialDecree', 'legalNumber': '503', 'legalYear': '1985', 'ExplicitArthroContext': '577', 'ExplicitParContext': '3'}
+2025-04-23 13:04:42,024 - AknLegalReferencesClass.py - DEBUG - This reference contains single ids in all elements!
+2025-04-23 13:04:42,024 - AknLegalReferencesClass.py - DEBUG - href: /akn/gr/act/presidentialDecree/1985/503/!main#art_577__par_3
+2025-04-23 13:04:42,024 - AknLegalReferencesClass.py - DEBUG - reference_text: /akn/gr/act/presidentialDecree/1985/503/!main#art_577__par_3
+2025-04-23 13:04:42,024 - AknLegalReferencesClass.py - DEBUG - CompleteLegislation text: <ref href = "/akn/gr/act/presidentialDecree/1985/503/!main#art_577__par_3">άρθρο 577 παρ. 3 Κ.Πολ.Δ</ref>
+2025-04-23 13:04:42,024 - AknLegalReferencesClass.py - DEBUG - CompleteLegislation node END
+2025-04-23 13:04:42,024 - AknLegalReferencesClass.py - INFO - LEGAL REFERENCE FOUND...
+2025-04-23 13:04:42,024 - AknLegalReferencesClass.py - DEBUG - legal reference text: αριθμού 12 του άρθρου 559 του ΚΠολΔ
+2025-04-23 13:04:42,024 - AknLegalReferencesClass.py - DEBUG - Entering SingleLegislation node...
+2025-04-23 13:04:42,025 - AknLegalReferencesClass.py - DEBUG - SingleLegislation text: αριθμού 12 του άρθρου 559 του ΚΠολΔ
+2025-04-23 13:04:42,025 - AknLegalReferencesClass.py - DEBUG - Entering CompleteLegislation node...
+2025-04-23 13:04:42,025 - AknLegalReferencesClass.py - DEBUG - Entering ExplicitLegalType node...
+2025-04-23 13:04:42,025 - AknLegalReferencesClass.py - DEBUG - ExplicitLegalType text: ΚΠολΔ
+2025-04-23 13:04:42,025 - AknLegalReferencesClass.py - DEBUG - Entering ExplicitKwdikas node...
+2025-04-23 13:04:42,025 - AknLegalReferencesClass.py - DEBUG - ExplicitKwdikas text: ΚΠολΔ
+2025-04-23 13:04:42,025 - AknLegalReferencesClass.py - DEBUG - Kwdikas dictionary search result: act/presidentialDecree_503_1985
+2025-04-23 13:04:42,025 - AknLegalReferencesClass.py - DEBUG - splitMultHref: 0
+2025-04-23 13:04:42,025 - AknLegalReferencesClass.py - DEBUG - DictionaryOfElements: {'type': 'act/presidentialDecree', 'legalNumber': '503', 'legalYear': '1985', 'ExplicitArthroContext': '559'}
+2025-04-23 13:04:42,025 - AknLegalReferencesClass.py - DEBUG - This reference contains single ids in all elements!
+2025-04-23 13:04:42,025 - AknLegalReferencesClass.py - DEBUG - href: /akn/gr/act/presidentialDecree/1985/503/!main#art_559
+2025-04-23 13:04:42,025 - AknLegalReferencesClass.py - DEBUG - reference_text: /akn/gr/act/presidentialDecree/1985/503/!main#art_559
+2025-04-23 13:04:42,025 - AknLegalReferencesClass.py - DEBUG - CompleteLegislation text: <ref href = "/akn/gr/act/presidentialDecree/1985/503/!main#art_559">αριθμού 12 του άρθρου 559 του ΚΠολΔ</ref>
+2025-04-23 13:04:42,025 - AknLegalReferencesClass.py - DEBUG - CompleteLegislation node END
+2025-04-23 13:04:42,025 - AknLegalReferencesClass.py - INFO - LEGAL REFERENCE FOUND...
+2025-04-23 13:04:42,025 - AknLegalReferencesClass.py - DEBUG - legal reference text: ΑΠ 573/2018, 412/2011, 444/2009, 1517/2008, 961/2007, 648/1999
+2025-04-23 13:04:42,025 - AknLegalReferencesClass.py - DEBUG - CourtDecision node START
+2025-04-23 13:04:42,025 - AknLegalReferencesClass.py - DEBUG - SingleCourtDec node START
+2025-04-23 13:04:42,025 - AknLegalReferencesClass.py - DEBUG - completeCourtMultipleDecisions node START
+2025-04-23 13:04:42,025 - AknLegalReferencesClass.py - DEBUG - completeCourtMultipleDecisions text: ΑΠ 573/2018, 412/2011, 444/2009, 1517/2008, 961/2007, 648/1999
+2025-04-23 13:04:42,025 - AknLegalReferencesClass.py - DEBUG - Entering ExplicitCourt node...
+2025-04-23 13:04:42,025 - AknLegalReferencesClass.py - DEBUG - court text: ΑΠ 
+2025-04-23 13:04:42,025 - AknLegalReferencesClass.py - DEBUG - courts dictionary search result: SCCC
+2025-04-23 13:04:42,025 - AknLegalReferencesClass.py - DEBUG - href: /akn/gr/judgment/SCCC/
+2025-04-23 13:04:42,025 - AknLegalReferencesClass.py - DEBUG - Entering multiple_ids node...
+2025-04-23 13:04:42,025 - AknLegalReferencesClass.py - DEBUG - Node text: 573/2018
+2025-04-23 13:04:42,025 - AknLegalReferencesClass.py - DEBUG - no separator found, use: ,
+2025-04-23 13:04:42,025 - AknLegalReferencesClass.py - DEBUG - year: 2018,  decision_id: ['573'],   size: 1
+2025-04-23 13:04:42,025 - AknLegalReferencesClass.py - DEBUG - single id found
+2025-04-23 13:04:42,025 - AknLegalReferencesClass.py - DEBUG - Entering multiple_ids node...
+2025-04-23 13:04:42,025 - AknLegalReferencesClass.py - DEBUG - Node text: 412/2011
+2025-04-23 13:04:42,025 - AknLegalReferencesClass.py - DEBUG - no separator found, use: ,
+2025-04-23 13:04:42,025 - AknLegalReferencesClass.py - DEBUG - year: 2011,  decision_id: ['412'],   size: 1
+2025-04-23 13:04:42,025 - AknLegalReferencesClass.py - DEBUG - single id found
+2025-04-23 13:04:42,025 - AknLegalReferencesClass.py - DEBUG - Entering multiple_ids node...
+2025-04-23 13:04:42,025 - AknLegalReferencesClass.py - DEBUG - Node text: 444/2009
+2025-04-23 13:04:42,025 - AknLegalReferencesClass.py - DEBUG - no separator found, use: ,
+2025-04-23 13:04:42,025 - AknLegalReferencesClass.py - DEBUG - year: 2009,  decision_id: ['444'],   size: 1
+2025-04-23 13:04:42,025 - AknLegalReferencesClass.py - DEBUG - single id found
+2025-04-23 13:04:42,025 - AknLegalReferencesClass.py - DEBUG - Entering multiple_ids node...
+2025-04-23 13:04:42,025 - AknLegalReferencesClass.py - DEBUG - Node text: 1517/2008
+2025-04-23 13:04:42,025 - AknLegalReferencesClass.py - DEBUG - no separator found, use: ,
+2025-04-23 13:04:42,025 - AknLegalReferencesClass.py - DEBUG - year: 2008,  decision_id: ['1517'],   size: 1
+2025-04-23 13:04:42,025 - AknLegalReferencesClass.py - DEBUG - single id found
+2025-04-23 13:04:42,025 - AknLegalReferencesClass.py - DEBUG - Entering multiple_ids node...
+2025-04-23 13:04:42,025 - AknLegalReferencesClass.py - DEBUG - Node text: 961/2007
+2025-04-23 13:04:42,025 - AknLegalReferencesClass.py - DEBUG - no separator found, use: ,
+2025-04-23 13:04:42,025 - AknLegalReferencesClass.py - DEBUG - year: 2007,  decision_id: ['961'],   size: 1
+2025-04-23 13:04:42,025 - AknLegalReferencesClass.py - DEBUG - single id found
+2025-04-23 13:04:42,025 - AknLegalReferencesClass.py - DEBUG - Entering multiple_ids node...
+2025-04-23 13:04:42,025 - AknLegalReferencesClass.py - DEBUG - Node text: 648/1999
+2025-04-23 13:04:42,025 - AknLegalReferencesClass.py - DEBUG - no separator found, use: ,
+2025-04-23 13:04:42,025 - AknLegalReferencesClass.py - DEBUG - year: 1999,  decision_id: ['648'],   size: 1
+2025-04-23 13:04:42,025 - AknLegalReferencesClass.py - DEBUG - single id found
+2025-04-23 13:04:42,025 - AknLegalReferencesClass.py - DEBUG - completeCourtMultipleDecisions reference: ΑΠ <ref href = "/akn/gr/judgment/SCCC/2018/573/!main">573/2018</ref>, <ref href = "/akn/gr/judgment/SCCC/2011/412/!main">412/2011</ref>, <ref href = "/akn/gr/judgment/SCCC/2009/444/!main">444/2009</ref>, <ref href = "/akn/gr/judgment/SCCC/2008/1517/!main">1517/2008</ref>, <ref href = "/akn/gr/judgment/SCCC/2007/961/!main">961/2007</ref>, <ref href = "/akn/gr/judgment/SCCC/1999/648/!main">648/1999</ref>
+2025-04-23 13:04:42,025 - AknLegalReferencesClass.py - INFO - completeCourtMultipleDecisions END
+2025-04-23 13:04:42,025 - AknLegalReferencesClass.py - INFO - LEGAL REFERENCE FOUND...
+2025-04-23 13:04:42,025 - AknLegalReferencesClass.py - DEBUG - legal reference text: άρθρο 340 ΚΠολΔ
+2025-04-23 13:04:42,025 - AknLegalReferencesClass.py - DEBUG - Entering SingleLegislation node...
+2025-04-23 13:04:42,026 - AknLegalReferencesClass.py - DEBUG - SingleLegislation text: άρθρο 340 ΚΠολΔ
+2025-04-23 13:04:42,026 - AknLegalReferencesClass.py - DEBUG - Entering CompleteLegislation node...
+2025-04-23 13:04:42,026 - AknLegalReferencesClass.py - DEBUG - Entering ExplicitLegalType node...
+2025-04-23 13:04:42,026 - AknLegalReferencesClass.py - DEBUG - ExplicitLegalType text: ΚΠολΔ
+2025-04-23 13:04:42,026 - AknLegalReferencesClass.py - DEBUG - Entering ExplicitKwdikas node...
+2025-04-23 13:04:42,026 - AknLegalReferencesClass.py - DEBUG - ExplicitKwdikas text: ΚΠολΔ
+2025-04-23 13:04:42,026 - AknLegalReferencesClass.py - DEBUG - Kwdikas dictionary search result: act/presidentialDecree_503_1985
+2025-04-23 13:04:42,026 - AknLegalReferencesClass.py - DEBUG - splitMultHref: 0
+2025-04-23 13:04:42,026 - AknLegalReferencesClass.py - DEBUG - DictionaryOfElements: {'type': 'act/presidentialDecree', 'legalNumber': '503', 'legalYear': '1985', 'ExplicitArthroContext': '340'}
+2025-04-23 13:04:42,026 - AknLegalReferencesClass.py - DEBUG - This reference contains single ids in all elements!
+2025-04-23 13:04:42,026 - AknLegalReferencesClass.py - DEBUG - href: /akn/gr/act/presidentialDecree/1985/503/!main#art_340
+2025-04-23 13:04:42,026 - AknLegalReferencesClass.py - DEBUG - reference_text: /akn/gr/act/presidentialDecree/1985/503/!main#art_340
+2025-04-23 13:04:42,026 - AknLegalReferencesClass.py - DEBUG - CompleteLegislation text: <ref href = "/akn/gr/act/presidentialDecree/1985/503/!main#art_340">άρθρο 340 ΚΠολΔ</ref>
+2025-04-23 13:04:42,026 - AknLegalReferencesClass.py - DEBUG - CompleteLegislation node END
+2025-04-23 13:04:42,026 - AknLegalReferencesClass.py - INFO - LEGAL REFERENCE FOUND...
+2025-04-23 13:04:42,026 - AknLegalReferencesClass.py - DEBUG - legal reference text: άρθρ. 561 παρ. 1 ΚΠολΔ
+2025-04-23 13:04:42,026 - AknLegalReferencesClass.py - DEBUG - Entering SingleLegislation node...
+2025-04-23 13:04:42,026 - AknLegalReferencesClass.py - DEBUG - SingleLegislation text: άρθρ. 561 παρ. 1 ΚΠολΔ
+2025-04-23 13:04:42,026 - AknLegalReferencesClass.py - DEBUG - Entering CompleteLegislation node...
+2025-04-23 13:04:42,026 - AknLegalReferencesClass.py - DEBUG - Entering ExplicitLegalType node...
+2025-04-23 13:04:42,026 - AknLegalReferencesClass.py - DEBUG - ExplicitLegalType text: ΚΠολΔ
+2025-04-23 13:04:42,026 - AknLegalReferencesClass.py - DEBUG - Entering ExplicitKwdikas node...
+2025-04-23 13:04:42,026 - AknLegalReferencesClass.py - DEBUG - ExplicitKwdikas text: ΚΠολΔ
+2025-04-23 13:04:42,026 - AknLegalReferencesClass.py - DEBUG - Kwdikas dictionary search result: act/presidentialDecree_503_1985
+2025-04-23 13:04:42,026 - AknLegalReferencesClass.py - DEBUG - splitMultHref: 0
+2025-04-23 13:04:42,026 - AknLegalReferencesClass.py - DEBUG - DictionaryOfElements: {'type': 'act/presidentialDecree', 'legalNumber': '503', 'legalYear': '1985', 'ExplicitArthroContext': '561', 'ExplicitParContext': '1'}
+2025-04-23 13:04:42,026 - AknLegalReferencesClass.py - DEBUG - This reference contains single ids in all elements!
+2025-04-23 13:04:42,026 - AknLegalReferencesClass.py - DEBUG - href: /akn/gr/act/presidentialDecree/1985/503/!main#art_561__par_1
+2025-04-23 13:04:42,026 - AknLegalReferencesClass.py - DEBUG - reference_text: /akn/gr/act/presidentialDecree/1985/503/!main#art_561__par_1
+2025-04-23 13:04:42,026 - AknLegalReferencesClass.py - DEBUG - CompleteLegislation text: <ref href = "/akn/gr/act/presidentialDecree/1985/503/!main#art_561__par_1">άρθρ. 561 παρ. 1 ΚΠολΔ</ref>
+2025-04-23 13:04:42,026 - AknLegalReferencesClass.py - DEBUG - CompleteLegislation node END
+2025-04-23 13:04:42,026 - AknLegalReferencesClass.py - INFO - LEGAL REFERENCE FOUND...
+2025-04-23 13:04:42,026 - AknLegalReferencesClass.py - DEBUG - legal reference text: ΑΠ 430/2016
+2025-04-23 13:04:42,026 - AknLegalReferencesClass.py - DEBUG - CourtDecision node START
+2025-04-23 13:04:42,026 - AknLegalReferencesClass.py - DEBUG - SingleCourtDec node START
+2025-04-23 13:04:42,026 - AknLegalReferencesClass.py - DEBUG - completeCourtSingleDecision node START
+2025-04-23 13:04:42,026 - AknLegalReferencesClass.py - DEBUG - CompleteCourtSingleDecision text: ΑΠ 430/2016
+2025-04-23 13:04:42,026 - AknLegalReferencesClass.py - DEBUG - Entering ExplicitCourt node...
+2025-04-23 13:04:42,026 - AknLegalReferencesClass.py - DEBUG - court text: ΑΠ 
+2025-04-23 13:04:42,026 - AknLegalReferencesClass.py - DEBUG - courts dictionary search result: SCCC
+2025-04-23 13:04:42,026 - AknLegalReferencesClass.py - DEBUG - Entering ids node...
+2025-04-23 13:04:42,026 - AknLegalReferencesClass.py - DEBUG - splitter /
+2025-04-23 13:04:42,026 - AknLegalReferencesClass.py - DEBUG - year: 2016,  arithmos: 430,   decision_id: 2016/430
+2025-04-23 13:04:42,026 - AknLegalReferencesClass.py - DEBUG - href: /akn/gr/judgment/SCCC/2016/430/!main
+2025-04-23 13:04:42,026 - AknLegalReferencesClass.py - DEBUG - CompleteCourtSingleDecision reference: <ref href ="/akn/gr/judgment/SCCC/2016/430/!main">ΑΠ 430/2016</ref>
+2025-04-23 13:04:42,026 - AknLegalReferencesClass.py - DEBUG - completeCourtSingleDecision END
+2025-04-23 13:04:42,026 - AknLegalReferencesClass.py - INFO - LEGAL REFERENCE FOUND...
+2025-04-23 13:04:42,026 - AknLegalReferencesClass.py - DEBUG - legal reference text:  ΑΠ 173/2016, 1596/2014, 128/2014, 893/2012, 412/2011, 1531/2010, 109/2008
+2025-04-23 13:04:42,026 - AknLegalReferencesClass.py - DEBUG - CourtDecision node START
+2025-04-23 13:04:42,026 - AknLegalReferencesClass.py - DEBUG - SingleCourtDec node START
+2025-04-23 13:04:42,026 - AknLegalReferencesClass.py - DEBUG - completeCourtMultipleDecisions node START
+2025-04-23 13:04:42,026 - AknLegalReferencesClass.py - DEBUG - completeCourtMultipleDecisions text:  ΑΠ 173/2016, 1596/2014, 128/2014, 893/2012, 412/2011, 1531/2010, 109/2008
+2025-04-23 13:04:42,026 - AknLegalReferencesClass.py - DEBUG - Entering ExplicitCourt node...
+2025-04-23 13:04:42,026 - AknLegalReferencesClass.py - DEBUG - court text:  ΑΠ
+2025-04-23 13:04:42,027 - AknLegalReferencesClass.py - DEBUG - courts dictionary search result: SCCC
+2025-04-23 13:04:42,027 - AknLegalReferencesClass.py - DEBUG - href: /akn/gr/judgment/SCCC/
+2025-04-23 13:04:42,027 - AknLegalReferencesClass.py - DEBUG - Entering multiple_ids node...
+2025-04-23 13:04:42,027 - AknLegalReferencesClass.py - DEBUG - Node text: 173/2016
+2025-04-23 13:04:42,027 - AknLegalReferencesClass.py - DEBUG - no separator found, use: ,
+2025-04-23 13:04:42,027 - AknLegalReferencesClass.py - DEBUG - year: 2016,  decision_id: ['173'],   size: 1
+2025-04-23 13:04:42,027 - AknLegalReferencesClass.py - DEBUG - single id found
+2025-04-23 13:04:42,027 - AknLegalReferencesClass.py - DEBUG - Entering multiple_ids node...
+2025-04-23 13:04:42,027 - AknLegalReferencesClass.py - DEBUG - Node text: 1596/2014
+2025-04-23 13:04:42,027 - AknLegalReferencesClass.py - DEBUG - no separator found, use: ,
+2025-04-23 13:04:42,027 - AknLegalReferencesClass.py - DEBUG - year: 2014,  decision_id: ['1596'],   size: 1
+2025-04-23 13:04:42,027 - AknLegalReferencesClass.py - DEBUG - single id found
+2025-04-23 13:04:42,027 - AknLegalReferencesClass.py - DEBUG - Entering multiple_ids node...
+2025-04-23 13:04:42,027 - AknLegalReferencesClass.py - DEBUG - Node text: 128/2014
+2025-04-23 13:04:42,027 - AknLegalReferencesClass.py - DEBUG - no separator found, use: ,
+2025-04-23 13:04:42,027 - AknLegalReferencesClass.py - DEBUG - year: 2014,  decision_id: ['128'],   size: 1
+2025-04-23 13:04:42,027 - AknLegalReferencesClass.py - DEBUG - single id found
+2025-04-23 13:04:42,027 - AknLegalReferencesClass.py - DEBUG - Entering multiple_ids node...
+2025-04-23 13:04:42,027 - AknLegalReferencesClass.py - DEBUG - Node text: 893/2012
+2025-04-23 13:04:42,027 - AknLegalReferencesClass.py - DEBUG - no separator found, use: ,
+2025-04-23 13:04:42,027 - AknLegalReferencesClass.py - DEBUG - year: 2012,  decision_id: ['893'],   size: 1
+2025-04-23 13:04:42,027 - AknLegalReferencesClass.py - DEBUG - single id found
+2025-04-23 13:04:42,027 - AknLegalReferencesClass.py - DEBUG - Entering multiple_ids node...
+2025-04-23 13:04:42,027 - AknLegalReferencesClass.py - DEBUG - Node text: 412/2011
+2025-04-23 13:04:42,027 - AknLegalReferencesClass.py - DEBUG - no separator found, use: ,
+2025-04-23 13:04:42,027 - AknLegalReferencesClass.py - DEBUG - year: 2011,  decision_id: ['412'],   size: 1
+2025-04-23 13:04:42,027 - AknLegalReferencesClass.py - DEBUG - single id found
+2025-04-23 13:04:42,027 - AknLegalReferencesClass.py - DEBUG - Entering multiple_ids node...
+2025-04-23 13:04:42,027 - AknLegalReferencesClass.py - DEBUG - Node text: 1531/2010
+2025-04-23 13:04:42,027 - AknLegalReferencesClass.py - DEBUG - no separator found, use: ,
+2025-04-23 13:04:42,027 - AknLegalReferencesClass.py - DEBUG - year: 2010,  decision_id: ['1531'],   size: 1
+2025-04-23 13:04:42,027 - AknLegalReferencesClass.py - DEBUG - single id found
+2025-04-23 13:04:42,027 - AknLegalReferencesClass.py - DEBUG - Entering multiple_ids node...
+2025-04-23 13:04:42,027 - AknLegalReferencesClass.py - DEBUG - Node text: 109/2008
+2025-04-23 13:04:42,027 - AknLegalReferencesClass.py - DEBUG - no separator found, use: ,
+2025-04-23 13:04:42,027 - AknLegalReferencesClass.py - DEBUG - year: 2008,  decision_id: ['109'],   size: 1
+2025-04-23 13:04:42,027 - AknLegalReferencesClass.py - DEBUG - single id found
+2025-04-23 13:04:42,027 - AknLegalReferencesClass.py - DEBUG - completeCourtMultipleDecisions reference:  ΑΠ <ref href = "/akn/gr/judgment/SCCC/2016/173/!main">173/2016</ref>, <ref href = "/akn/gr/judgment/SCCC/2014/1596/!main">1596/2014</ref>, <ref href = "/akn/gr/judgment/SCCC/2014/128/!main">128/2014</ref>, <ref href = "/akn/gr/judgment/SCCC/2012/893/!main">893/2012</ref>, <ref href = "/akn/gr/judgment/SCCC/2011/412/!main">412/2011</ref>, <ref href = "/akn/gr/judgment/SCCC/2010/1531/!main">1531/2010</ref>, <ref href = "/akn/gr/judgment/SCCC/2008/109/!main">109/2008</ref>
+2025-04-23 13:04:42,027 - AknLegalReferencesClass.py - INFO - completeCourtMultipleDecisions END
+2025-04-23 13:04:42,027 - AknLegalReferencesClass.py - INFO - LEGAL REFERENCE FOUND...
+2025-04-23 13:04:42,027 - AknLegalReferencesClass.py - DEBUG - legal reference text: άρθρου 438 του ΚΠολΔ
+2025-04-23 13:04:42,027 - AknLegalReferencesClass.py - DEBUG - Entering SingleLegislation node...
+2025-04-23 13:04:42,027 - AknLegalReferencesClass.py - DEBUG - SingleLegislation text: άρθρου 438 του ΚΠολΔ
+2025-04-23 13:04:42,027 - AknLegalReferencesClass.py - DEBUG - Entering CompleteLegislation node...
+2025-04-23 13:04:42,027 - AknLegalReferencesClass.py - DEBUG - Entering ExplicitLegalType node...
+2025-04-23 13:04:42,027 - AknLegalReferencesClass.py - DEBUG - ExplicitLegalType text: ΚΠολΔ
+2025-04-23 13:04:42,027 - AknLegalReferencesClass.py - DEBUG - Entering ExplicitKwdikas node...
+2025-04-23 13:04:42,027 - AknLegalReferencesClass.py - DEBUG - ExplicitKwdikas text: ΚΠολΔ
+2025-04-23 13:04:42,027 - AknLegalReferencesClass.py - DEBUG - Kwdikas dictionary search result: act/presidentialDecree_503_1985
+2025-04-23 13:04:42,027 - AknLegalReferencesClass.py - DEBUG - splitMultHref: 0
+2025-04-23 13:04:42,027 - AknLegalReferencesClass.py - DEBUG - DictionaryOfElements: {'type': 'act/presidentialDecree', 'legalNumber': '503', 'legalYear': '1985', 'ExplicitArthroContext': '438'}
+2025-04-23 13:04:42,027 - AknLegalReferencesClass.py - DEBUG - This reference contains single ids in all elements!
+2025-04-23 13:04:42,027 - AknLegalReferencesClass.py - DEBUG - href: /akn/gr/act/presidentialDecree/1985/503/!main#art_438
+2025-04-23 13:04:42,027 - AknLegalReferencesClass.py - DEBUG - reference_text: /akn/gr/act/presidentialDecree/1985/503/!main#art_438
+2025-04-23 13:04:42,027 - AknLegalReferencesClass.py - DEBUG - CompleteLegislation text: <ref href = "/akn/gr/act/presidentialDecree/1985/503/!main#art_438">άρθρου 438 του ΚΠολΔ</ref>
+2025-04-23 13:04:42,027 - AknLegalReferencesClass.py - DEBUG - CompleteLegislation node END
+2025-04-23 13:04:42,027 - AknLegalReferencesClass.py - INFO - LEGAL REFERENCE FOUND...
+2025-04-23 13:04:42,027 - AknLegalReferencesClass.py - DEBUG - legal reference text: άρθρου 440 του ΚΠολΔ
+2025-04-23 13:04:42,028 - AknLegalReferencesClass.py - DEBUG - Entering SingleLegislation node...
+2025-04-23 13:04:42,028 - AknLegalReferencesClass.py - DEBUG - SingleLegislation text: άρθρου 440 του ΚΠολΔ
+2025-04-23 13:04:42,028 - AknLegalReferencesClass.py - DEBUG - Entering CompleteLegislation node...
+2025-04-23 13:04:42,028 - AknLegalReferencesClass.py - DEBUG - Entering ExplicitLegalType node...
+2025-04-23 13:04:42,028 - AknLegalReferencesClass.py - DEBUG - ExplicitLegalType text: ΚΠολΔ
+2025-04-23 13:04:42,028 - AknLegalReferencesClass.py - DEBUG - Entering ExplicitKwdikas node...
+2025-04-23 13:04:42,028 - AknLegalReferencesClass.py - DEBUG - ExplicitKwdikas text: ΚΠολΔ
+2025-04-23 13:04:42,028 - AknLegalReferencesClass.py - DEBUG - Kwdikas dictionary search result: act/presidentialDecree_503_1985
+2025-04-23 13:04:42,028 - AknLegalReferencesClass.py - DEBUG - splitMultHref: 0
+2025-04-23 13:04:42,028 - AknLegalReferencesClass.py - DEBUG - DictionaryOfElements: {'type': 'act/presidentialDecree', 'legalNumber': '503', 'legalYear': '1985', 'ExplicitArthroContext': '440'}
+2025-04-23 13:04:42,028 - AknLegalReferencesClass.py - DEBUG - This reference contains single ids in all elements!
+2025-04-23 13:04:42,028 - AknLegalReferencesClass.py - DEBUG - href: /akn/gr/act/presidentialDecree/1985/503/!main#art_440
+2025-04-23 13:04:42,028 - AknLegalReferencesClass.py - DEBUG - reference_text: /akn/gr/act/presidentialDecree/1985/503/!main#art_440
+2025-04-23 13:04:42,028 - AknLegalReferencesClass.py - DEBUG - CompleteLegislation text: <ref href = "/akn/gr/act/presidentialDecree/1985/503/!main#art_440">άρθρου 440 του ΚΠολΔ</ref>
+2025-04-23 13:04:42,028 - AknLegalReferencesClass.py - DEBUG - CompleteLegislation node END
+2025-04-23 13:04:42,028 - AknLegalReferencesClass.py - INFO - LEGAL REFERENCE FOUND...
+2025-04-23 13:04:42,028 - AknLegalReferencesClass.py - DEBUG - legal reference text: ΑΠ 883/2013
+2025-04-23 13:04:42,028 - AknLegalReferencesClass.py - DEBUG - CourtDecision node START
+2025-04-23 13:04:42,028 - AknLegalReferencesClass.py - DEBUG - SingleCourtDec node START
+2025-04-23 13:04:42,028 - AknLegalReferencesClass.py - DEBUG - completeCourtSingleDecision node START
+2025-04-23 13:04:42,028 - AknLegalReferencesClass.py - DEBUG - CompleteCourtSingleDecision text: ΑΠ 883/2013
+2025-04-23 13:04:42,028 - AknLegalReferencesClass.py - DEBUG - Entering ExplicitCourt node...
+2025-04-23 13:04:42,028 - AknLegalReferencesClass.py - DEBUG - court text: ΑΠ 
+2025-04-23 13:04:42,028 - AknLegalReferencesClass.py - DEBUG - courts dictionary search result: SCCC
+2025-04-23 13:04:42,028 - AknLegalReferencesClass.py - DEBUG - Entering ids node...
+2025-04-23 13:04:42,028 - AknLegalReferencesClass.py - DEBUG - splitter /
+2025-04-23 13:04:42,028 - AknLegalReferencesClass.py - DEBUG - year: 2013,  arithmos: 883,   decision_id: 2013/883
+2025-04-23 13:04:42,028 - AknLegalReferencesClass.py - DEBUG - href: /akn/gr/judgment/SCCC/2013/883/!main
+2025-04-23 13:04:42,028 - AknLegalReferencesClass.py - DEBUG - CompleteCourtSingleDecision reference: <ref href ="/akn/gr/judgment/SCCC/2013/883/!main">ΑΠ 883/2013</ref>
+2025-04-23 13:04:42,028 - AknLegalReferencesClass.py - DEBUG - completeCourtSingleDecision END
+2025-04-23 13:04:42,028 - AknLegalReferencesClass.py - INFO - LEGAL REFERENCE FOUND...
+2025-04-23 13:04:42,028 - AknLegalReferencesClass.py - DEBUG - legal reference text: ΑΠ 361/2004, 455/1993
+2025-04-23 13:04:42,028 - AknLegalReferencesClass.py - DEBUG - CourtDecision node START
+2025-04-23 13:04:42,028 - AknLegalReferencesClass.py - DEBUG - SingleCourtDec node START
+2025-04-23 13:04:42,028 - AknLegalReferencesClass.py - DEBUG - completeCourtMultipleDecisions node START
+2025-04-23 13:04:42,028 - AknLegalReferencesClass.py - DEBUG - completeCourtMultipleDecisions text: ΑΠ 361/2004, 455/1993
+2025-04-23 13:04:42,028 - AknLegalReferencesClass.py - DEBUG - Entering ExplicitCourt node...
+2025-04-23 13:04:42,028 - AknLegalReferencesClass.py - DEBUG - court text: ΑΠ 
+2025-04-23 13:04:42,029 - AknLegalReferencesClass.py - DEBUG - courts dictionary search result: SCCC
+2025-04-23 13:04:42,029 - AknLegalReferencesClass.py - DEBUG - href: /akn/gr/judgment/SCCC/
+2025-04-23 13:04:42,029 - AknLegalReferencesClass.py - DEBUG - Entering multiple_ids node...
+2025-04-23 13:04:42,029 - AknLegalReferencesClass.py - DEBUG - Node text: 361/2004
+2025-04-23 13:04:42,029 - AknLegalReferencesClass.py - DEBUG - no separator found, use: ,
+2025-04-23 13:04:42,029 - AknLegalReferencesClass.py - DEBUG - year: 2004,  decision_id: ['361'],   size: 1
+2025-04-23 13:04:42,029 - AknLegalReferencesClass.py - DEBUG - single id found
+2025-04-23 13:04:42,029 - AknLegalReferencesClass.py - DEBUG - Entering multiple_ids node...
+2025-04-23 13:04:42,029 - AknLegalReferencesClass.py - DEBUG - Node text: 455/1993
+2025-04-23 13:04:42,029 - AknLegalReferencesClass.py - DEBUG - no separator found, use: ,
+2025-04-23 13:04:42,029 - AknLegalReferencesClass.py - DEBUG - year: 1993,  decision_id: ['455'],   size: 1
+2025-04-23 13:04:42,029 - AknLegalReferencesClass.py - DEBUG - single id found
+2025-04-23 13:04:42,029 - AknLegalReferencesClass.py - DEBUG - completeCourtMultipleDecisions reference: ΑΠ <ref href = "/akn/gr/judgment/SCCC/2004/361/!main">361/2004</ref>, <ref href = "/akn/gr/judgment/SCCC/1993/455/!main">455/1993</ref>
+2025-04-23 13:04:42,029 - AknLegalReferencesClass.py - INFO - completeCourtMultipleDecisions END
+2025-04-23 13:04:42,029 - AknLegalReferencesClass.py - INFO - LEGAL REFERENCE FOUND...
+2025-04-23 13:04:42,029 - AknLegalReferencesClass.py - DEBUG - legal reference text: ΑΠ 445/2019
+2025-04-23 13:04:42,029 - AknLegalReferencesClass.py - DEBUG - CourtDecision node START
+2025-04-23 13:04:42,029 - AknLegalReferencesClass.py - DEBUG - SingleCourtDec node START
+2025-04-23 13:04:42,029 - AknLegalReferencesClass.py - DEBUG - completeCourtSingleDecision node START
+2025-04-23 13:04:42,029 - AknLegalReferencesClass.py - DEBUG - CompleteCourtSingleDecision text: ΑΠ 445/2019
+2025-04-23 13:04:42,029 - AknLegalReferencesClass.py - DEBUG - Entering ExplicitCourt node...
+2025-04-23 13:04:42,029 - AknLegalReferencesClass.py - DEBUG - court text: ΑΠ 
+2025-04-23 13:04:42,029 - AknLegalReferencesClass.py - DEBUG - courts dictionary search result: SCCC
+2025-04-23 13:04:42,029 - AknLegalReferencesClass.py - DEBUG - Entering ids node...
+2025-04-23 13:04:42,029 - AknLegalReferencesClass.py - DEBUG - splitter /
+2025-04-23 13:04:42,029 - AknLegalReferencesClass.py - DEBUG - year: 2019,  arithmos: 445,   decision_id: 2019/445
+2025-04-23 13:04:42,029 - AknLegalReferencesClass.py - DEBUG - href: /akn/gr/judgment/SCCC/2019/445/!main
+2025-04-23 13:04:42,029 - AknLegalReferencesClass.py - DEBUG - CompleteCourtSingleDecision reference: <ref href ="/akn/gr/judgment/SCCC/2019/445/!main">ΑΠ 445/2019</ref>
+2025-04-23 13:04:42,029 - AknLegalReferencesClass.py - DEBUG - completeCourtSingleDecision END
+2025-04-23 13:04:42,029 - AknLegalReferencesClass.py - INFO - LEGAL REFERENCE FOUND...
+2025-04-23 13:04:42,029 - AknLegalReferencesClass.py - DEBUG - legal reference text:  ΑΠ 259/2007
+2025-04-23 13:04:42,029 - AknLegalReferencesClass.py - DEBUG - CourtDecision node START
+2025-04-23 13:04:42,029 - AknLegalReferencesClass.py - DEBUG - SingleCourtDec node START
+2025-04-23 13:04:42,029 - AknLegalReferencesClass.py - DEBUG - completeCourtSingleDecision node START
+2025-04-23 13:04:42,029 - AknLegalReferencesClass.py - DEBUG - CompleteCourtSingleDecision text:  ΑΠ 259/2007
+2025-04-23 13:04:42,029 - AknLegalReferencesClass.py - DEBUG - Entering ExplicitCourt node...
+2025-04-23 13:04:42,029 - AknLegalReferencesClass.py - DEBUG - court text:  ΑΠ
+2025-04-23 13:04:42,029 - AknLegalReferencesClass.py - DEBUG - courts dictionary search result: SCCC
+2025-04-23 13:04:42,029 - AknLegalReferencesClass.py - DEBUG - Entering ids node...
+2025-04-23 13:04:42,029 - AknLegalReferencesClass.py - DEBUG - splitter /
+2025-04-23 13:04:42,029 - AknLegalReferencesClass.py - DEBUG - year: 2007,  arithmos: 259,   decision_id: 2007/259
+2025-04-23 13:04:42,029 - AknLegalReferencesClass.py - DEBUG - href: /akn/gr/judgment/SCCC/2007/259/!main
+2025-04-23 13:04:42,029 - AknLegalReferencesClass.py - DEBUG - CompleteCourtSingleDecision reference: <ref href ="/akn/gr/judgment/SCCC/2007/259/!main"> ΑΠ 259/2007</ref>
+2025-04-23 13:04:42,029 - AknLegalReferencesClass.py - DEBUG - completeCourtSingleDecision END
+2025-04-23 13:04:42,029 - AknLegalReferencesClass.py - INFO - LEGAL REFERENCE FOUND...
+2025-04-23 13:04:42,029 - AknLegalReferencesClass.py - DEBUG - legal reference text: άρθρο 561 παρ. 2 ΚΠολΔ
+2025-04-23 13:04:42,029 - AknLegalReferencesClass.py - DEBUG - Entering SingleLegislation node...
+2025-04-23 13:04:42,029 - AknLegalReferencesClass.py - DEBUG - SingleLegislation text: άρθρο 561 παρ. 2 ΚΠολΔ
+2025-04-23 13:04:42,029 - AknLegalReferencesClass.py - DEBUG - Entering CompleteLegislation node...
+2025-04-23 13:04:42,029 - AknLegalReferencesClass.py - DEBUG - Entering ExplicitLegalType node...
+2025-04-23 13:04:42,029 - AknLegalReferencesClass.py - DEBUG - ExplicitLegalType text: ΚΠολΔ
+2025-04-23 13:04:42,029 - AknLegalReferencesClass.py - DEBUG - Entering ExplicitKwdikas node...
+2025-04-23 13:04:42,029 - AknLegalReferencesClass.py - DEBUG - ExplicitKwdikas text: ΚΠολΔ
+2025-04-23 13:04:42,029 - AknLegalReferencesClass.py - DEBUG - Kwdikas dictionary search result: act/presidentialDecree_503_1985
+2025-04-23 13:04:42,030 - AknLegalReferencesClass.py - DEBUG - splitMultHref: 0
+2025-04-23 13:04:42,030 - AknLegalReferencesClass.py - DEBUG - DictionaryOfElements: {'type': 'act/presidentialDecree', 'legalNumber': '503', 'legalYear': '1985', 'ExplicitArthroContext': '561', 'ExplicitParContext': '2'}
+2025-04-23 13:04:42,030 - AknLegalReferencesClass.py - DEBUG - This reference contains single ids in all elements!
+2025-04-23 13:04:42,030 - AknLegalReferencesClass.py - DEBUG - href: /akn/gr/act/presidentialDecree/1985/503/!main#art_561__par_2
+2025-04-23 13:04:42,030 - AknLegalReferencesClass.py - DEBUG - reference_text: /akn/gr/act/presidentialDecree/1985/503/!main#art_561__par_2
+2025-04-23 13:04:42,030 - AknLegalReferencesClass.py - DEBUG - CompleteLegislation text: <ref href = "/akn/gr/act/presidentialDecree/1985/503/!main#art_561__par_2">άρθρο 561 παρ. 2 ΚΠολΔ</ref>
+2025-04-23 13:04:42,030 - AknLegalReferencesClass.py - DEBUG - CompleteLegislation node END
+2025-04-23 13:04:42,030 - AknLegalReferencesClass.py - INFO - LEGAL REFERENCE FOUND...
+2025-04-23 13:04:42,030 - AknLegalReferencesClass.py - DEBUG - legal reference text: υπ' αριθμ. 740/2018 απόφαση του Μονομελούς Πρωτοδικείου Αθηνών
+2025-04-23 13:04:42,030 - AknLegalReferencesClass.py - DEBUG - CourtDecision node START
+2025-04-23 13:04:42,030 - AknLegalReferencesClass.py - DEBUG - SingleCourtDec node START
+2025-04-23 13:04:42,030 - AknLegalReferencesClass.py - DEBUG - completeCourtSingleDecision node START
+2025-04-23 13:04:42,030 - AknLegalReferencesClass.py - DEBUG - CompleteCourtSingleDecision text: υπ' αριθμ. 740/2018 απόφαση του Μονομελούς Πρωτοδικείου Αθηνών
+2025-04-23 13:04:42,030 - AknLegalReferencesClass.py - DEBUG - Entering ExplicitCourt node...
+2025-04-23 13:04:42,030 - AknLegalReferencesClass.py - DEBUG - court text: του Μονομελούς Πρωτοδικείου Αθηνών
+2025-04-23 13:04:42,030 - AknLegalReferencesClass.py - DEBUG - courts dictionary search result: FirstInstanceCourtAthens
+2025-04-23 13:04:42,030 - AknLegalReferencesClass.py - DEBUG - Entering ids node...
+2025-04-23 13:04:42,030 - AknLegalReferencesClass.py - DEBUG - splitter /
+2025-04-23 13:04:42,030 - AknLegalReferencesClass.py - DEBUG - year: 2018,  arithmos: 740,   decision_id: 2018/740
+2025-04-23 13:04:42,030 - AknLegalReferencesClass.py - DEBUG - href: /akn/gr/judgment/FirstInstanceCourtAthens/2018/740/!main
+2025-04-23 13:04:42,030 - AknLegalReferencesClass.py - DEBUG - CompleteCourtSingleDecision reference: <ref href ="/akn/gr/judgment/FirstInstanceCourtAthens/2018/740/!main">υπ' αριθμ. 740/2018 απόφαση του Μονομελούς Πρωτοδικείου Αθηνών</ref>
+2025-04-23 13:04:42,030 - AknLegalReferencesClass.py - DEBUG - completeCourtSingleDecision END
+2025-04-23 13:04:42,031 - AknLegalReferencesClass.py - INFO - LEGAL REFERENCE FOUND...
+2025-04-23 13:04:42,031 - AknLegalReferencesClass.py - DEBUG - legal reference text: υπ' αριθμ. 740/2018 αποφάσεως του Μονομελούς Πρωτοδικείου Αθηνών
+2025-04-23 13:04:42,031 - AknLegalReferencesClass.py - DEBUG - CourtDecision node START
+2025-04-23 13:04:42,031 - AknLegalReferencesClass.py - DEBUG - SingleCourtDec node START
+2025-04-23 13:04:42,031 - AknLegalReferencesClass.py - DEBUG - completeCourtSingleDecision node START
+2025-04-23 13:04:42,031 - AknLegalReferencesClass.py - DEBUG - CompleteCourtSingleDecision text: υπ' αριθμ. 740/2018 αποφάσεως του Μονομελούς Πρωτοδικείου Αθηνών
+2025-04-23 13:04:42,031 - AknLegalReferencesClass.py - DEBUG - Entering ExplicitCourt node...
+2025-04-23 13:04:42,031 - AknLegalReferencesClass.py - DEBUG - court text: του Μονομελούς Πρωτοδικείου Αθηνών
+2025-04-23 13:04:42,031 - AknLegalReferencesClass.py - DEBUG - courts dictionary search result: FirstInstanceCourtAthens
+2025-04-23 13:04:42,031 - AknLegalReferencesClass.py - DEBUG - Entering ids node...
+2025-04-23 13:04:42,031 - AknLegalReferencesClass.py - DEBUG - splitter /
+2025-04-23 13:04:42,031 - AknLegalReferencesClass.py - DEBUG - year: 2018,  arithmos: 740,   decision_id: 2018/740
+2025-04-23 13:04:42,031 - AknLegalReferencesClass.py - DEBUG - href: /akn/gr/judgment/FirstInstanceCourtAthens/2018/740/!main
+2025-04-23 13:04:42,031 - AknLegalReferencesClass.py - DEBUG - CompleteCourtSingleDecision reference: <ref href ="/akn/gr/judgment/FirstInstanceCourtAthens/2018/740/!main">υπ' αριθμ. 740/2018 αποφάσεως του Μονομελούς Πρωτοδικείου Αθηνών</ref>
+2025-04-23 13:04:42,031 - AknLegalReferencesClass.py - DEBUG - completeCourtSingleDecision END
+2025-04-23 13:04:42,033 - AknLegalReferencesClass.py - INFO - LEGAL REFERENCE FOUND...
+2025-04-23 13:04:42,033 - AknLegalReferencesClass.py - DEBUG - legal reference text: αριθμό 12 του άρθρου 559 ΚΠολΔ
+2025-04-23 13:04:42,033 - AknLegalReferencesClass.py - DEBUG - Entering SingleLegislation node...
+2025-04-23 13:04:42,034 - AknLegalReferencesClass.py - DEBUG - SingleLegislation text: αριθμό 12 του άρθρου 559 ΚΠολΔ
+2025-04-23 13:04:42,034 - AknLegalReferencesClass.py - DEBUG - Entering CompleteLegislation node...
+2025-04-23 13:04:42,034 - AknLegalReferencesClass.py - DEBUG - Entering ExplicitLegalType node...
+2025-04-23 13:04:42,034 - AknLegalReferencesClass.py - DEBUG - ExplicitLegalType text: ΚΠολΔ
+2025-04-23 13:04:42,034 - AknLegalReferencesClass.py - DEBUG - Entering ExplicitKwdikas node...
+2025-04-23 13:04:42,034 - AknLegalReferencesClass.py - DEBUG - ExplicitKwdikas text: ΚΠολΔ
+2025-04-23 13:04:42,034 - AknLegalReferencesClass.py - DEBUG - Kwdikas dictionary search result: act/presidentialDecree_503_1985
+2025-04-23 13:04:42,034 - AknLegalReferencesClass.py - DEBUG - splitMultHref: 0
+2025-04-23 13:04:42,034 - AknLegalReferencesClass.py - DEBUG - DictionaryOfElements: {'type': 'act/presidentialDecree', 'legalNumber': '503', 'legalYear': '1985', 'ExplicitArthroContext': '559'}
+2025-04-23 13:04:42,034 - AknLegalReferencesClass.py - DEBUG - This reference contains single ids in all elements!
+2025-04-23 13:04:42,034 - AknLegalReferencesClass.py - DEBUG - href: /akn/gr/act/presidentialDecree/1985/503/!main#art_559
+2025-04-23 13:04:42,034 - AknLegalReferencesClass.py - DEBUG - reference_text: /akn/gr/act/presidentialDecree/1985/503/!main#art_559
+2025-04-23 13:04:42,034 - AknLegalReferencesClass.py - DEBUG - CompleteLegislation text: <ref href = "/akn/gr/act/presidentialDecree/1985/503/!main#art_559">αριθμό 12 του άρθρου 559 ΚΠολΔ</ref>
+2025-04-23 13:04:42,034 - AknLegalReferencesClass.py - DEBUG - CompleteLegislation node END
+2025-04-23 13:04:42,035 - AknLegalReferencesClass.py - INFO - LEGAL REFERENCE FOUND...
+2025-04-23 13:04:42,035 - AknLegalReferencesClass.py - DEBUG - legal reference text: άρθρο 340 ΚΠολΔ
+2025-04-23 13:04:42,035 - AknLegalReferencesClass.py - DEBUG - Entering SingleLegislation node...
+2025-04-23 13:04:42,035 - AknLegalReferencesClass.py - DEBUG - SingleLegislation text: άρθρο 340 ΚΠολΔ
+2025-04-23 13:04:42,035 - AknLegalReferencesClass.py - DEBUG - Entering CompleteLegislation node...
+2025-04-23 13:04:42,035 - AknLegalReferencesClass.py - DEBUG - Entering ExplicitLegalType node...
+2025-04-23 13:04:42,035 - AknLegalReferencesClass.py - DEBUG - ExplicitLegalType text: ΚΠολΔ
+2025-04-23 13:04:42,035 - AknLegalReferencesClass.py - DEBUG - Entering ExplicitKwdikas node...
+2025-04-23 13:04:42,035 - AknLegalReferencesClass.py - DEBUG - ExplicitKwdikas text: ΚΠολΔ
+2025-04-23 13:04:42,035 - AknLegalReferencesClass.py - DEBUG - Kwdikas dictionary search result: act/presidentialDecree_503_1985
+2025-04-23 13:04:42,035 - AknLegalReferencesClass.py - DEBUG - splitMultHref: 0
+2025-04-23 13:04:42,035 - AknLegalReferencesClass.py - DEBUG - DictionaryOfElements: {'type': 'act/presidentialDecree', 'legalNumber': '503', 'legalYear': '1985', 'ExplicitArthroContext': '340'}
+2025-04-23 13:04:42,035 - AknLegalReferencesClass.py - DEBUG - This reference contains single ids in all elements!
+2025-04-23 13:04:42,035 - AknLegalReferencesClass.py - DEBUG - href: /akn/gr/act/presidentialDecree/1985/503/!main#art_340
+2025-04-23 13:04:42,035 - AknLegalReferencesClass.py - DEBUG - reference_text: /akn/gr/act/presidentialDecree/1985/503/!main#art_340
+2025-04-23 13:04:42,035 - AknLegalReferencesClass.py - DEBUG - CompleteLegislation text: <ref href = "/akn/gr/act/presidentialDecree/1985/503/!main#art_340">άρθρο 340 ΚΠολΔ</ref>
+2025-04-23 13:04:42,035 - AknLegalReferencesClass.py - DEBUG - CompleteLegislation node END
+2025-04-23 13:04:42,035 - AknLegalReferencesClass.py - INFO - LEGAL REFERENCE FOUND...
+2025-04-23 13:04:42,035 - AknLegalReferencesClass.py - DEBUG - legal reference text: αριθμό 12 του άρθρου 559 ΚΠολΔ
+2025-04-23 13:04:42,035 - AknLegalReferencesClass.py - DEBUG - Entering SingleLegislation node...
+2025-04-23 13:04:42,035 - AknLegalReferencesClass.py - DEBUG - SingleLegislation text: αριθμό 12 του άρθρου 559 ΚΠολΔ
+2025-04-23 13:04:42,035 - AknLegalReferencesClass.py - DEBUG - Entering CompleteLegislation node...
+2025-04-23 13:04:42,035 - AknLegalReferencesClass.py - DEBUG - Entering ExplicitLegalType node...
+2025-04-23 13:04:42,035 - AknLegalReferencesClass.py - DEBUG - ExplicitLegalType text: ΚΠολΔ
+2025-04-23 13:04:42,035 - AknLegalReferencesClass.py - DEBUG - Entering ExplicitKwdikas node...
+2025-04-23 13:04:42,035 - AknLegalReferencesClass.py - DEBUG - ExplicitKwdikas text: ΚΠολΔ
+2025-04-23 13:04:42,035 - AknLegalReferencesClass.py - DEBUG - Kwdikas dictionary search result: act/presidentialDecree_503_1985
+2025-04-23 13:04:42,035 - AknLegalReferencesClass.py - DEBUG - splitMultHref: 0
+2025-04-23 13:04:42,035 - AknLegalReferencesClass.py - DEBUG - DictionaryOfElements: {'type': 'act/presidentialDecree', 'legalNumber': '503', 'legalYear': '1985', 'ExplicitArthroContext': '559'}
+2025-04-23 13:04:42,035 - AknLegalReferencesClass.py - DEBUG - This reference contains single ids in all elements!
+2025-04-23 13:04:42,035 - AknLegalReferencesClass.py - DEBUG - href: /akn/gr/act/presidentialDecree/1985/503/!main#art_559
+2025-04-23 13:04:42,035 - AknLegalReferencesClass.py - DEBUG - reference_text: /akn/gr/act/presidentialDecree/1985/503/!main#art_559
+2025-04-23 13:04:42,035 - AknLegalReferencesClass.py - DEBUG - CompleteLegislation text: <ref href = "/akn/gr/act/presidentialDecree/1985/503/!main#art_559">αριθμό 12 του άρθρου 559 ΚΠολΔ</ref>
+2025-04-23 13:04:42,035 - AknLegalReferencesClass.py - DEBUG - CompleteLegislation node END
+2025-04-23 13:04:42,035 - AknLegalReferencesClass.py - INFO - LEGAL REFERENCE FOUND...
+2025-04-23 13:04:42,035 - AknLegalReferencesClass.py - DEBUG - legal reference text: παρ. 2 ΚΠολΔ
+2025-04-23 13:04:42,035 - AknLegalReferencesClass.py - DEBUG - Entering SingleLegislation node...
+2025-04-23 13:04:42,035 - AknLegalReferencesClass.py - DEBUG - SingleLegislation text: παρ. 2 ΚΠολΔ
+2025-04-23 13:04:42,035 - AknLegalReferencesClass.py - DEBUG - Entering CompleteLegislation node...
+2025-04-23 13:04:42,035 - AknLegalReferencesClass.py - DEBUG - Entering ExplicitLegalType node...
+2025-04-23 13:04:42,035 - AknLegalReferencesClass.py - DEBUG - ExplicitLegalType text: ΚΠολΔ
+2025-04-23 13:04:42,035 - AknLegalReferencesClass.py - DEBUG - Entering ExplicitKwdikas node...
+2025-04-23 13:04:42,035 - AknLegalReferencesClass.py - DEBUG - ExplicitKwdikas text: ΚΠολΔ
+2025-04-23 13:04:42,036 - AknLegalReferencesClass.py - DEBUG - Kwdikas dictionary search result: act/presidentialDecree_503_1985
+2025-04-23 13:04:42,036 - AknLegalReferencesClass.py - DEBUG - splitMultHref: 0
+2025-04-23 13:04:42,036 - AknLegalReferencesClass.py - DEBUG - DictionaryOfElements: {'type': 'act/presidentialDecree', 'legalNumber': '503', 'legalYear': '1985', 'ExplicitParContext': '2'}
+2025-04-23 13:04:42,036 - AknLegalReferencesClass.py - DEBUG - This reference contains single ids in all elements!
+2025-04-23 13:04:42,036 - AknLegalReferencesClass.py - DEBUG - href: /akn/gr/act/presidentialDecree/1985/503/!main__par_2
+2025-04-23 13:04:42,036 - AknLegalReferencesClass.py - DEBUG - reference_text: /akn/gr/act/presidentialDecree/1985/503/!main__par_2
+2025-04-23 13:04:42,036 - AknLegalReferencesClass.py - DEBUG - CompleteLegislation text: <ref href = "/akn/gr/act/presidentialDecree/1985/503/!main__par_2">παρ. 2 ΚΠολΔ</ref>
+2025-04-23 13:04:42,036 - AknLegalReferencesClass.py - DEBUG - CompleteLegislation node END
+2025-04-23 13:04:42,036 - AknLegalReferencesClass.py - INFO - LEGAL REFERENCE FOUND...
+2025-04-23 13:04:42,036 - AknLegalReferencesClass.py - DEBUG - legal reference text: 4962/2019 αποφάσεως του Μονομελούς Εφετείου Αθηνών
+2025-04-23 13:04:42,036 - AknLegalReferencesClass.py - DEBUG - CourtDecision node START
+2025-04-23 13:04:42,036 - AknLegalReferencesClass.py - DEBUG - SingleCourtDec node START
+2025-04-23 13:04:42,036 - AknLegalReferencesClass.py - DEBUG - completeCourtSingleDecision node START
+2025-04-23 13:04:42,036 - AknLegalReferencesClass.py - DEBUG - CompleteCourtSingleDecision text: 4962/2019 αποφάσεως του Μονομελούς Εφετείου Αθηνών
+2025-04-23 13:04:42,036 - AknLegalReferencesClass.py - DEBUG - Entering ExplicitCourt node...
+2025-04-23 13:04:42,036 - AknLegalReferencesClass.py - DEBUG - court text: του Μονομελούς Εφετείου Αθηνών
+2025-04-23 13:04:42,036 - AknLegalReferencesClass.py - DEBUG - courts dictionary search result: AppelateCourtAthens
+2025-04-23 13:04:42,036 - AknLegalReferencesClass.py - DEBUG - Entering ids node...
+2025-04-23 13:04:42,036 - AknLegalReferencesClass.py - DEBUG - splitter /
+2025-04-23 13:04:42,036 - AknLegalReferencesClass.py - DEBUG - year: 2019,  arithmos: 4962,   decision_id: 2019/4962
+2025-04-23 13:04:42,036 - AknLegalReferencesClass.py - DEBUG - href: /akn/gr/judgment/AppelateCourtAthens/2019/4962/!main
+2025-04-23 13:04:42,036 - AknLegalReferencesClass.py - DEBUG - CompleteCourtSingleDecision reference: <ref href ="/akn/gr/judgment/AppelateCourtAthens/2019/4962/!main">4962/2019 αποφάσεως του Μονομελούς Εφετείου Αθηνών</ref>
+2025-04-23 13:04:42,036 - AknLegalReferencesClass.py - DEBUG - completeCourtSingleDecision END
+2025-04-23 13:04:42,036 - createAreiosPagosJudgmentsAkn.py - INFO - Building parse tree for Politikh Ypouesh Areioy Pagoy  Ar 653_2023, 24_1_2023.txt
+2025-04-23 13:04:42,636 - AknJudgementClass.py - INFO - Creating AkomaNtoso Element...
+2025-04-23 13:04:42,636 - createAreiosPagosJudgmentsAkn.py - INFO - Searching for dates of interest...
+2025-04-23 13:04:42,751 - functions.py - INFO - Starting Validation...
+2025-04-23 13:04:42,751 - functions.py - INFO - XML valid: True
+2025-04-23 13:04:42,752 - createAreiosPagosJudgmentsAkn.py - INFO - Finished Politikh Ypouesh Areioy Pagoy  Ar 653_2023, 24_1_2023.txt in 15.85s

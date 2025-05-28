@@ -1,0 +1,11 @@
+2025-05-15 14:52:24,832 - createCouncilOfStateJudgmentsAkn.py - INFO - Converting A2787_2022.txt
+2025-05-15 14:52:24,834 - createCouncilOfStateJudgmentsAkn.py - ERROR - ❌ Failed A2787_2022.txt
+Traceback (most recent call last):
+  File "/Users/vasileioscharalampopoulos/Documents/thesis/OpenLawGR/judgmentsV2/createCouncilOfStateJudgmentsAkn.py", line 162, in <module>
+    intro_idx = next(i for i,ln in enumerate(raw)
+                ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                     if ln.strip().startswith("Για να δικάσει"))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+2025-05-15 14:52:24,834 - createCouncilOfStateJudgmentsAkn.py - INFO - Finished A2787_2022.txt in 0.0s

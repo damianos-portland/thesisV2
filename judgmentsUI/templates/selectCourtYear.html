@@ -1,0 +1,30 @@
+{# templates/selectCourtYear.html #}
+{% extends "base.html" %}
+{% block content %}
+<h2 class="mb-4">Όλες οι Αποφάσεις</h2>
+<p>Επιλέξτε Δικαστήριο και Έτος:</p>
+
+<form method="post" class="row g-3">
+  <div class="col-md-6">
+    <label class="form-label">Δικαστήριο</label>
+    <select name="court" class="form-select" required>
+      <option value="">-- Επιλέξτε --</option>
+      {% for c in courts %}
+      <option value="{{ c }}">{{ c|translate_court }}</option>
+      {% endfor %}
+    </select>
+  </div>
+  <div class="col-md-6">
+    <label class="form-label">Έτος</label>
+    <select name="year" class="form-select" required>
+      <option value="">-- Επιλέξτε --</option>
+      {% for y in years %}
+      <option value="{{ y }}">{{ y }}</option>
+      {% endfor %}
+    </select>
+  </div>
+  <div class="col-12 text-end">
+    <button class="btn btn-primary">Εμφάνιση Αποφάσεων</button>
+  </div>
+</form>
+{% endblock %}

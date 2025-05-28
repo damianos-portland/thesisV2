@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd">
+  <judgment name="decision">
+    <meta>
+      <identification source="#openLawsGR">
+        <FRBRWork>
+          <FRBRthis value="/akn/gr/judgment/SCCC/2017/2128/!main"/>
+          <FRBRuri value="/akn/gr/judgment/SCCC/2017/2128/"/>
+          <FRBRdate name="courtConferenceDate" date="2017-12-20"/>
+          <FRBRauthor href="#SCCC"/>
+          <FRBRcountry value="gr"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/gr/judgment/SCCC/2017/2128/ell@/!main"/>
+          <FRBRuri value="/akn/gr/judgment/SCCC/2017/2128/ell@"/>
+          <FRBRdate name="courtConferenceDate" date="2017-12-20"/>
+          <FRBRauthor href="#SCCC"/>
+          <FRBRlanguage language="ell"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/gr/judgment/SCCC/2017/2128/ell@/!main.xml"/>
+          <FRBRuri value="/akn/gr/judgment/SCCC/2017/2128/ell@.xml"/>
+          <FRBRdate name="XMLConversion" date="2025-05-15"/>
+          <FRBRauthor href="#openLawsGR"/>
+        </FRBRManifestation>
+      </identification>
+      <lifecycle source="#openLawsGR">
+        <eventRef source="#original" type="generation" date="2025-05-15"/>
+      </lifecycle>
+      <workflow source="#openLawsGR">
+        <step date="2017-12-20" by="#SCCC" refersTo="#courtConferenceDate"/>
+        <step date="2017-11-15" by="#SCCC" refersTo="#publicHearingDate"/>
+      </workflow>
+      <references source="#openLawsGR">
+        <original eId="original" href="/akn/gr/judgment/SCCC/2017/2128/ell@" showAs="Original"/>
+        <TLCEvent eId="publicHearingDate" href="/akn/ontology/event/gr/publicHearingDate" showAs="Ημερομηνία δημόσιας συνεδρίασης"/>
+        <TLCEvent eId="courtConferenceDate" href="/akn/ontology/event/gr/courtConferenceDate" showAs="Ημερομηνία διάσκεψης"/>
+      </references>
+    </meta>
+    <header>
+      <p>Αριθμός<docNumber>2128/2017</docNumber></p>
+      <p>
+        <docProponent>ΤΟ ΔΙΚΑΣΤΗΡΙΟ ΤΟΥ ΑΡΕΙΟΥ ΠΑΓΟΥ</docProponent>
+      </p>
+      <p>Z' Ποινικό Τμήμα</p>
+      <p>Συγκροτήθηκε από τους Δικαστές: Αγγελική Αλειφεροπούλου, Αντιπρόεδρο του Αρείου Πάγου, Δημήτριο Γεώργα, Δημήτριο Τζιούβα - Εισηγητή, Μαρία Γκανιάτσου και Μαρία Παπασωτηρίου, Αρεοπαγίτες.</p>
+      <p>Συνήλθε σε δημόσια συνεδρίαση στο Κατάστημά του στις <date refersTo="publicHearingDate" date="2017-11-15">15 Νοεμβρίου 2017</date>, με την παρουσία της Αντεισαγγελέως του Αρείου Πάγου Βασιλικής Θεοδώρου, (κωλυομένης της Εισαγγελέως) και της Γραμματέως Αικατερίνης Σιταρά, για να δικάσει την αίτηση του αναιρεσείοντος - κατηγορουμένου I. P. ή Ρ. του T., κατοίκου ... που δεν παρέστη στο ακροατήριο, για αναίρεση της <ref href="/akn/gr/judgment/AppelateCourtAthens/2017/827/!main">υπ' αριθμ 827/2017 αποφάσεως του Τριμελούς Πλημμελημάτων Εφετείου Αθηνών</ref>.</p>
+    </header>
+    <judgmentBody>
+      <introduction>
+        <p>Το Τριμελές Πλημμελημάτων Εφετείου Αθηνών, με την ως άνω απόφασή του διέταξε όσα λεπτομερώς αναφέρονται σ' αυτή, και ο αναιρεσείων-κατηγορούμενος, ζητάει την αναίρεση της αποφάσεως αυτής για τους λόγους που αναφέρονται στην από 12 Ιουνίου 2017 αίτησή του, που καταχωρίστηκε στο οικείο πινάκιο με αριθμό 1022/2017.</p>
+      </introduction>
+      <motivation>
+        <p>Αφού άκουσε
+Την Αντεισαγγελέα του Αρείου Πάγου που πρότεινε να απορριφθεί ως ανυποστήρικτη η προκείμενη αίτηση .</p>
+        <p>ΣΚΕΦΤΗΚΕ ΣΥΜΦΩΝΑ ΜΕ ΤΟ ΝΟΜΟ</p>
+        <blockList eId="motivation_list_1">
+          <item eId="motivation_list_1__item_1">
+            <p>Κατά το <ref href="/akn/gr/act/presidentialDecree/1986/258/!main#art_513__par_1">άρθρο 513 παρ.1 εδ. γ' του Κ.Ποιν.Δ</ref>., ο εισαγγελέας του Αρείου Πάγου κλητεύει τον αναιρεσείοντα και τους λοιπούς διαδίκους στο ακροατήριο του δικαστηρίου του Αρείου Πάγου. Η κλήση αυτή γίνεται με επίδοση σύμφωνα με τα άρθρα 155-161 και μέσα στην προθεσμία του άρθρου 166, ενώ κατά την παρ. 3 του ίδιου άρθρου οι διάδικοι παρίστανται στη συζήτηση με συνήγορο. Περαιτέρω, από το άρθρο 514 εδ. α' του ίδιου Κώδικα, προκύπτει ότι εάν ο αιτών την αναίρεση δεν εμφανισθεί προσηκόντως (ήτοι μετά ή διά συνηγόρου), η αίτησή του απορρίπτεται. Στην προκειμένη περίπτωση, όπως προκύπτει από το υπό ημερομηνία 9 Αυγούστου 2017 αποδεικτικό επιδόσεως της υπαλλήλου του Αγροτικού Καταστήματος Κράτησης Κασσάνδρας Μ. Ε., ο αναιρεσείων κλητεύθηκε νόμιμα και εμπρόθεσμα από την Εισαγγελέα του Αρείου Πάγου με την υπ' αριθ. ... κλήση της, κατά τα άρθρα 155 <ref href="/akn/gr/act/presidentialDecree/1986/258/!main__par_1">παρ. 1 εδ. α' και 3 εδ. α' και 166 του Κ.Ποιν.Δ</ref>., για να εμφανισθεί στη συνεδρίαση που αναφέρεται στην αρχή της αποφάσεως αυτής, προς υποστήριξη της κατωτέρω αναφερόμενης αιτήσεως αναιρέσεως του, πλην όμως δεν εμφανίσθηκε καθόλου κατ' αυτήν και την εκφώνηση της υπόθεσης στη σειρά της, ενώπιον του Δικαστηρίου τούτου, ούτε εκπροσωπήθηκε από πληρεξούσιο δικηγόρο. Κατά συνέπεια, η υπό κρίση αίτηση αναιρέσεως πρέπει να απορριφθεί και να επιβληθούν στον αναιρεσείοντα τα έξοδα της ποινικής διαδικασίας (<ref href="/akn/gr/act/presidentialDecree/1986/258/!main#art_583__par_1">άρθρο 583 παρ.1 Κ.Ποιν.Δ</ref>).</p>
+          </item>
+        </blockList>
+      </motivation>
+      <decision>
+        <p>ΓΙΑ ΤΟΥΣ ΛΟΓΟΥΣ ΑΥΤΟΥΣ</p>
+        <p><outcome>Απορρίπτει</outcome> την από 12-6-2017 αίτηση του I. P. ή P. του T., για την οποία συντάχθηκε η υπ' αριθ. 27/12-6-2017 έκθεση ενώπιον του Διευθυντή του Αγροτικού Καταστήματος Κράτησης Κασσάνδρας, που καταχωρήθηκε στο Βιβλίο Ενδίκων Μέσων του Εφετείου Αθηνών με αριθμό 128/7-7-2017, περί αναιρέσεως της <ref href="/akn/gr/judgment/AppelateCourtAthens/2017/827/!main">827/2017 αποφάσεως του Τριμελούς Εφετείου Αθηνών</ref>. Και</p>
+        <p>Επιβάλλει στον αναιρεσείοντα τα έξοδα της ποινικής διαδικασίας από διακόσια πενήντα (250) ευρώ.</p>
+      </decision>
+    </judgmentBody>
+    <conclusions>
+      <p>Κρίθηκε και αποφασίσθηκε στην Αθήνα στις <date refersTo="courtConferenceDate" date="2017-12-20">20 Δεκεμβρίου 2017</date>.</p>
+      <p>Η ΑΝΤΙΠΡΟΕΔΡΟΣ Η ΓΡΑΜΜΑΤΕΑΣ</p>
+      <p>Δημοσιεύθηκε στην Αθήνα σε δημόσια</p>
+      <p> συνεδρίαση στο ακροατήριό του στις 29 Δεκεμβρίου 2017.</p>
+      <p>Η ΑΝΤΙΠΡΟΕΔΡΟΣ Η ΓΡΑΜΜΑΤΕΑΣ</p>
+    </conclusions>
+  </judgment>
+</akomaNtoso>

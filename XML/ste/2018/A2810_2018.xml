@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd">
+  <judgment name="decision">
+    <meta>
+      <identification source="#openLawsGR">
+        <FRBRWork>
+          <FRBRthis value="/akn/gr/judgment/COS/2018/A2810/!main"/>
+          <FRBRuri value="/akn/gr/judgment/COS/2018/A2810/"/>
+          <FRBRdate name="decisionPublicationDate" date="2018-12-27"/>
+          <FRBRauthor href="#COS"/>
+          <FRBRcountry value="gr"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/gr/judgment/COS/2018/A2810/ell@/!main"/>
+          <FRBRuri value="/akn/gr/judgment/COS/2018/A2810/ell@"/>
+          <FRBRdate name="decisionPublicationDate" date="2018-12-27"/>
+          <FRBRauthor href="#COS"/>
+          <FRBRlanguage language="ell"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/gr/judgment/COS/2018/A2810/ell@/!main.xml"/>
+          <FRBRuri value="/akn/gr/judgment/COS/2018/A2810/ell@.xml"/>
+          <FRBRdate name="XMLConversion" date="2025-05-15"/>
+          <FRBRauthor href="#openLawsGR"/>
+        </FRBRManifestation>
+      </identification>
+      <lifecycle source="#openLawsGR">
+        <eventRef source="#original" type="generation" date="2025-05-15"/>
+      </lifecycle>
+      <workflow source="#openLawsGR">
+        <step date="2018-12-27" by="#COS" refersTo="#decisionPublicationDate"/>
+        <step date="2017-04-05" by="#COS" refersTo="#courtConferenceDate"/>
+        <step date="2016-12-07" by="#COS" refersTo="#publicHearingDate"/>
+      </workflow>
+      <references source="#openLawsGR">
+        <original eId="original" href="/akn/gr/judgment/COS/2018/A2810/ell@" showAs="Original"/>
+        <TLCEvent eId="publicHearingDate" href="/akn/ontology/event/gr/publicHearingDate" showAs="Ημερομηνία δημόσιας συνεδρίασης"/>
+        <TLCEvent eId="courtConferenceDate" href="/akn/ontology/event/gr/courtConferenceDate" showAs="Ημερομηνία διάσκεψης"/>
+        <TLCEvent eId="decisionPublicationDate" href="/akn/ontology/event/gr/decisionPublicationDate" showAs="Ημερομηνία δημοσίευσης απόφασης"/>
+      </references>
+    </meta>
+    <header>
+      <p>
+        <docNumber>2810/2018</docNumber>
+      </p>
+      <p>
+        <docProponent>ΤΟ ΣΥΜΒΟΥΛΙΟ ΤΗΣ ΕΠΙΚΡΑΤΕΙΑΣ</docProponent>
+      </p>
+      <p>ΤΜΗΜΑ Β΄</p>
+      <p>Συνεδρίασε δημόσια στο ακροατήριό του στις <date refersTo="publicHearingDate" date="2016-12-07">7 Δεκεμβρίου 2016</date>, με την εξής σύνθεση: Ι. Γράβαρης, Αντιπρόεδρος, Προεδρεύων, σε αναπλήρωση της Προέδρου του Τμήματος, που είχε κώλυμα, Κ. Νικολάου, Ι. Σύμπλης, Σύμβουλοι, Μ. Σταματοπούλου, Σ.-Ε. Σταφυλά, Πάρεδροι. Γραμματέας η Κ. Κεχρολόγου.</p>
+    </header>
+    <judgmentBody>
+      <introduction>
+        <p>Για να δικάσει την από 22 Ιουλίου 2014 αίτηση:</p>
+        <p>της ανώνυμης εταιρείας με την επωνυμία "ΙΤΑΜΠΟΣ ΑΝΩΝΥΜΗ ΤΕΧΝΙΚΗ ΕΜΠΟΡΙΚΗ ΕΠΕΝΔΥΤΙΚΗ ΚΤΗΜΑΤΙΚΗ ΕΤΑΙΡΙΑ", και με διακριτικό τίτλο «ΙΤΑΜΠΟΣ ΑΕΒΕ», που εδρεύει στη Μεταμόρφωση Αττικής (12ο χιλ. Εθνικής Οδού Αθηνών-Λαμίας), η οποία δεν παρέστη,</p>
+        <p>κατά του Υπουργού Οικονομικών, ο οποίος παρέστη με τον Δημήτριο Φαρμάκη, Πάρεδρο του Νομικού Συμβουλίου του Κράτους.</p>
+        <p>Με την αίτηση αυτή η αναιρεσείουσα εταιρεία επιδιώκει να αναιρεθεί η υπ' αριθμ. 5674/2013 απόφαση του Διοικητικού Εφετείου Αθηνών.</p>
+        <p>Η εκδίκαση άρχισε με την ανάγνωση της εκθέσεως της εισηγήτριας, Παρέδρου Σ.-Ε. Σταφυλά.</p>
+        <p>Κατόπιν το δικαστήριο άκουσε τον εκπρόσωπο του Υπουργού, ο οποίος ζήτησε την απόρριψη της υπό κρίση αιτήσεως.</p>
+        <p>Μετά τη δημόσια συνεδρίαση το δικαστήριο συνήλθε σε διάσκεψη σε αίθουσα του δικαστηρίου κ α ι</p>
+        <p>Α φ ο ύ μ ε λ έ τ η σ ε τ α σ χ ε τ ι κ ά έ γ γ ρ α φ α</p>
+        <p>Σ κ έ φ θ η κ ε κ α τ ά τ ο ν Ν ό μ ο</p>
+        <p>1. Επειδή, για την άσκηση της κρινόμενης αιτήσεως έχει καταβληθεί το νόμιμο παράβολο (1359238-1359239-3897910/2014, σειράς Α΄, ειδικά γραμμάτια παραβόλου).</p>
+        <p>2. Επειδή, με την αίτηση αυτή ζητείται η αναίρεση της 5674/2013 αποφάσεως του Διοικητικού Εφετείου Αθηνών με την οποία απορρίφθηκε προσφυγή της αναιρεσείουσας εταιρείας σχετικά με φορολογία μεταβίβασης ακινήτων.</p>
+        <p>3. Επειδή, το δικόγραφο της αιτήσεως υπογράφεται από φερόμενο ως πληρεξούσιο δικηγόρο της αναιρεσείουσας εταιρείας. Κατά τη συζήτηση, όμως, της υποθέσεως στο ακροατήριο, η αναιρεσείουσα δεν παρέστη με πληρεξούσιο δικηγόρο, ούτε νομιμοποίησε τον υπογράφοντα με έναν από τους τρόπους που προβλέπονται στις διατάξεις του άρθρου 27 του π.δ. 18/1989 (ΦΕΚ Α΄ 8), όπως ισχύει. Κατόπιν αυτών, η κρινόμενη αίτηση πρέπει, σύμφωνα με τις εν λόγω διατάξεις να απορριφθεί ως απαράδεκτη.</p>
+        <p>Δ ι ά τ α ύ τ α</p>
+        <p>Απορρίπτει την αίτηση.</p>
+        <p>Διατάσσει την κατάπτωση του παραβόλου, και</p>
+        <p>Επιβάλλει στην αναιρεσείουσα εταιρεία τη δικαστική δαπάνη του Δημοσίου, η οποία ανέρχεται σε τετρακόσια εξήντα (460) ευρώ.</p>
+        <p>Η διάσκεψη έγινε στην Αθήνα στις 5 Απριλίου 2017</p>
+        <p>Ο Προεδρεύων ΑντιπρόεδροςΗ Γραμματέας</p>
+        <p>Ι. Γράβαρης Κ. Κεχρολόγου</p>
+        <p>και η απόφαση δημοσιεύθηκε σε δημόσια συνεδρίαση της 27ης Δεκεμβρίου 2018.</p>
+        <p>Η Πρόεδρος του Β´ ΤμήματοςΗ Γραμματέας</p>
+        <p>Ε. Σάρπ Α. Ζυγουρίτσα</p>
+      </introduction>
+      <motivation>
+        <p>Α φ ο ύ μ ε λ έ τ η σ ε τ α σ χ ε τ ι κ ά έ γ γ ρ α φ α</p>
+        <p>Σ κ έ φ θ η κ ε κ α τ ά τ ο ν Ν ό μ ο</p>
+        <blockList eId="motivation_list_1">
+          <item eId="motivation_list_1__item_1">
+            <num>1.</num>
+            <p>Επειδή, για την άσκηση της κρινόμενης αιτήσεως έχει καταβληθεί το νόμιμο παράβολο (1359238-1359239-3897910/2014, σειράς Α΄, ειδικά γραμμάτια παραβόλου).</p>
+          </item>
+          <item eId="motivation_list_1__item_2">
+            <num>2.</num>
+            <p>Επειδή, με την αίτηση αυτή ζητείται η αναίρεση της <ref href="/akn/gr/judgment/AppelateCourtAthens/2013/5674/!main">5674/2013 αποφάσεως του Διοικητικού Εφετείου Αθηνών</ref> με την οποία απορρίφθηκε προσφυγή της αναιρεσείουσας εταιρείας σχετικά με φορολογία μεταβίβασης ακινήτων.</p>
+          </item>
+          <item eId="motivation_list_1__item_3">
+            <num>3.</num>
+            <p>Επειδή, το δικόγραφο της αιτήσεως υπογράφεται από φερόμενο ως πληρεξούσιο δικηγόρο της αναιρεσείουσας εταιρείας. Κατά τη συζήτηση, όμως, της υποθέσεως στο ακροατήριο, η αναιρεσείουσα δεν παρέστη με πληρεξούσιο δικηγόρο, ούτε νομιμοποίησε τον υπογράφοντα με έναν από τους τρόπους που προβλέπονται στις διατάξεις του <ref href="/akn/gr/act/presidentialDecree/1989/18/!main#art_27">άρθρου 27 του π.δ. 18/1989</ref> (ΦΕΚ Α΄ 8), όπως ισχύει. Κατόπιν αυτών, η κρινόμενη αίτηση πρέπει, σύμφωνα με τις εν λόγω διατάξεις να απορριφθεί ως απαράδεκτη.</p>
+          </item>
+        </blockList>
+      </motivation>
+      <decision>
+        <p>Δ ι ά τ α ύ τ α</p>
+        <p><outcome>Απορρίπτει</outcome> την αίτηση.</p>
+        <p>Διατάσσει την κατάπτωση του παραβόλου, και</p>
+        <p>Επιβάλλει στην αναιρεσείουσα εταιρεία τη δικαστική δαπάνη του Δημοσίου, η οποία ανέρχεται σε τετρακόσια εξήντα (460) ευρώ.</p>
+      </decision>
+    </judgmentBody>
+    <conclusions>
+      <p>Η διάσκεψη έγινε στην Αθήνα στις <date refersTo="courtConferenceDate" date="2017-04-05">5 Απριλίου 2017</date></p>
+      <p>Ο Προεδρεύων ΑντιπρόεδροςΗ Γραμματέας</p>
+      <p>Ι. Γράβαρης Κ. Κεχρολόγου</p>
+      <p>και η απόφαση δημοσιεύθηκε σε δημόσια συνεδρίαση της <date refersTo="decisionPublicationDate" date="2018-12-27">27ης Δεκεμβρίου 2018</date>.</p>
+      <p>Η Πρόεδρος του Β´ ΤμήματοςΗ Γραμματέας</p>
+      <p>Ε. Σάρπ Α. Ζυγουρίτσα</p>
+    </conclusions>
+  </judgment>
+</akomaNtoso>

@@ -1,0 +1,82 @@
+{# templates/decisionDetail.html #}
+{% extends "base.html" %}
+{% block content %}
+<h2>Προβολή Νομολογίας</h2>
+
+<div class="mb-3 text-end">
+    <a
+            href="{{ url_for('download_xml', decision_id=decision._id) }}?download=1"
+            class="btn btn-outline-primary btn-sm"
+    >
+        Λήψη XML
+    </a>
+    <a
+            href="{{ url_for('download_xml', decision_id=decision._id) }}"
+            target="_blank"
+            class="btn btn-outline-secondary btn-sm"
+    >
+        Άνοιγμα XML
+    </a>
+    {% if session.get('admin') %}
+    <a
+            href="{{ url_for('edit_decision', decision_id=decision._id) }}"
+            class="btn btn-warning btn-sm"
+    >
+        Επεξεργασία
+    </a>
+    {% endif %}
+    <a href="{{ url_for('search') }}" class="btn btn-link btn-sm">
+        ← Πίσω
+    </a>
+</div>
+
+<div class="card mb-4">
+    <div class="card-header">Στοιχεία Απόφασης</div>
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item">
+            <strong>Αρ. Απόφασης:</strong> {{ decision.header.docNumber }}
+        </li>
+        <li class="list-group-item">
+            <strong>Δικαιούχος:</strong> {{ decision.header.docProponent }}
+        </li>
+        <li class="list-group-item">
+            <strong>Τμήμα:</strong> {{ decision.header.subDepartment }}
+        </li>
+        <li class="list-group-item">
+            <strong>Λεπτομέρειες Επικεφαλίδας:</strong>
+            {{ decision.header.headerDetails }}
+        </li>
+        <li class="list-group-item">
+            <strong>Δικαστήριο:</strong> {{ decision.court }}
+        </li>
+        <li class="list-group-item">
+            <strong>Ημερομηνία Διάσκεψης:</strong>
+            {{ decision.courtConferenceDate or '–' }}
+        </li>
+        <li class="list-group-item">
+            <strong>Ημερομηνία Δημοσίευσης:</strong>
+            {{ decision.decisionPublicationDate or '–' }}
+        </li>
+    </ul>
+</div>
+
+<div class="card">
+    <div class="card-header">Κείμενο Απόφασης</div>
+    <div class="card-body">
+        <h5>Εισαγωγή</h5>
+        <p>{{ decision.judgmentBody.introduction }}</p>
+
+        <h5>Σκέψη</h5>
+        <p>{{ decision.judgmentBody.motivation }}</p>
+
+        <h5>Απόφαση</h5>
+        {{ decision.judgmentBody.decision.outcome }}</p>
+        {% if decision.judgmentBody.decision.decisionDetails %}
+        <p>{{ decision.judgmentBody.decision.decisionDetails }}</p>
+        {% endif %}
+
+        <h5>Συμπέρασμα</h5>
+        <p>{{ decision.conclusions or '–' }}</p>
+    </div>
+</div>
+{% endblock %}

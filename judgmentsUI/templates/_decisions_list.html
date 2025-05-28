@@ -1,0 +1,67 @@
+{# templates/_decisions_list.html #}
+<div class="row">
+  <!-- ─── Filters Column ───────────────────────────────────── -->
+  <div class="col-md-3">
+    <form method="get" class="mb-4">
+      <!-- … your filters here exactly as in searchResults.html … -->
+    </form>
+  </div>
+
+  <!-- ─── Results Column ───────────────────────────────────── -->
+  <div class="col-md-9">
+    <div class="d-flex justify-content-between align-items-center mb-2">
+      <div><strong>Σύνολο αποτελεσμάτων:</strong> {{ total }}</div>
+
+      {% macro url_for_search(p) -%}
+      {{ base_url }}?{% if base_qs %}{{ base_qs }}&{% endif %}page={{ p }}
+      {%- endmacro %}
+
+      <nav aria-label="Σελίδες">
+        <ul class="pagination pagination-sm mb-0">
+          <!-- … same pagination markup … -->
+        </ul>
+      </nav>
+    </div>
+
+    <table class="table table-striped table-hover table-sm">
+      <thead class="table-light">
+      <tr>
+        <th>Αρ. Απόφασης</th>
+        <th>Δικαστήριο</th>
+        <th>Ημ. Συνεδρίας</th>
+        <th>Ημ. Δημοσίευσης</th>
+        <th>Ενέργειες</th>
+      </tr>
+      </thead>
+      <tbody>
+      {% for d in decisions %}
+      <tr>
+        <td>{{ d.header.docNumber }}</td>
+        <td>{{ d.court|translate_court }}</td>
+        <td>{{ d.courtConferenceDate or '–' }}</td>
+        <td>{{ d.decisionPublicationDate or '–' }}</td>
+        <td>
+          <a class="btn btn-sm btn-outline-primary"
+             href="{{ url_for('decision_detail', decision_id=d._id) }}">
+            Προβολή
+          </a>
+          {% if admin_view %}
+          <a class="btn btn-sm btn-secondary"
+             href="{{ url_for('edit_decision', decision_id=d._id) }}">
+            Επεξεργασία
+          </a>
+          <form method="post"
+                action="{{ url_for('delete_decision', decision_id=d._id) }}"
+                class="d-inline">
+            <button type="submit" class="btn btn-sm btn-danger ajax-delete">
+              Διαγραφή
+            </button>
+          </form>
+          {% endif %}
+        </td>
+      </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>

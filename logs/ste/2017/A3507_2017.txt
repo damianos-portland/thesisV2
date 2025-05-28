@@ -1,0 +1,66 @@
+2025-05-15 13:48:04,975 - createCouncilOfStateJudgmentsAkn.py - INFO - Converting A3507_2017.txt
+2025-05-15 13:48:04,975 - AknJudgementClass.py - INFO - initialiazing AknJudgmentXmlListener Object...
+2025-05-15 13:48:04,975 - AknJudgementClass.py - DEBUG - textType: judgment
+2025-05-15 13:48:04,975 - AknJudgementClass.py - DEBUG - author: #COS
+2025-05-15 13:48:04,975 - AknJudgementClass.py - DEBUG - foreas: COS
+2025-05-15 13:48:04,975 - AknJudgementClass.py - DEBUG - issueYear: 2017
+2025-05-15 13:48:04,975 - AknJudgementClass.py - DEBUG - decisionNumber: A3507
+2025-05-15 13:48:04,975 - AknJudgementClass.py - DEBUG - ECLI: None
+2025-05-15 13:48:04,975 - AknJudgementClass.py - DEBUG - publicationDate: None
+2025-05-15 13:48:04,975 - AknJudgementClass.py - DEBUG - ada: None
+2025-05-15 13:48:04,975 - AknJudgementClass.py - DEBUG - status: None
+2025-05-15 13:48:04,975 - AknJudgementClass.py - DEBUG - summary: None
+2025-05-15 13:48:04,975 - AknJudgementClass.py - DEBUG - chairman: None
+2025-05-15 13:48:04,975 - AknJudgementClass.py - DEBUG - rapporteur: None
+2025-05-15 13:48:04,975 - AknJudgementClass.py - INFO - Creating meta Element...
+2025-05-15 13:48:04,975 - AknJudgementClass.py - INFO - Creating identification Element...
+2025-05-15 13:48:04,975 - AknJudgementClass.py - INFO - Creating FRBRWork Element...
+2025-05-15 13:48:04,975 - AknJudgementClass.py - INFO - Creating FRBRExpression Element...
+2025-05-15 13:48:04,975 - AknJudgementClass.py - INFO - Creating FRBRManifestation Element...
+2025-05-15 13:48:04,975 - AknJudgementClass.py - INFO - Creating Lifecycle Element...
+2025-05-15 13:48:04,975 - AknJudgementClass.py - INFO - Creating workflow Element...
+2025-05-15 13:48:04,975 - AknJudgementClass.py - INFO - Creating references Element...
+2025-05-15 13:48:06,383 - AknLegalReferencesClass.py - INFO - Parsing legal references...
+2025-05-15 13:48:06,384 - AknLegalReferencesClass.py - INFO - LEGAL REFERENCE FOUND...
+2025-05-15 13:48:06,384 - AknLegalReferencesClass.py - DEBUG - legal reference text: 3817/2014 και 3930/2014 αποφάσεις του Συμβουλίου της Επικρατείας 
+2025-05-15 13:48:06,385 - AknLegalReferencesClass.py - DEBUG - CourtDecision node START
+2025-05-15 13:48:06,385 - AknLegalReferencesClass.py - DEBUG - SingleCourtDec node START
+2025-05-15 13:48:06,385 - AknLegalReferencesClass.py - DEBUG - completeCourtMultipleDecisions node START
+2025-05-15 13:48:06,385 - AknLegalReferencesClass.py - DEBUG - completeCourtMultipleDecisions text: 3817/2014 και 3930/2014 αποφάσεις του Συμβουλίου της Επικρατείας 
+2025-05-15 13:48:06,385 - AknLegalReferencesClass.py - DEBUG - Entering ExplicitCourt node...
+2025-05-15 13:48:06,385 - AknLegalReferencesClass.py - DEBUG - court text: του Συμβουλίου της Επικρατείας 
+2025-05-15 13:48:06,385 - AknLegalReferencesClass.py - DEBUG - courts dictionary search result: COS
+2025-05-15 13:48:06,385 - AknLegalReferencesClass.py - DEBUG - href: /akn/gr/judgment/COS/
+2025-05-15 13:48:06,385 - AknLegalReferencesClass.py - DEBUG - Entering multiple_ids node...
+2025-05-15 13:48:06,385 - AknLegalReferencesClass.py - DEBUG - Node text: 3817/2014
+2025-05-15 13:48:06,385 - AknLegalReferencesClass.py - DEBUG - no separator found, use: ,
+2025-05-15 13:48:06,385 - AknLegalReferencesClass.py - DEBUG - year: 2014,  decision_id: ['3817'],   size: 1
+2025-05-15 13:48:06,385 - AknLegalReferencesClass.py - DEBUG - single id found
+2025-05-15 13:48:06,385 - AknLegalReferencesClass.py - DEBUG - Entering multiple_ids node...
+2025-05-15 13:48:06,385 - AknLegalReferencesClass.py - DEBUG - Node text: 3930/2014
+2025-05-15 13:48:06,385 - AknLegalReferencesClass.py - DEBUG - no separator found, use: ,
+2025-05-15 13:48:06,385 - AknLegalReferencesClass.py - DEBUG - year: 2014,  decision_id: ['3930'],   size: 1
+2025-05-15 13:48:06,385 - AknLegalReferencesClass.py - DEBUG - single id found
+2025-05-15 13:48:06,385 - AknLegalReferencesClass.py - DEBUG - completeCourtMultipleDecisions reference: <ref href = "/akn/gr/judgment/COS/2014/3817/!main">3817/2014</ref> και <ref href = "/akn/gr/judgment/COS/2014/3930/!main">3930/2014</ref> αποφάσεις του Συμβουλίου της Επικρατείας 
+2025-05-15 13:48:06,385 - AknLegalReferencesClass.py - INFO - completeCourtMultipleDecisions END
+2025-05-15 13:48:06,385 - AknLegalReferencesClass.py - INFO - LEGAL REFERENCE FOUND...
+2025-05-15 13:48:06,385 - AknLegalReferencesClass.py - DEBUG - legal reference text: 3817/2014 απόφαση του Συμβουλίου της Επικρατείας 
+2025-05-15 13:48:06,385 - AknLegalReferencesClass.py - DEBUG - CourtDecision node START
+2025-05-15 13:48:06,385 - AknLegalReferencesClass.py - DEBUG - SingleCourtDec node START
+2025-05-15 13:48:06,385 - AknLegalReferencesClass.py - DEBUG - completeCourtSingleDecision node START
+2025-05-15 13:48:06,385 - AknLegalReferencesClass.py - DEBUG - CompleteCourtSingleDecision text: 3817/2014 απόφαση του Συμβουλίου της Επικρατείας 
+2025-05-15 13:48:06,385 - AknLegalReferencesClass.py - DEBUG - Entering ExplicitCourt node...
+2025-05-15 13:48:06,385 - AknLegalReferencesClass.py - DEBUG - court text: του Συμβουλίου της Επικρατείας 
+2025-05-15 13:48:06,385 - AknLegalReferencesClass.py - DEBUG - courts dictionary search result: COS
+2025-05-15 13:48:06,385 - AknLegalReferencesClass.py - DEBUG - Entering ids node...
+2025-05-15 13:48:06,385 - AknLegalReferencesClass.py - DEBUG - splitter /
+2025-05-15 13:48:06,385 - AknLegalReferencesClass.py - DEBUG - year: 2014,  arithmos: 3817,   decision_id: 2014/3817
+2025-05-15 13:48:06,385 - AknLegalReferencesClass.py - DEBUG - href: /akn/gr/judgment/COS/2014/3817/!main
+2025-05-15 13:48:06,385 - AknLegalReferencesClass.py - DEBUG - CompleteCourtSingleDecision reference: <ref href ="/akn/gr/judgment/COS/2014/3817/!main">3817/2014 απόφαση του Συμβουλίου της Επικρατείας </ref>
+2025-05-15 13:48:06,385 - AknLegalReferencesClass.py - DEBUG - completeCourtSingleDecision END
+2025-05-15 13:48:06,386 - createCouncilOfStateJudgmentsAkn.py - INFO - Parsing judgment structure
+2025-05-15 13:48:06,714 - AknJudgementClass.py - INFO - Creating AkomaNtoso Element...
+2025-05-15 13:48:06,823 - functions.py - INFO - Starting Validation...
+2025-05-15 13:48:06,823 - functions.py - INFO - XML valid: True
+2025-05-15 13:48:06,824 - createCouncilOfStateJudgmentsAkn.py - INFO - Wrote XML → /Users/vasileioscharalampopoulos/Documents/thesis/OpenLawGR/judgmentsV2/XML/ste/2017/A3507_2017.xml
+2025-05-15 13:48:06,824 - createCouncilOfStateJudgmentsAkn.py - INFO - Finished A3507_2017.txt in 1.85s

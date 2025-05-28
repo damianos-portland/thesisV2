@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd">
+  <judgment name="decision">
+    <meta>
+      <identification source="#openLawsGR">
+        <FRBRWork>
+          <FRBRthis value="/akn/gr/judgment/SCCC/2018/1345/!main"/>
+          <FRBRuri value="/akn/gr/judgment/SCCC/2018/1345/"/>
+          <FRBRdate name="courtConferenceDate" date="2018-06-12"/>
+          <FRBRauthor href="#SCCC"/>
+          <FRBRcountry value="gr"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/gr/judgment/SCCC/2018/1345/ell@/!main"/>
+          <FRBRuri value="/akn/gr/judgment/SCCC/2018/1345/ell@"/>
+          <FRBRdate name="courtConferenceDate" date="2018-06-12"/>
+          <FRBRauthor href="#SCCC"/>
+          <FRBRlanguage language="ell"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/gr/judgment/SCCC/2018/1345/ell@/!main.xml"/>
+          <FRBRuri value="/akn/gr/judgment/SCCC/2018/1345/ell@.xml"/>
+          <FRBRdate name="XMLConversion" date="2025-04-23"/>
+          <FRBRauthor href="#openLawsGR"/>
+        </FRBRManifestation>
+      </identification>
+      <lifecycle source="#openLawsGR">
+        <eventRef source="#original" type="generation" date="2025-04-23"/>
+      </lifecycle>
+      <workflow source="#openLawsGR">
+        <step date="2018-06-12" by="#SCCC" refersTo="#courtConferenceDate"/>
+        <step date="2018-05-07" by="#SCCC" refersTo="#publicHearingDate"/>
+      </workflow>
+      <references source="#openLawsGR">
+        <original eId="original" href="/akn/gr/judgment/SCCC/2018/1345/ell@" showAs="Original"/>
+        <TLCEvent eId="publicHearingDate" href="/akn/ontology/event/gr/publicHearingDate" showAs="Ημερομηνία δημόσιας συνεδρίασης"/>
+        <TLCEvent eId="courtConferenceDate" href="/akn/ontology/event/gr/courtConferenceDate" showAs="Ημερομηνία διάσκεψης"/>
+      </references>
+    </meta>
+    <header>
+      <p>Αριθμός<docNumber>1345/2018</docNumber></p>
+      <p>
+        <docProponent>ΤΟ ΔΙΚΑΣΤΗΡΙΟ ΤΟΥ ΑΡΕΙΟΥ ΠΑΓΟΥ</docProponent>
+      </p>
+      <p>A1' Πολιτικό Τμήμα</p>
+      <p>ΣΥΓΚΡΟΤΗΘΗΚΕ από τους Δικαστές: Γεώργιο Λέκκα Αντιπρόεδρο του Αρείου Πάγου, Αθανάσιο Καγκάνη, Αλτάνα Κοκκοβού, Αγγελική Τζαβάρα και Θωμά Γκατζογιάννη, Αρεοπαγίτες.</p>
+      <p>ΣΥΝΕΔΡΙΑΣΕ, δημόσια στο ακροατήριό του, στις <date refersTo="publicHearingDate" date="2018-05-07">7 Μαΐου 2018</date>, με την παρουσία και του Γραμματέα Γεωργίου Φιστούρη, για να δικάσει την υπόθεση μεταξύ:
+Του αναιρεσείοντος - καλούντος: Η. Β. του Β., κατοίκου ..., ο οποίος εκπροσωπήθηκε από τον πληρεξούσιο δικηγόρο του Αλέξιο Αλεξίου με δήλωση, κατ' <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_242__par_2">άρθρο 242 παρ. 2 ΚΠολΔ</ref>, και κατέθεσε προτάσεις. Της αναιρεσιβλήτου - καθ' ης η κλήση: Ανώνυμης Εταιρείας με την επωνυμία "...", που εδρεύει στο . χιλιόμετρο ... και εκπροσωπείται νόμιμα, η οποία εκπροσωπήθηκε από την πληρεξούσια δικηγόρο της Φωτεινή Μαυρίδου με δήλωση, κατ' <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_242__par_2">άρθρο 242 παρ. 2 ΚΠολΔ</ref>, και κατέθεσε προτάσεις.</p>
+    </header>
+    <judgmentBody>
+      <introduction>
+        <p>Η ένδικη διαφορά άρχισε με την από 7/12/2010 αγωγή της ήδη αναιρεσιβλήτου, που κατατέθηκε στο Μονομελές Πρωτοδικείο Θεσσαλονίκης.</p>
+        <p>Εκδόθηκε η 34122/2011 απόφαση του ίδιου Δικαστηρίου, την αναίρεση της οποίας ζήτησε ο αναιρεσείων με την από 22/7/2014 αίτησή του, επί της οποίας εκδόθηκε η <ref href="/akn/gr/judgment/SCCC/2017/964/!main">964/2017 απόφαση του Αρείου Πάγου</ref> που κήρυξε την συζήτηση απαράδεκτη. Την υπόθεση επανέφερε προς συζήτηση ο αναιρεσείων με την από 18/9/2017 κλήση του.</p>
+        <p>Κατά τη συζήτηση της αίτησης αυτής, που εκφωνήθηκε από το πινάκιο, οι διάδικοι παραστάθηκαν, όπως σημειώνεται πιο πάνω. Ο Εισηγητής, Αρεοπαγίτης Αθανάσιος Καγκάνης, ανέγνωσε την από 5/2/2015 έκθεση, του κωλυομένου να μετάσχει στη σύνθεση του παρόντος Δικαστηρίου Αρεοπαγίτη Δημητρίου Γεώργα, με την οποία εισηγήθηκε να γίνει δεκτός ο πρώτος λόγος αναιρέσεως και να απορριφθούν οι λοιποί λόγοι.</p>
+      </introduction>
+      <motivation>
+        <p>ΣΚΕΦΘΗΚΕ ΣΥΜΦΩΝΑ ΜΕ ΤΟ ΝΟΜΟ</p>
+        <blockList eId="motivation_list_1">
+          <item eId="motivation_list_1__item_1">
+            <p>Από τις διατάξεις του άρθρου <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_76">76</ref>§§<ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_76__par_1">1</ref>, <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_76__par_3">3</ref> και <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_76__par_4">4</ref> <ref href="/akn/gr/act/presidentialDecree/1985/503/!main">ΚΠολΔ</ref> προκύπτει ότι, αν κάποιος αναγκαίος ομόδικος άσκησε ένδικο μέσο, θεωρούνται ως ασκήσαντες αυτό και οι ομόδικοί του, αν και αδρανήσαντες. Στην περίπτωση δε αυτή (της πλασματικής ασκήσεως ενδίκου μέσου), πρέπει οι μη ασκήσαντες ομόδικοι να καλούνται σε όλες τις συζητήσεις του ενδίκου μέσου, με την ποινή, σε διαφορετική περίπτωση, του απαραδέκτου της συζητήσεως ως προς όλους τους διαδίκους (<ref href="/akn/gr/judgment/SCCC/2010/1103/!main">ΑΠ 1103/2010</ref><ref href="/akn/gr/judgment/SCCC/2001/1171/!main"> ΑΠ 1171/2001</ref>).</p>
+          </item>
+          <item eId="motivation_list_1__item_2">
+            <p>Στην προκειμένη περίπτωση από τα στοιχεία του φακέλου της δικογραφίας προκύπτει ότι, επί της, από 7.12.10, αγωγής της αναιρεσιβλήτου κατά του αναιρεσείοντος (ως εγγυητού) και της μη διαδίκου στην παρούσα δίκη εταιρείας με την επωνυμία "..." (ως πρωτοφειλετρίας) εκδόθηκε η προσβαλλόμενη υπ' αριθμ. 34122/2011 τελεσίδικη απόφαση του Μον/λους Πρωτοδικείου Θεσσαλονίκης κατά της οποίας ο, εκ των ως άνω (ηττηθέντων) εναγομένων, εγγυητής Η. Β., άσκησε την ένδικη (από 22.7.2014 και με αριθμ. καταθ. 3009/2014), αίτηση αναιρέσεως, στρεφομένη κατά της εναγούσης αναιρεσιβλήτου και φερόμενη προς κρίση με την, από 18.9.2017, κλήση του αναιρεσείοντος ύστερα από κήρυξη απαραδέκτου της επ' αυτής συζητήσεως (κατά τη δικάσιμο της 3.4.2017), με την 964/2017 απόφαση του τμήματος αυτού για τον αναφερόμενο σ' αυτήν λόγο. Ενόψει όμως του ότι από τα στοιχεία της δικογραφίας δεν προκύπτει ούτε άλλωστε γίνεται επίκληση, από τους διαδίκους, κλήτευσης προς παράστασή της στην παρούσα δίκη της συνεναγομένης του αναιρεσείοντος (Η. Β.), ως άνω ανωνύμου εταιρείας (... Α.Ε.), με την οποία αυτός συνδέεται με το δεσμό της αναγκαστικής ομοδικίας, ενόψει της προς απόκρουση της αγωγής προβαλλομένης απ' αυτούς (συνεναγομένους - ομοδίκους) κοινής υπερασπίσεως περί ανυπαρξίας του χρέους (<ref href="/akn/gr/judgment/SCCC/1995/1268/!main">ΑΠ 1268/95</ref>,<ref href="/akn/gr/judgment/SCCC/1995/1264/!main"> ΑΠ 1264/95</ref>,<ref href="/akn/gr/judgment/SCCC/2000/1598/!main"> ΑΠ 1598/2000</ref>), πρέπει, σύμφωνα, με τα εκτιθέμενα στη μείζονα σκέψη, να κηρυχθεί (και πάλι) απαράδεκτη η συζήτηση επί της ενδίκου αιτήσεως αναιρέσεως.</p>
+          </item>
+        </blockList>
+      </motivation>
+      <decision>
+        <p>ΓΙΑ ΤΟΥΣ ΛΟΓΟΥΣ ΑΥΤΟΥΣ</p>
+        <p>ΚΗΡΥΣΣΕΙ απαράδεκτη τη συζήτηση την (από 22.7.2014 και με αριθμ. καταθ. 3009/2014) αιτήσεως αναιρέσεως της <ref href="/akn/gr/judgment/FirstInstanceCourtThessaloniki/2011/34122/!main">34122/2011 αποφάσεως του Μονομελούς Πρωτοδικείου Θεσσαλονίκης</ref>.</p>
+      </decision>
+    </judgmentBody>
+    <conclusions>
+      <p>ΚΡΙΘΗΚΕ, αποφασίσθηκε στην Αθήνα, στις <date refersTo="courtConferenceDate" date="2018-06-12">12 Ιουνίου 2018</date>.</p>
+      <p>ΔΗΜΟΣΙΕΥΘΗΚΕ σε δημόσια</p>
+      <p> συνεδρίαση στο ακροατήριό του, στην Αθήνα, στις 16 Αυγούστου 2018.</p>
+      <p>Ο ΑΝΤΙΠΡΟΕΔΡΟΣ Ο ΓΡΑΜΜΑΤΕΑΣ</p>
+    </conclusions>
+  </judgment>
+</akomaNtoso>

@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd">
+  <judgment name="decision">
+    <meta>
+      <identification source="#openLawsGR">
+        <FRBRWork>
+          <FRBRthis value="/akn/gr/judgment/SCCC/2019/359/!main"/>
+          <FRBRuri value="/akn/gr/judgment/SCCC/2019/359/"/>
+          <FRBRdate name="courtConferenceDate" date="2019-02-12"/>
+          <FRBRauthor href="#SCCC"/>
+          <FRBRcountry value="gr"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/gr/judgment/SCCC/2019/359/ell@/!main"/>
+          <FRBRuri value="/akn/gr/judgment/SCCC/2019/359/ell@"/>
+          <FRBRdate name="courtConferenceDate" date="2019-02-12"/>
+          <FRBRauthor href="#SCCC"/>
+          <FRBRlanguage language="ell"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/gr/judgment/SCCC/2019/359/ell@/!main.xml"/>
+          <FRBRuri value="/akn/gr/judgment/SCCC/2019/359/ell@.xml"/>
+          <FRBRdate name="XMLConversion" date="2025-04-23"/>
+          <FRBRauthor href="#openLawsGR"/>
+        </FRBRManifestation>
+      </identification>
+      <lifecycle source="#openLawsGR">
+        <eventRef source="#original" type="generation" date="2025-04-23"/>
+      </lifecycle>
+      <workflow source="#openLawsGR">
+        <step date="2019-02-12" by="#SCCC" refersTo="#courtConferenceDate"/>
+        <step date="2018-12-10" by="#SCCC" refersTo="#publicHearingDate"/>
+      </workflow>
+      <references source="#openLawsGR">
+        <original eId="original" href="/akn/gr/judgment/SCCC/2019/359/ell@" showAs="Original"/>
+        <TLCEvent eId="publicHearingDate" href="/akn/ontology/event/gr/publicHearingDate" showAs="Ημερομηνία δημόσιας συνεδρίασης"/>
+        <TLCEvent eId="courtConferenceDate" href="/akn/ontology/event/gr/courtConferenceDate" showAs="Ημερομηνία διάσκεψης"/>
+      </references>
+    </meta>
+    <header>
+      <p>Αριθμός<docNumber>359/2019</docNumber></p>
+      <p>
+        <docProponent>ΤΟ ΔΙΚΑΣΤΗΡΙΟ ΤΟΥ ΑΡΕΙΟΥ ΠΑΓΟΥ</docProponent>
+      </p>
+      <p>Α2' Πολιτικό Τμήμα</p>
+      <p>ΣΥΓΚΡΟΤΗΘΗΚΕ από τους Δικαστές: Ιωσήφ Τσαλαγανίδη, Αντιπρόεδρο του Αρείου Πάγου, Αβροκόμη Θούα - Εισηγήτρια, Γεώργιο Αποστολάκη, Θεόδωρο Κανελλόπουλο και Κυριάκο Οικονόμου, Αρεοπαγίτες.</p>
+      <p>ΣΥΝΗΛΘΕ σε δημόσια συνεδρίαση στο Κατάστημά του, στις <date refersTo="publicHearingDate" date="2018-12-10">10 Δεκεμβρίου 2018</date>, με την παρουσία και της γραμματέως Θεοδώρας Παπαδημητρίου, για να δικάσει την υπόθεση μεταξύ:</p>
+      <p>Των αναιρεσειόντων: 1) Κ. χήρας Ε. Μ. το γένος Χ. Α., κατοίκου ..., 2) Ζ. χήρας Μ. Κ. το γένος Ε. Μ., κατοίκου ..., 3) Κ. Μ. του Ε. συζύγου Μ. Ε., κατοίκου ..., 4) Θ. χήρας Ν. Μ. το γένος Β. Χ., κατοίκου ..., 5) Θ. Μ. του Ν. συζύγου Γ. Σ., κατοίκου ... και 6) Μ. Μ. του Ν. συζύγου Κ. Γ., κατοίκου ..., οι οποίοι δεν παραστάθηκαν στο ακροατήριο. Toυ αναιρεσιβλήτου: Ελληνικού Δημοσίου που εκπροσωπείται νόμιμα από τον Υπουργό Οικονομικών, που κατοικοεδρεύει στην Αθήνα. Εκπροσωπήθηκε από την πληρεξούσιά του Μαριέττα Βλαχοπάνου, Πάρεδρο του Νομικού Συμβουλίου του Κράτους, με δήλωση του <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_242__par_2">άρθρου 242 παρ.2 του Κ.Πολ.Δ.</ref></p>
+    </header>
+    <judgmentBody>
+      <introduction>
+        <p>Η ένδικη διαφορά άρχισε με την από 21-6-2011 αγωγή των ήδη αναιρεσειόντων, που κατατέθηκε στο Ειρηνοδικείο Λαγκαδά. Εκδόθηκαν οι αποφάσεις: <ref href="/akn/gr/judgment/implicit_dikastirio_name/2012/146/!main">146/2012 του ίδιου Δικαστηρίου</ref> και <ref href="/akn/gr/judgment/FirstInstanceCourtThessaloniki/2015/4190/!main">4190/2015 του Μονομελούς Πρωτοδικείου Θεσσαλονίκης</ref>. Την αναίρεση της τελευταίας απόφασης ζητούν οι αναιρεσείοντες με την από 5-5-2015 αίτησή τους.</p>
+        <p>Κατά τη συζήτηση της αίτησης αυτής, που εκφωνήθηκε από το πινάκιο, παραστάθηκε μόνο το αναιρεσίβλητο, όπως σημειώνεται πιο πάνω. Η εισηγήτρια Αρεοπαγίτης Αβροκόμη Θούα ανέγνωσε την από 30-11-2018 έκθεσή της, με την οποία εισηγήθηκε την απόρριψη της κρινόμενης αίτησης.</p>
+      </introduction>
+      <motivation>
+        <p>ΣΚΕΦΘΗΚΕ ΣΥΜΦΩΝΑ ΜΕ ΤΟ ΝΟΜΟ</p>
+        <blockList eId="motivation_list_1">
+          <item eId="motivation_list_1__item_1">
+            <p>Από τις διατάξεις του <ref href="/akn/gr/act/presidentialDecree/1985/503/!main~art_576__par_1->art_576__par_3">άρθρου 576 παρ.1-3 ΚΠολΔ</ref> προκύπτει, ότι, αν κατά τη συζήτηση της αίτησης αναίρεσης δεν εμφανισθεί και δεν μετάσχει με τον προσήκοντα τρόπο σ' αυτή κάποιος διάδικος, το δικαστήριο ερευνά αυτεπαγγέλτως, ποιός από τους διαδίκους επέσπευσε τη συζήτηση της αίτησης αναίρεσης και, αν μεν τη συζήτησή την επέσπευσε εγκύρως ο απολειπόμενος διάδικος, κλητεύοντάς νόμιμα και εμπρόθεσμα τους λοιπούς ή κλητεύθηκε ο ίδιος νόμιμα και εμπρόθεσμα από τον επισπεύδοντα τη συζήτηση άλλο διάδικο, η υπόθεση συζητείται ως να ήταν παρόντες όλοι οι διάδικοι. Διαφορετικά, αν δηλαδή δεν προκύπτει έγκυρη επίσπευση της συζήτησης , αυτή κηρύσσεται απαράδεκτη και η υπόθεση επαναφέρεται με νέα κλήση (<ref href="/akn/gr/judgment/SCCC/2016/372/!main">ΑΠ372/2016</ref>).</p>
+          </item>
+          <item eId="motivation_list_1__item_2">
+            <p>Στην προκειμένη περίπτωση, όταν η υπόθεση εκφωνήθηκε κατά την σειρά εγγραφής της στο πινάκιο στην αναφερόμενη στην αρχή της παρούσας δικάσιμο,οι αναιρεσείουσες δεν παραστάθηκαν,ούτε εκπροσωπήθηκαν με οποιονδήποτε νόμιμο τρόπο. Ενόψει όμως του ότι, δεν προκύπτει ποιός από τους διαδίκους επέσπευσε εγκύρως τη συζήτηση της υπόθεσης, εφόσον το μεν αναιρεσίβλητο δεν προσκομίζει,ούτε επικαλείται αποδεικτικό επίδοσης της κρινόμενης αναίρεσης και κλήσης των απολειπομένων αναιρεσειουσών να παραστούν κατά την εν λόγω δικάσιμο, οι δε τελευταίες, δεν προκύπτει,από το φάκελο της δικογραφίας ότι μερίμνησαν οι ίδιες για την επίσπευση της συζήτησης κατά την δικάσιμο αυτή, πρέπει η συζήτηση της κρινόμενης αίτησης αναίρεσης να κηρυχθεί απαράδεκτη.</p>
+          </item>
+        </blockList>
+      </motivation>
+      <decision>
+        <p>ΓΙΑ ΤΟΥΣ ΛΟΓΟΥΣ ΑΥΤΟΥΣ</p>
+        <p>Κηρύσσει απαράδεκτη τη συζήτηση της από 5 Μαΐου 2015 αίτησης των Κ., Ζ., Κ., Θ., Θ. και Μ. Μ. για αναίρεση της <ref href="/akn/gr/judgment/FirstInstanceCourtThessaloniki/2015/4190/!main">4190/2015 απόφασης του Μονομελούς Πρωτοδικείου Θεσσαλονίκης</ref>.</p>
+      </decision>
+    </judgmentBody>
+    <conclusions>
+      <p>ΚΡΙΘΗΚΕ, αποφασίσθηκε στην Αθήνα, στις <date refersTo="courtConferenceDate" date="2019-02-12">12 Φεβρουαρίου 2019</date>.</p>
+      <p>ΔΗΜΟΣΙΕΥΘΗΚΕ σε δημόσια</p>
+      <p> συνεδρίαση στο ακροατήριό του, στην Αθήνα, στις 27 Μαρτίου 2019.</p>
+      <p>Ο ΑΝΤΙΠΡΟΕΔΡΟΣ</p>
+      <p>Η ΓΡΑΜΜΑΤΕΑΣ</p>
+    </conclusions>
+  </judgment>
+</akomaNtoso>

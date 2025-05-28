@@ -1,0 +1,9 @@
+2025-05-15 15:28:05,866 - createAreiosPagosJudgmentsAkn.py - ERROR - ❌ Failed Politikh Ypouesh Areioy Pagoy  Ar 143_2017, 2_12_2017.txt
+Traceback (most recent call last):
+  File "/Users/vasileioscharalampopoulos/Documents/thesis/OpenLawGR/judgmentsV2/createAreiosPagosJudgmentsAkn.py", line 132, in <module>
+    extract_header_fields(txt_path)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/vasileioscharalampopoulos/Documents/thesis/OpenLawGR/judgmentsV2/createAreiosPagosJudgmentsAkn.py", line 53, in extract_header_fields
+    raise ValueError(f"Not enough header lines in {path}")
+ValueError: Not enough header lines in /Users/vasileioscharalampopoulos/Documents/thesis/OpenLawGR/judgmentsV2/legal_texts/areios_pagos/2017/Politikh Ypouesh Areioy Pagoy  Ar 143_2017, 2_12_2017.txt
+2025-05-15 15:28:05,866 - createAreiosPagosJudgmentsAkn.py - INFO - Finished Politikh Ypouesh Areioy Pagoy  Ar 143_2017, 2_12_2017.txt in 0.0s

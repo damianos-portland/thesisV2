@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd">
+  <judgment name="decision">
+    <meta>
+      <identification source="#openLawsGR">
+        <FRBRWork>
+          <FRBRthis value="/akn/gr/judgment/SCCC/2020/52/!main"/>
+          <FRBRuri value="/akn/gr/judgment/SCCC/2020/52/"/>
+          <FRBRdate name="courtConferenceDate" date="2020-01-10"/>
+          <FRBRauthor href="#SCCC"/>
+          <FRBRcountry value="gr"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/gr/judgment/SCCC/2020/52/ell@/!main"/>
+          <FRBRuri value="/akn/gr/judgment/SCCC/2020/52/ell@"/>
+          <FRBRdate name="courtConferenceDate" date="2020-01-10"/>
+          <FRBRauthor href="#SCCC"/>
+          <FRBRlanguage language="ell"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/gr/judgment/SCCC/2020/52/ell@/!main.xml"/>
+          <FRBRuri value="/akn/gr/judgment/SCCC/2020/52/ell@.xml"/>
+          <FRBRdate name="XMLConversion" date="2025-04-23"/>
+          <FRBRauthor href="#openLawsGR"/>
+        </FRBRManifestation>
+      </identification>
+      <lifecycle source="#openLawsGR">
+        <eventRef source="#original" type="generation" date="2025-04-23"/>
+      </lifecycle>
+      <workflow source="#openLawsGR">
+        <step date="2020-01-10" by="#SCCC" refersTo="#courtConferenceDate"/>
+        <step date="2019-11-26" by="#SCCC" refersTo="#publicHearingDate"/>
+      </workflow>
+      <references source="#openLawsGR">
+        <original eId="original" href="/akn/gr/judgment/SCCC/2020/52/ell@" showAs="Original"/>
+        <TLCEvent eId="publicHearingDate" href="/akn/ontology/event/gr/publicHearingDate" showAs="Ημερομηνία δημόσιας συνεδρίασης"/>
+        <TLCEvent eId="courtConferenceDate" href="/akn/ontology/event/gr/courtConferenceDate" showAs="Ημερομηνία διάσκεψης"/>
+      </references>
+    </meta>
+    <header>
+      <p>ΑΡΙΘΜΟΣ<docNumber>52/2020</docNumber></p>
+      <p>
+        <docProponent>ΤΟ ΔΙΚΑΣΤΗΡΙΟ ΤΟΥ ΑΡΕΙΟΥ ΠΑΓΟΥ</docProponent>
+      </p>
+      <p>Β2' ΠΟΛΙΤΙΚΟ ΤΜΗΜΑ</p>
+      <p>Συγκροτήθηκε από τους Δικαστές: Πηνελόπη Ζωντανού, Αντιπρόεδρο του Αρείου Πάγου, Νικόλαο Πιπιλίγκα, Λουκά Μόρφη, Όλγα Σχετάκη-Μπονάτου και Κωνσταντίνα Αλεβιζοπούλου - Εισηγήτρια, Αρεοπαγίτες.</p>
+      <p>Συνεδρίασε δημόσια στο Κατάστημά του, στις <date refersTo="publicHearingDate" date="2019-11-26">26 Νοεμβρίου 2019</date>, με την παρουσία και της Γραμματέως Αγγελικής Ανυφαντή, για να δικάσει την εξής υπόθεση μεταξύ:
+Του αναιρεσείοντος: Κ. Ρ. Δ., κατοίκου ..., ο οποίος παραστάθηκε με τον πληρεξούσιο δικηγόρο του Παναγιώτη Σαπουντζάκη, που δεν κατέθεσε προτάσεις. Της αναιρεσίβλητης: ανώνυμης εταιρείας με την επωνυμία "... ΑΒΕΕ" που εδρεύει στη ... και εκπροσωπείται νόμιμα, η οποία εκπροσωπήθηκε από τον πληρεξούσιο δικηγόρο της Ιωάννη Οικονόμου, που κατέθεσε προτάσεις. Κατά την εκφώνηση της υποθέσεως από το πινάκιο, οι διάδικοι παραστάθηκαν όπως σημειώνεται πιο πάνω. Στο σημείο αυτό ο πληρεξούσιος του αναιρεσείοντος δήλωσε ότι ο αναιρεσείων παραιτείται από το δικόγραφο της από 28/03/2019 αίτησης για αναίρεση της <ref href="/akn/gr/judgment/AppelateCourtAthens/2017/1247/!main">1247/2017 αποφάσεως του Εφετείου Αθηνών</ref>.</p>
+    </header>
+    <judgmentBody>
+      <introduction>
+        <p>Ο πληρεξούσιος της αναιρεσίβλητης ζήτησε την καταδίκη του αντιδίκου της στα δικαστικά έξοδα.</p>
+        <p>Το Δικαστήριο διασκέφθηκε με τη συμμετοχή και της Γραμματέως και επιφυλάχθηκε να αποφασίσει.</p>
+      </introduction>
+      <motivation>
+        <p>ΣΚΕΦΘΗΚΕ ΣΥΜΦΩΝΑ ΜΕ ΤΟ ΝΟΜΟ</p>
+        <blockList eId="motivation_list_1">
+          <item eId="motivation_list_1__item_1">
+            <p>Από to συνδυασμό των διατάξεων των άρθρων 94 παρ. <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_1">1</ref>, <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_97">97</ref>, <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_98">98</ref>, <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_188">188</ref> παρ. <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_1">1</ref>, <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_190">190</ref>, <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_191">191</ref> παρ. <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_2">2</ref>, <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_192">192</ref>, <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_294">294</ref>, <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_295">295</ref> παρ. <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_1">1</ref>, <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_297">297</ref>, <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_299">299</ref>, <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_573">573</ref> παρ. <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_1">1</ref> <ref href="/akn/gr/act/presidentialDecree/1985/503/!main">Κ.Πολ.Δ.</ref> προκύπτουν τα ακόλουθα: Ο αναιρεσείων μπορεί με δήλωση που καταχωρίζεται στα πρακτικά συνεδρίασης του δικαστηρίου ή με δικόγραφο που επιδίδεται στον αναιρεσίβλητο, να παραιτηθεί από το δικόγραφο της αίτησης αναίρεσης χωρίς τη συναίνεση του αντιδίκου του, εφόσον δεν προχώρησε στην προφορική συζήτηση της ουσίας της υπόθεσης, ενώ η παραίτηση που γίνεται αργότερα είναι απαράδεκτη, εφόσον ο αναιρεσίβλητος προβάλλει αντίρρηση και πιθανολογεί ότι έχει έννομο συμφέρον η δίκη να περατωθεί με την έκδοση οριστικής απόφασης. Η παραίτηση από το δικόγραφο της αίτησης αναίρεσης, για την οποία αρκεί η ύπαρξη γενικής μόνο πληρεξουσιότητας στο πρόσωπο του δικηγόρου του παραιτουμένου, έχει ως αποτέλεσμα ότι η αίτηση αναίρεσης θεωρείται πως δεν ασκήθηκε και η δίκη καταργείται, χωρίς να είναι αναγκαία η έκδοση απόφασης που να κηρύσσει την κατάργησή της. Στην περίπτωση αυτή η εκκαθάριση των δικαστικών εξόδων γίνεται κατά τη διαδικασία των άρθρων 679 επ. <ref href="/akn/gr/act/presidentialDecree/1985/503/!main">Κ.Πολ.Δ.</ref> από το Μονομελές Πρωτοδικείο. Δεν αποκλείεται όμως και η έκδοση απόφασης του δικαστηρίου που να αναγνωρίζει το κύρος της παραίτησης και να κηρύσσει καταργημένη τη δίκη, αν ο αντίδικος του παραιτουμένου αναιρεσίβλητος, εμμένει για οποιοδήποτε λόγο στην έκδοση αποφάσεως, και ιδίως αν αιτείται την καταβολή των δικαστικών εξόδων στα οποία αυτός υποβλήθηκε μέχρι την κατά τα άνω παραίτηση. Τα έξοδα κατά τη διάταξη του <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_188__par_1">άρθρου 188 παρ. 1 Κ.Πολ.Δ.</ref>, βαρύνουν τον παραιτούμενο (<ref href="/akn/gr/judgment/SCCC/2019/146/!main">ΑΠ 146/2019</ref>,<ref href="/akn/gr/judgment/SCCC/2019/151/!main"> ΑΠ 151/2019</ref>,<ref href="/akn/gr/judgment/SCCC/2018/913/!main"> ΑΠ 913/2018</ref>).</p>
+          </item>
+          <item eId="motivation_list_1__item_2">
+            <p>Στην προκειμένη περίπτωση ο πληρεξούσιος δικηγόρος του αναιρεσείοντος μετά του οποίου παρέστη κατά την εκφώνηση της υπόθεσης από το πινάκιο, διατύπωσε τη δήλωση στο ακροατήριο, κατά τη συζήτηση της υπόθεσης, που καταχωρήθηκε στα ταυτάριθμα με την παρούσα απόφαση πρακτικά συνεδρίασης, ότι ο αναιρεσείων παραιτείται από το δικόγραφο της από 28.3.2019 και με αριθμό κατάθεσης 3132/28.3.2019 ένδικης αίτησης αναίρεσης, κατά της <ref href="/akn/gr/judgment/AppelateCourtAthens/2017/1247/!main">με αριθ. 1247/2017 απόφασης του Μονομελούς Εφετείου Αθηνών</ref>, που εκδόθηκε αντιμωλία των διαδίκων κατά την ειδική διαδικασία των εργατικών διαφορών. Επομένως, πρέπει να θεωρηθεί η αίτηση αναίρεσης ως μη ασκηθείσα και να κηρυχθεί καταργημένη η ανοιγείσα με αυτή δίκη. Περαιτέρω, το αίτημα του παραστάντος πληρεξουσίου της αναιρεσίβλητης εταιρείας, το οποίο διατυπώθηκε προφορικώς στο ακροατήριο και καταχωρήθηκε στα πρακτικά, περί επιβολής σε βάρος του παραιτηθέντος αναιρεσείοντος, των δικαστικών εξόδων αυτής, τα οποία προκλήθηκαν από την άσκηση της αίτησης αναίρεσης και από την παράστασή της, ενόψει της συζήτησης αυτής στο ακροατήριο, για την οποία προκατέθεσε τις από 4.11.2019 προτάσεις, είναι νόμιμο (<ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_188__par_1">άρθρ. 188 παρ. 1 Κ.Πολ.Δ.</ref>) Επομένως, πρέπει να γίνει δεκτό ως βάσιμο και στην ουσία, κατά τα οριζόμενα στο διατακτικό.</p>
+          </item>
+        </blockList>
+      </motivation>
+      <decision>
+        <p>ΓΙΑ ΤΟΥΣ ΛΟΓΟΥΣ ΑΥΤΟΥΣ</p>
+        <p>ΘΕΩΡΕΙ πως δεν ασκήθηκε η από 28.3.2019 και με αριθ. κατάθ. 3132/28.3.2019 αίτηση αναίρεσης κατά της <ref href="/akn/gr/judgment/AppelateCourtAthens/2017/1247/!main">με αριθ. 1247/2017 απόφασης του Μονομελούς Εφετείου Αθηνών</ref>.</p>
+        <p>ΚΗΡΥΣΣΕΙ καταργημένη την ανοιγείσα με αυτή δίκη.</p>
+        <p><outcome>ΚΑΤΑΔΙΚΑΖΕΙ</outcome> τον αναιρεσείοντα στην πληρωμή των δικαστικών εξόδων της αναιρεσίβλητης εταιρίας, τα οποία ορίζει στο ποσό των χιλίων οκτακοσίων (1800) ευρώ.</p>
+      </decision>
+    </judgmentBody>
+    <conclusions>
+      <p>Κρίθηκε αποφασίσθηκε στην Αθήνα, στις <date refersTo="courtConferenceDate" date="2020-01-10">10 Ιανουαρίου 2020</date>.</p>
+      <p>Δημοσιεύθηκε στην Αθήνα, σε δημόσια</p>
+      <p> συνεδρίαση στο ακροατήριό του, στις 23 Ιανουαρίου 2020.</p>
+      <p>Η ΑΝΤΙΠΡΟΕΔΡΟΣ Η ΓΡΑΜΜΑΤΕΑΣ</p>
+    </conclusions>
+  </judgment>
+</akomaNtoso>

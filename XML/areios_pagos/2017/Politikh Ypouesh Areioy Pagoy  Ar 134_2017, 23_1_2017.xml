@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd">
+  <judgment name="decision">
+    <meta>
+      <identification source="#openLawsGR">
+        <FRBRWork>
+          <FRBRthis value="/akn/gr/judgment/SCCC/2017/134/!main"/>
+          <FRBRuri value="/akn/gr/judgment/SCCC/2017/134/"/>
+          <FRBRdate name="courtConferenceDate" date="2017-01-23"/>
+          <FRBRauthor href="#SCCC"/>
+          <FRBRcountry value="gr"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/gr/judgment/SCCC/2017/134/ell@/!main"/>
+          <FRBRuri value="/akn/gr/judgment/SCCC/2017/134/ell@"/>
+          <FRBRdate name="courtConferenceDate" date="2017-01-23"/>
+          <FRBRauthor href="#SCCC"/>
+          <FRBRlanguage language="ell"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/gr/judgment/SCCC/2017/134/ell@/!main.xml"/>
+          <FRBRuri value="/akn/gr/judgment/SCCC/2017/134/ell@.xml"/>
+          <FRBRdate name="XMLConversion" date="2025-05-15"/>
+          <FRBRauthor href="#openLawsGR"/>
+        </FRBRManifestation>
+      </identification>
+      <lifecycle source="#openLawsGR">
+        <eventRef source="#original" type="generation" date="2025-05-15"/>
+      </lifecycle>
+      <workflow source="#openLawsGR">
+        <step date="2017-01-23" by="#SCCC" refersTo="#courtConferenceDate"/>
+        <step date="2016-11-21" by="#SCCC" refersTo="#publicHearingDate"/>
+      </workflow>
+      <references source="#openLawsGR">
+        <original eId="original" href="/akn/gr/judgment/SCCC/2017/134/ell@" showAs="Original"/>
+        <TLCEvent eId="publicHearingDate" href="/akn/ontology/event/gr/publicHearingDate" showAs="Ημερομηνία δημόσιας συνεδρίασης"/>
+        <TLCEvent eId="courtConferenceDate" href="/akn/ontology/event/gr/courtConferenceDate" showAs="Ημερομηνία διάσκεψης"/>
+      </references>
+    </meta>
+    <header>
+      <p>Αριθμός<docNumber>134/2017</docNumber></p>
+      <p>
+        <docProponent>ΤΟ ΔΙΚΑΣΤΗΡΙΟ ΤΟΥ ΑΡΕΙΟΥ ΠΑΓΟΥ</docProponent>
+      </p>
+      <p>Α1' Πολιτικό Τμήμα</p>
+      <p>ΣΥΓΚΡΟΤΗΘΗΚΕ από τους Δικαστές: Βασίλειο Πέππα, Προεδρεύοντα Αρεοπαγίτη (κωλυομένου του Αντιπροέδρου του Αρείου Πάγου Γεράσιμου Φουρλάνου), Γεώργιο Λέκκα-Εισηγητή, Ιωάννη Μπαλιτσάρη, Αγγελική Τζαβάρα και Θωμά Γκατζογιάννη, Αρεοπαγίτες.</p>
+      <p>ΣΥΝΕΔΡΙΑΣΕ δημόσια στο ακροατήριό του, στις <date refersTo="publicHearingDate" date="2016-11-21">21 Νοεμβρίου 2016</date>, με την παρουσία και της Γραμματέως Θεοδώρας Παπαδημητρίου, για να δικάσει την υπόθεση μεταξύ:</p>
+      <p>Του αναιρεσείοντος: Κ. Κ. του Σ., κατοίκου ..., ατομικά και για λογαριασμό της ανήλικης θυγατέρας του Μ. Κ. της οποίας ασκεί την επιμέλεια, ο οποίος εκπροσωπήθηκε από την πληρεξούσια δικηγόρο του Κωνσταντίνα Χόρτη και κατέθεσε προτάσεις.</p>
+      <p>Της αναιρεσιβλήτου: Μ. Κ. του Α., κατοίκου ..., η οποία εκπροσωπήθηκε από την πληρεξούσια δικηγόρο της Σοφία Χερουβείμ με δήλωση κατ' <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_242__par_2">άρθρο 242 παρ. 2 ΚΠολΔ</ref> και κατέθεσε προτάσεις.</p>
+    </header>
+    <judgmentBody>
+      <introduction>
+        <p>Κατά την εκφώνηση της υπόθεσης από το πινάκιο, οι διάδικοι παραστάθηκαν, όπως σημειώνεται πιο πάνω. Στο σημείο αυτό, η πληρεξούσια του ως άνω αναιρεσείοντος, αφού έλαβε το λόγο από τον Πρόεδρο, δήλωσε, ότι ο αναιρεσείων παραιτείται από το δικόγραφο της από 9/6/2015 κρινόμενης αίτησης για αναίρεση της <ref href="/akn/gr/judgment/AppelateCourtThessaloniki/2015/596/!main">596/2015 απόφασης του Μονομελούς Εφετείου Θεσσαλονίκης</ref>. Το Δικαστήριο διασκέφτηκε με τη συμμετοχή και της Γραμματέως και επιφυλάχθηκε να αποφασίσει.</p>
+      </introduction>
+      <motivation>
+        <p>ΣΚΕΦΘΗΚΕ ΣΥΜΦΩΝΑ ΜΕ ΤΟ ΝΟΜΟ</p>
+        <blockList eId="motivation_list_1">
+          <item eId="motivation_list_1__item_1">
+            <p>Από το συνδυασμό των διατάξεων των άρθρ. 94 § <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_1">1</ref>, <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_97">97</ref>, <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_98">98</ref>, <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_188">188</ref> § <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_1">1</ref>, <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_190">190</ref>, <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_191">191</ref> § <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_2">2</ref>, <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_192">192</ref>, <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_294">294</ref>, <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_295">295</ref> § <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_1">1</ref>, <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_297">297</ref>, <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_299">299</ref>, <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_573">573</ref> § <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_1">1</ref> <ref href="/akn/gr/act/presidentialDecree/1985/503/!main">ΚΠολΔ</ref> προκύπτουν τα ακόλουθα: Ο αναιρεσείων μπορεί με δήλωση που καταχωρίζεται στα πρακτικά συνεδρίασης του δικαστηρίου ή με δικόγραφο που επιδίδεται στον αναιρεσίβλητο να παραιτηθεί από το δικόγραφο της αίτησης αναίρεσης χωρίς τη συναίνεση του αντιδίκου του, εάν δεν προχώρησε στην προφορική συζήτηση της ουσίας της υπόθεσης, ενώ η παραίτηση που γίνεται αργότερα είναι απαράδεκτη, εφόσον ο αναιρεσίβλητος προβάλλει αντίρρηση και πιθανολογεί ότι έχει έννομο συμφέρον η δίκη να περατωθεί με την έκδοση οριστικής απόφασης. Η παραίτηση από το δικόγραφο της αίτησης αναίρεσης, για την οποία αρκεί η ύπαρξη γενικής μόνο πληρεξουσιότητας στο πρόσωπο του δικηγόρου του παραιτουμένου, έχει ως αποτέλεσμα ότι η αίτηση αναίρεσης θεωρείται πως δεν ασκήθηκε και η δίκη καταργείται χωρίς να είναι αναγκαία η έκδοση απόφασης που να κηρύσσει την κατάργησή της. Στην περίπτωση αυτή η εκκαθάριση των δικαστικών εξόδων γίνεται κατά τη διαδικασία των <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_679">αρθρ. 679 επ. ΚΠολΔ</ref> από το Μονομελές Πρωτοδικείο. Δεν αποκλείεται όμως και η έκδοση απόφασης του δικαστηρίου που να αναγνωρίζει το κύρος της παραίτησης και να κηρύσσει καταργημένη τη δίκη, οπότε με την απόφαση αυτή γίνεται και η εκκαθάριση των δικαστικών εξόδων, εφόσον υποβλήθηκε σχετικό αίτημα, το οποίο δεν είναι απαραίτητο να συνοδεύεται από κατάλογο των εξόδων (<ref href="/akn/gr/judgment/SCCC/2013/1180/!main">ΑΠ 1180/2013</ref>,<ref href="/akn/gr/judgment/SCCC/2011/1287/!main"> ΑΠ 1287/2011</ref>). Τα έξοδα βαρύνουν κατ' αρχήν τον παραιτούμενο, δεν αποδίδονται, όμως, τα έξοδα, στα οποία ο αντίδικός του υποβλήθηκε για τη σύνταξη και την κατάθεση προτάσεων, εφόσον γνώριζε ότι είχε ήδη γίνει έγκυρη παραίτηση, αφού τότε πρόκειται για έξοδα από απροσεξία ή από υπερβολική πρόνοια του αντιδίκου του. Στην προκειμένη περίπτωση, κατά την πιο πάνω δικάσιμο, μετά την εκφώνηση της υπόθεσης στο ακροατήριο από το πινάκιο και πριν από την προφορική συζήτηση της ουσίας αυτής, η πληρεξούσια δικηγόρος του αναιρεσείοντος έχουσα ειδική προς τούτο πληρεξουσιότητα (βλ. το 10480/2016 ειδικό πληρεξούσιο του συμ/φου . Μ. Κ.), διατύπωσε τη δήλωση, η οποία καταχωρίστηκε στα πρακτικά, ότι ο τελευταίος παραιτείται από το δικόγραφο της από 9-6-2015 αίτησης για αναίρεση της <ref href="/akn/gr/judgment/AppelateCourtThessaloniki/2015/596/!main">υπ' αριθμ. 596/2015 απόφασης του Μονομελούς Εφετείου Θεσσαλονίκης</ref>. Επομένως, σύμφωνα με την προηγηθείσα νομική σκέψη, πρέπει να θεωρηθεί ότι η αίτηση αυτή δεν ασκήθηκε. Στη συνέχεια ο αναιρεσείων πρέπει να καταδικαστεί στα δικαστικά έξοδα της αναιρεσίβλητης, σύμφωνα με το σχετικό αίτημά της (<ref href="/akn/gr/act/presidentialDecree/1985/503/!main">ΚΠολΔ</ref> 188 <ref href="/akn/gr/act/presidentialDecree/1985/503/!main__par_1">§ 1 ΚΠολΔ</ref>), η οποία παραστάθηκε στο ακροατήριο, εκπροσωπούμενη από την πληρεξούσια δικηγόρο της Σοφία Χερουβείμ, με δήλωση του <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_242__par_2">άρθρου 242 § 2 ΚΠολΔ</ref>, και δικαιολογημένα είχε καταθέσει πριν από την παραπάνω δικάσιμο τις από 15-9-2016 προτάσεις, κατά οριζόμενα στο διατακτικό.</p>
+          </item>
+        </blockList>
+      </motivation>
+      <decision>
+        <p>ΓΙΑ ΤΟΥΣ ΛΟΓΟΥΣ ΑΥΤΟΥΣ</p>
+        <p>Θεωρεί, ότι δεν ασκήθηκε η από 9-6-2015 αίτηση του Κ. Κ. του Σ. για αναίρεση της <ref href="/akn/gr/judgment/AppelateCourtThessaloniki/2015/596/!main">υπ' αριθμ. 596/2015 απόφασης του Μονομελούς Εφετείου Θεσσαλονίκης</ref>.</p>
+        <p><outcome>Καταδικάζει</outcome> τον αναιρεσείοντα στα δικαστικά έξοδα της αναιρεσίβλητης, τα οποία ορίζει στο ποσό των δύο χιλιάδων επτακοσίων (2.700) ευρώ.</p>
+      </decision>
+    </judgmentBody>
+    <conclusions>
+      <p>ΚΡΙΘΗΚΕ, αποφασίσθηκε στην Αθήνα, στις <date refersTo="courtConferenceDate" date="2017-01-23">23 Ιανουαρίου 2017</date>.</p>
+      <p>Ο ΠΡΟΕΔΡΕΥΩΝ Η ΓΡΑΜΜΑΤΕΑΣ</p>
+      <p>ΔΗΜΟΣΙΕΥΘΗΚΕ σε δημόσια</p>
+      <p> συνεδρίαση στο ακροατήριό του, στην Αθήνα, στις 24 Ιανουαρίου 2017.</p>
+      <p>Ο ΠΡΟΕΔΡΕΥΩΝ Ο ΓΡΑΜΜΑΤΕΑΣ</p>
+    </conclusions>
+  </judgment>
+</akomaNtoso>

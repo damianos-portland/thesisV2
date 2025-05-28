@@ -1,0 +1,194 @@
+{# templates/searchResults.html #}
+{% extends "base.html" %}
+
+{% block content %}
+<div id="decisions-container"
+     data-search-url="{{ request.path }}?{{ request.query_string.decode() }}">
+  <div class="row">
+    <!-- ─── Filters Column ───────────────────────────────────── -->
+    <div class="col-md-3">
+      {% if admin_view %}
+      <form action="{{ url_for('trigger_parse') }}" method="post" class="mb-4">
+        <button type="submit" class="btn btn-warning w-100">
+          Ανανέωση Αποφάσεων
+        </button>
+      </form>
+      {% endif %}
+
+      <form method="get" class="mb-4">
+        <div class="mb-3">
+          <label class="form-label">Έτος</label>
+          <select name="year" class="form-select">
+            <option value="">–</option>
+            {% for y in range(2017, current_year+1) %}
+            <option value="{{ y }}" {% if params.year==y|string %}selected{% endif %}>
+              {{ y }}
+            </option>
+            {% endfor %}
+          </select>
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Δικαστήριο</label>
+          <select name="court" class="form-select">
+            <option value="">–</option>
+            {% for c in courts %}
+            <option value="{{ c }}" {% if params.court==c %}selected{% endif %}>
+              {{ c|translate_court }}
+            </option>
+            {% endfor %}
+          </select>
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Αριθμός Αρχείου</label>
+          <input name="file_number"
+                 type="number"
+                 min="0"
+                 step="1"
+                 class="form-control"
+                 value="{{ params.file_number }}">
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Λέξη-κλειδί Επικεφαλίδων</label>
+          <input name="header_kw" type="text" class="form-control"
+                 value="{{ params.header_kw }}">
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Λέξη-κλειδί Σώματος</label>
+          <input name="body_kw" type="text" class="form-control"
+                 value="{{ params.body_kw }}">
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Αποτελέσματα / Σελίδα</label>
+          <select name="per_page" class="form-select">
+            {% for n in [10,20,50,100] %}
+            <option value="{{ n }}" {% if params.per_page==n|string %}selected{% endif %}>
+              {{ n }}
+            </option>
+            {% endfor %}
+          </select>
+        </div>
+        <button class="btn btn-primary w-100">Αναζήτηση</button>
+      </form>
+    </div>
+
+    <!-- ─── Results Column ───────────────────────────────────── -->
+    <div class="col-md-9">
+      <div class="d-flex justify-content-between align-items-center mb-2">
+        <div><strong>Σύνολο αποτελεσμάτων:</strong> {{ total }}</div>
+
+        {# build URL preserving filters, changing only page #}
+        {% macro url_for_search(p) -%}
+        {{ base_url }}?{% if base_qs %}{{ base_qs }}&{% endif %}page={{ p }}
+        {%- endmacro %}
+
+        <nav aria-label="Σελίδες">
+          <ul class="pagination pagination-sm mb-0">
+            <li class="page-item{% if page<=1 %} disabled{% endif %}">
+              <a class="page-link" href="{{ url_for_search(page-1) }}">«</a>
+            </li>
+
+            <li class="page-item{% if page==1 %} active{% endif %}">
+              <a class="page-link" href="{{ url_for_search(1) }}">1</a>
+            </li>
+
+            {% if start_page>2 %}
+            <li class="page-item disabled"><span class="page-link">…</span></li>
+            {% endif %}
+
+            {% for p in range(start_page, end_page+1) %}
+            <li class="page-item{% if page==p %} active{% endif %}">
+              <a class="page-link" href="{{ url_for_search(p) }}">{{ p }}</a>
+            </li>
+            {% endfor %}
+
+            {% if end_page<total_pages-1 %}
+            <li class="page-item disabled"><span class="page-link">…</span></li>
+            {% endif %}
+
+            {% if total_pages>1 %}
+            <li class="page-item{% if page==total_pages %} active{% endif %}">
+              <a class="page-link"
+                 href="{{ url_for_search(total_pages) }}">
+                {{ total_pages }}
+              </a>
+            </li>
+            {% endif %}
+
+            <li class="page-item{% if page>=total_pages %} disabled{% endif %}">
+              <a class="page-link" href="{{ url_for_search(page+1) }}">»</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <table class="table table-striped table-hover table-sm">
+        <thead class="table-light">
+        <tr>
+          <th>Αρ. Απόφασης</th>
+          <th>Δικαστήριο</th>
+          <th>Ημ. Συνεδρίας</th>
+          <th>Ημ. Δημοσίευσης</th>
+          <th>Ενέργειες</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for d in decisions %}
+        <tr>
+          <td>{{ d.header.docNumber }}</td>
+          <td>{{ d.court|translate_court }}</td>
+          <td>{{ d.courtConferenceDate or '–' }}</td>
+          <td>{{ d.decisionPublicationDate or '–' }}</td>
+          <td>
+            <a class="btn btn-sm btn-outline-primary"
+               href="{{ url_for('decision_detail', decision_id=d._id) }}">
+              Προβολή
+            </a>
+            {% if admin_view %}
+            <a class="btn btn-sm btn-secondary"
+               href="{{ url_for('edit_decision', decision_id=d._id) }}">
+              Επεξεργασία
+            </a>
+            <form method="post"
+                  action="{{ url_for('delete_decision', decision_id=d._id) }}"
+                  class="d-inline">
+              <button type="submit" class="btn btn-sm btn-danger ajax-delete">
+                Διαγραφή
+              </button>
+            </form>
+            {% endif %}
+          </td>
+        </tr>
+        {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+{# ─── AJAX-delete + confirmation ───────────────────────────────── #}
+<script>
+  document.getElementById("decisions-container")
+          .addEventListener("click", async e => {
+            if (!e.target.classList.contains("ajax-delete")) return;
+            e.preventDefault();
+
+            if (!confirm(
+                    "Είστε σίγουροι ότι θέλετε να διαγράψετε αυτό το αρχείο;\n" +
+                    "Αφού το διαγράψετε, δεν θα μπορείτε να το ανακτήσετε."
+            )) return;
+
+            let form = e.target.closest("form");
+            let resp = await fetch(form.action, {
+              method: "POST",
+              headers: { "X-Requested-With":"XMLHttpRequest" }
+            });
+            let j = await resp.json();
+            if (j.success) {
+              // on success just reload the entire page
+              window.location.reload();
+            } else {
+              alert("Σφάλμα διαγραφής. Δοκιμάστε ξανά.");
+            }
+          });
+</script>
+{% endblock %}

@@ -1,0 +1,139 @@
+{# templates/editDecision.html #}
+{% extends "base.html" %}
+{% block content %}
+<h2>Επεξεργασία Απόφασης</h2>
+
+<form method="post">
+  <div class="mb-3">
+    <label for="docNumber" class="form-label">Αρ. Απόφασης</label>
+    <input
+            type="text"
+            id="docNumber"
+            name="docNumber"
+            class="form-control"
+            value="{{ decision.header.docNumber }}"
+    />
+  </div>
+
+  <div class="mb-3">
+    <label for="docProponent" class="form-label">Δικαιούχος</label>
+    <input
+            type="text"
+            id="docProponent"
+            name="docProponent"
+            class="form-control"
+            value="{{ decision.header.docProponent }}"
+    />
+  </div>
+
+  <div class="mb-3">
+    <label for="subDepartment" class="form-label">Τμήμα</label>
+    <input
+            type="text"
+            id="subDepartment"
+            name="subDepartment"
+            class="form-control"
+            value="{{ decision.header.subDepartment }}"
+    />
+  </div>
+
+  <div class="mb-3">
+    <label for="headerDetails" class="form-label">Λεπτομέρειες Επικεφαλίδας</label>
+    <textarea
+            id="headerDetails"
+            name="headerDetails"
+            class="form-control"
+            rows="5"
+            wrap="soft"
+            style="white-space: pre-wrap;"
+    >{{ decision.header.headerDetails }}</textarea>
+  </div>
+
+  <div class="row mb-3">
+    <div class="col">
+      <label for="courtConferenceDate" class="form-label">Conf. Date</label>
+      <input
+              type="date"
+              id="courtConferenceDate"
+              name="courtConferenceDate"
+              class="form-control"
+              value="{{ decision.courtConferenceDate }}"
+      />
+    </div>
+    <div class="col">
+      <label for="decisionPublicationDate" class="form-label">Pub. Date</label>
+      <input
+              type="date"
+              id="decisionPublicationDate"
+              name="decisionPublicationDate"
+              class="form-control"
+              value="{{ decision.decisionPublicationDate }}"
+      />
+    </div>
+  </div>
+
+  {# --- Judgment body fields --- #}
+  <div class="mb-3">
+    <label for="introduction" class="form-label">Εισαγωγή</label>
+    <textarea
+            id="introduction"
+            name="introduction"
+            class="form-control"
+            rows="10"
+            wrap="soft"
+            style="white-space: pre-wrap;"
+    >{{ decision.judgmentBody.introduction }}</textarea>
+  </div>
+
+  <div class="mb-3">
+    <label for="motivation" class="form-label">Σκέψη</label>
+    <textarea
+            id="motivation"
+            name="motivation"
+            class="form-control"
+            rows="10"
+            wrap="soft"
+            style="white-space: pre-wrap;"
+    >{{ decision.judgmentBody.motivation }}</textarea>
+  </div>
+
+  <div class="mb-3">
+    <label for="outcome" class="form-label">Αποτέλεσμα Απόφασης</label>
+    <textarea
+            id="outcome"
+            name="outcome"
+            class="form-control"
+            rows="5"
+            wrap="soft"
+            style="white-space: pre-wrap;"
+    >{{ decision.judgmentBody.decision.outcome }}</textarea>
+  </div>
+
+  <div class="mb-3">
+    <label for="decisionDetails" class="form-label">Λεπτομέρειες Απόφασης</label>
+    <textarea
+            id="decisionDetails"
+            name="decisionDetails"
+            class="form-control"
+            rows="2"
+            wrap="soft"
+            style="white-space: pre-wrap;"
+    >{{ decision.judgmentBody.decision.decisionDetails }}</textarea>
+  </div>
+
+  <div class="mb-3">
+    <label for="conclusions" class="form-label">Συμπέρασμα</label>
+    <textarea
+            id="conclusions"
+            name="conclusions"
+            class="form-control"
+            rows="2"
+            wrap="soft"
+            style="white-space: pre-wrap;"
+    >{{ decision.conclusions }}</textarea>
+  </div>
+
+  <button type="submit" class="btn btn-primary">Αποθήκευση</button>
+  <a href="{{ url_for('decision_detail', decision_id=decision._id) }}" class="btn btn-secondary">Ακύρωση</a>
+</form>
+{% endblock %}

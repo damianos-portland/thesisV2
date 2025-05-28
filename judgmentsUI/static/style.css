@@ -1,0 +1,13 @@
+/* ensure long text in tables & forms wraps nicely */
+.table td,
+.table th {
+    word-wrap: break-word;
+    white-space: normal !important;
+}
+
+/* make form‐textarea fields taller (editDecision.html) */
+textarea.form-control {
+    min-height: 10em;
+}
+
+/* you can adjust as needed */

@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd">
+  <judgment name="decision">
+    <meta>
+      <identification source="#openLawsGR">
+        <FRBRWork>
+          <FRBRthis value="/akn/gr/judgment/SCCC/2021/470/!main"/>
+          <FRBRuri value="/akn/gr/judgment/SCCC/2021/470/"/>
+          <FRBRdate name="courtConferenceDate" date="2021-03-19"/>
+          <FRBRauthor href="#SCCC"/>
+          <FRBRcountry value="gr"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/gr/judgment/SCCC/2021/470/ell@/!main"/>
+          <FRBRuri value="/akn/gr/judgment/SCCC/2021/470/ell@"/>
+          <FRBRdate name="courtConferenceDate" date="2021-03-19"/>
+          <FRBRauthor href="#SCCC"/>
+          <FRBRlanguage language="ell"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/gr/judgment/SCCC/2021/470/ell@/!main.xml"/>
+          <FRBRuri value="/akn/gr/judgment/SCCC/2021/470/ell@.xml"/>
+          <FRBRdate name="XMLConversion" date="2025-04-23"/>
+          <FRBRauthor href="#openLawsGR"/>
+        </FRBRManifestation>
+      </identification>
+      <lifecycle source="#openLawsGR">
+        <eventRef source="#original" type="generation" date="2025-04-23"/>
+      </lifecycle>
+      <workflow source="#openLawsGR">
+        <step date="2021-03-19" by="#SCCC" refersTo="#courtConferenceDate"/>
+        <step date="2020-11-17" by="#SCCC" refersTo="#publicHearingDate"/>
+      </workflow>
+      <references source="#openLawsGR">
+        <original eId="original" href="/akn/gr/judgment/SCCC/2021/470/ell@" showAs="Original"/>
+        <TLCEvent eId="publicHearingDate" href="/akn/ontology/event/gr/publicHearingDate" showAs="Ημερομηνία δημόσιας συνεδρίασης"/>
+        <TLCEvent eId="courtConferenceDate" href="/akn/ontology/event/gr/courtConferenceDate" showAs="Ημερομηνία διάσκεψης"/>
+      </references>
+    </meta>
+    <header>
+      <p>Αριθμός<docNumber>470/2021</docNumber></p>
+      <p>
+        <docProponent>ΤΟ ΔΙΚΑΣΤΗΡΙΟ ΤΟΥ ΑΡΕΙΟΥ ΠΑΓΟΥ</docProponent>
+      </p>
+      <p>Β1' Πολιτικό Τμήμα</p>
+      <p>Συγκροτήθηκε από τους δικαστές, Δήμητρα Κοκοτίνη, Αντιπρόεδρο του Αρείου Πάγου, Αρετή Παπαδιά, Πελαγία Ακάσογλου, Δήμητρα Ζώη και Ιωάννα Μαργέλλου-Μπουλταδάκη, αρεοπαγίτες.</p>
+      <p>Συνήλθε σε δημόσια συνεδρίαση στο κατάστημά του, την <date refersTo="publicHearingDate" date="2020-11-17">17η Νοεμβρίου 2020</date>, με την παρουσία και της γραμματέως Ελένης Τσιουρή, για να δικάσει την υπόθεση, μεταξύ:</p>
+      <p>Της αναιρεσείουσας: εταιρείας περιορισμένης ευθύνης με την επωνυμία "... Ε.Π.Ε.", όπως εκπροσωπείται νόμιμα, που εδρεύει στην Αθήνα και δεν παραστάθηκε.</p>
+      <p>Του αναιρεσίβλητου: Π. Κ. του Α., κατοίκου Αθηνών, που παραστάθηκε μετά του πληρεξουσίου δικηγόρου Παναγιώτη Καραμπούλια, ο οποίος κατέθεσε προτάσεις.</p>
+    </header>
+    <judgmentBody>
+      <introduction>
+        <p>Η ένδικη διαφορά άρχισε με την από 28-09-2009 αγωγή του ήδη αναιρεσίβλητου, που κατατέθηκε στο Μονομελές Πρωτοδικείο Αθηνών. Εκδόθηκαν η 1306/2012 οριστική απόφαση του πρωτοβαθμίου δικαστηρίου και, κατόπιν ασκήσεως εφέσεως, η <ref href="/akn/gr/judgment/AppelateCourtAthens/2015/963/!main">963/2015 απόφαση του Μονομελούς Εφετείου Αθηνών</ref>. Την αναίρεση της τελευταίας, ζητεί η αναιρεσείουσα με την από 19-06-2015 αίτησή της.</p>
+        <p>Κατά τη συζήτηση της αίτησης αυτής, που εκφωνήθηκε με τη σειρά της από το πινάκιο, οι διάδικοι παραστάθηκαν όπως σημειώνεται πιο πάνω. Η εισηγήτρια αρεοπαγίτης Δήμητρα Ζώη, ανέγνωσε την από 20-10-2020 έκθεσή της, με την οποία εισηγήθηκε την απόρριψη της κρινόμενης αίτησης. Ο πληρεξούσιος του αναιρεσίβλητου ζήτησε την απόρριψη της αίτησης και την καταδίκη του αντιδίκου μέρους στα δικαστικά έξοδα.</p>
+      </introduction>
+      <motivation>
+        <p>ΣΚΕΦΘΗΚΕ ΣΥΜΦΩΝΑ ΜΕ ΤΟ ΝΟΜΟ</p>
+        <blockList eId="motivation_list_1">
+          <item eId="motivation_list_1__item_1">
+            <p>[Α] Από το συνδυασμό των διατάξεων των άρθρων <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_4__par_1">94 παρ. 1</ref>, <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_96">96</ref>  <ref href="/akn/gr/act/presidentialDecree/1985/503/!main">ΚΠολΔ</ref> προκύπτει ότι, στα πολιτικά δικαστήρια οι διάδικοι έχουν υποχρέωση να παρίστανται με πληρεξούσιο δικηγόρο, η προς τον οποίο πληρεξουσιότητα δίδεται είτε με συμβολαιογραφικό έγγραφο, είτε με προφορική δήλωση που καταχωρίζεται στα πρακτικά και παρέχει το δικαίωμα να παριστά στο δικαστήριο εκείνον που την έδωσε, να ενεργεί όλες τις κύριες ή παρεπόμενες πράξεις που αφορούν τη διεξαγωγή της δίκης, στις οποίες περιλαμβάνεται, πλην άλλων, και η άσκηση ενδίκων μέσων καθώς και να παρίσταται στις αντίστοιχες δίκες που δημιουργούνται από τις πράξεις αυτές. Για τις προπαρασκευαστικές πράξεις και τις κλήσεις έως τη συζήτηση στο ακροατήριο θεωρείται ότι υπάρχει πληρεξουσιότητα, ενώ για τη συζήτηση στο ακροατήριο απαιτείται ρητή πληρεξουσιότητα και αν αυτή δεν υπάρχει κηρύσσονται άκυρες όλες οι πράξεις, ακόμη και εκείνες που είχαν γίνει προηγουμένως, το δε δικαστήριο ελέγχει, αυτεπαγγέλτως, σε κάθε στάση της δίκης, την έλλειψη της πληρεξουσιότητας καθώς και την υπέρβασή της (<ref href="/akn/gr/judgment/SCCC/2008/13/!main">ΟλΑΠ 13/2008</ref>).</p>
+          </item>
+          <item eId="motivation_list_1__item_2">
+            <p>Από τις παραπάνω διατάξεις σε συνδυασμό μ' αυτές των άρθρων <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_6__par_2">576 παρ. 2</ref> και <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_7__par_1">577 παρ. 1</ref> <ref href="/akn/gr/act/presidentialDecree/1985/503/!main">ΚΠολΔ</ref> συνάγεται ότι επί ερημοδικίας των φερομένων ως ασκησάντων την αναίρεση διαδίκων, χωρίς την απόδειξη της υπάρξεως πληρεξουσιότητας αυτών προς τον υπογράφοντα αυτή (αναίρεση) δικηγόρο, η τελευταία απορρίπτεται ως απαράδεκτη (<ref href="/akn/gr/judgment/SCCC/2020/165/!main">ΑΠ 165/2020</ref>,<ref href="/akn/gr/judgment/SCCC/2018/1053/!main"> ΑΠ 1053/2018</ref>,<ref href="/akn/gr/judgment/SCCC/2016/227/!main"> ΑΠ 227/2016</ref>,<ref href="/akn/gr/judgment/SCCC/2014/243/!main"> ΑΠ 243/2014</ref>).</p>
+          </item>
+          <item eId="motivation_list_1__item_3">
+            <p>[Β] Στην προκειμένη περίπτωση, όπως προκύπτει από την υπ' αριθ. .../23-7-2020 έκθεση επιδόσεως του δικαστικού επιμελητή στο Εφετείο Πειραιά Αποστόλη Αποστόλου, που προσκομίζει και επικαλείται ο αναιρεσίβλητος, αντίγραφο της κρινόμενης από 19-06-2015 αιτήσεως αναιρέσεως της εκδοθείσας κατά την ειδική διαδικασία των εργατικών διαφορών <ref href="/akn/gr/judgment/AppelateCourtAthens/2015/963/!main">υπ' αριθ. 963/2015 αποφάσεως του Μονομελούς Εφετείου Αθηνών</ref>, με την κάτω από αυτή πράξη προσδιορισμού δικασίμου του Προέδρου του Β1' Τμήματος (<ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_568__par_2">άρθρο 568 παρ. 2 ΚΠολΔ</ref>) και κλήση προς συζήτηση για την αναφερόμενη στην αρχή της απόφασης δικάσιμο, επιδόθηκε νομότυπα και εμπρόθεσμα στην αναιρεσείουσα. Η τελευταία όμως δεν εμφανίστηκε κατά την εκφώνηση της υπόθεσης από το οικείο πινάκιο, ούτε κατέθεσε δήλωση του <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_242__par_2">άρθρου 242 παρ.2 ΚΠολΔ.</ref> Ωστόσο όμως ουδέν νομιμοποιητικό έγγραφο προσκομίζεται, από το οποίο να προκύπτει παροχή πληρεξουσιότητας από την αναιρεσείουσα για την άσκηση της ένδικης αιτήσεως αναιρέσεως προς την υπογράψασα αυτήν δικηγόρο Αθηνών Δ. Χ..</p>
+          </item>
+          <item eId="motivation_list_1__item_4">
+            <p>Κατόπιν αυτών η υπό κρίση αίτηση αναιρέσεως πρέπει να απορριφθεί ως απαράδεκτη και να καταδικαστεί η αναιρεσείουσα στα δικαστικά έξοδα του αναιρεσιβλήτου, ο οποίος παραστάθηκε και κατέθεσε προτάσεις (άρθρα 176, 183 και 191 <ref href="/akn/gr/act/presidentialDecree/1985/503/!main__par_2">παρ. 2 ΚΠολΔ</ref>).</p>
+          </item>
+        </blockList>
+      </motivation>
+      <decision>
+        <p>ΓΙΑ ΤΟΥΣ ΛΟΓΟΥΣ ΑΥΤΟΥΣ</p>
+        <p><outcome>Απορρίπτει</outcome> την από 19-06-2015 αίτηση αναιρέσεως κατά της υπ'αριθ. <ref href="/akn/gr/judgment/AppelateCourtAthens/2015/963/!main">963/2015 αποφάσεως του Μονομελούς Εφετείου Αθηνών</ref>. Και</p>
+        <p><outcome>Καταδικάζει</outcome> την αναιρεσείουσα να πληρώσει στον αναιρεσίβλητο για τα δικαστικά του έξοδα, το ποσό των χιλίων οκτακοσίων (1.800) ευρώ.</p>
+      </decision>
+    </judgmentBody>
+    <conclusions>
+      <p>ΚΡΙΘΗΚΕ, αποφασίσθηκε στην Αθήνα, στις <date refersTo="courtConferenceDate" date="2021-03-19">19 Μαρτίου 2021</date>.</p>
+      <p>ΔΗΜΟΣΙΕΥΘΗΚΕ σε δημόσια</p>
+      <p> συνεδρίαση στο ακροατήριό του, στην Αθήνα, στις 6 Απριλίου 2021.</p>
+      <p>Η ΑΝΤΙΠΡΟΕΔΡΟΣ  Η ΓΡΑΜΜΑΤΕΑΣ</p>
+    </conclusions>
+  </judgment>
+</akomaNtoso>

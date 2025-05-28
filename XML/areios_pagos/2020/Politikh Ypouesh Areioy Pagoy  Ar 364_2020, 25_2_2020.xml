@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd">
+  <judgment name="decision">
+    <meta>
+      <identification source="#openLawsGR">
+        <FRBRWork>
+          <FRBRthis value="/akn/gr/judgment/SCCC/2020/364/!main"/>
+          <FRBRuri value="/akn/gr/judgment/SCCC/2020/364/"/>
+          <FRBRdate name="courtConferenceDate" date="2020-02-25"/>
+          <FRBRauthor href="#SCCC"/>
+          <FRBRcountry value="gr"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/gr/judgment/SCCC/2020/364/ell@/!main"/>
+          <FRBRuri value="/akn/gr/judgment/SCCC/2020/364/ell@"/>
+          <FRBRdate name="courtConferenceDate" date="2020-02-25"/>
+          <FRBRauthor href="#SCCC"/>
+          <FRBRlanguage language="ell"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/gr/judgment/SCCC/2020/364/ell@/!main.xml"/>
+          <FRBRuri value="/akn/gr/judgment/SCCC/2020/364/ell@.xml"/>
+          <FRBRdate name="XMLConversion" date="2025-04-23"/>
+          <FRBRauthor href="#openLawsGR"/>
+        </FRBRManifestation>
+      </identification>
+      <lifecycle source="#openLawsGR">
+        <eventRef source="#original" type="generation" date="2025-04-23"/>
+      </lifecycle>
+      <workflow source="#openLawsGR">
+        <step date="2020-02-25" by="#SCCC" refersTo="#courtConferenceDate"/>
+        <step date="2019-12-10" by="#SCCC" refersTo="#publicHearingDate"/>
+      </workflow>
+      <references source="#openLawsGR">
+        <original eId="original" href="/akn/gr/judgment/SCCC/2020/364/ell@" showAs="Original"/>
+        <TLCEvent eId="publicHearingDate" href="/akn/ontology/event/gr/publicHearingDate" showAs="Ημερομηνία δημόσιας συνεδρίασης"/>
+        <TLCEvent eId="courtConferenceDate" href="/akn/ontology/event/gr/courtConferenceDate" showAs="Ημερομηνία διάσκεψης"/>
+      </references>
+    </meta>
+    <header>
+      <p>Αριθμός<docNumber>364/2020</docNumber></p>
+      <p>
+        <docProponent>ΤΟ ΔΙΚΑΣΤΗΡΙΟ ΤΟΥ ΑΡΕΙΟΥ ΠΑΓΟΥ</docProponent>
+      </p>
+      <p>Β2' Πολιτικό Τμήμα</p>
+      <p>Συγκροτήθηκε από τους Δικαστές: Πηνελόπη Ζωντανού, Αντιπρόεδρο του Αρείου Πάγου, Νικόλαο Πιπιλίγκα, Λουκά Μόρφη, Όλγα Σχετάκη - Μπονάτου και Πελαγία Ακάσογλου - Εισηγήτρια, Αρεοπαγίτες.</p>
+      <p>Συνεδρίασε δημόσια στο Κατάστημά του, την <date refersTo="publicHearingDate" date="2019-12-10">10 Δεκεμβρίου 2019</date>, με την παρουσία και της Γραμματέως Αγγελικής Ανυφαντή, για να δικάσει την εξής υπόθεση μεταξύ:
+Της αναιρεσείουσας: ανώνυμης εταιρείας με την επωνυμία "... ΑΝΩΝΥΜΗ ΒΙΟΜΗΧΑΝΙΚΗ ΚΑΙ ΕΜΠΟΡΙΚΗ ΕΤΑΙΡΕΙΑ" και το διακριτικό τίτλο "... ΑΒΕΕ", που εδρεύει στην ... και εκπροσωπείται νόμιμα, η οποία εκπροσωπήθηκε από τον πληρεξούσιο δικηγόρο της Δημήτριο Ιωαννίδη, που δεν κατέθεσε προτάσεις. Του αναιρεσιβλήτου: M., κατοίκου ..., ο οποίος δεν παραστάθηκε, ούτε εκπροσωπήθηκε από πληρεξούσιο δικηγόρο.</p>
+    </header>
+    <judgmentBody>
+      <introduction>
+        <p>Η ένδικη διαφορά άρχισε με την από 18/7/2014 αγωγή του ήδη αναιρεσιβλήτου, που κατατέθηκε στο Μονομελές Πρωτοδικείο Αθηνών. Εκδόθηκαν οι αποφάσεις: <ref href="/akn/gr/judgment/implicit_dikastirio_name/2015/954/!main">954/2015 του ίδιου Δικαστηρίου</ref> και <ref href="/akn/gr/judgment/AppelateCourtAthens/2018/4539/!main">4539/2018 του Μονομελούς Εφετείου Αθηνών</ref>. Την αναίρεση της τελευταίας απόφασης ζητεί η αναιρεσείουσα εταιρεία με την από 12/4/2019 αίτησή της. Κατά τη συζήτηση της αίτησης αυτής, που εκφωνήθηκε από το πινάκιο, παραστάθηκε μόνο η αναιρεσείουσα, όπως σημειώνεται πιο πάνω. Ο πληρεξούσιος της αναιρεσείουσας ζήτησε την παραδοχή της αίτησης και την καταδίκη του αντιδίκου της στη δικαστική δαπάνη της.</p>
+      </introduction>
+      <motivation>
+        <p>ΣΚΕΦΘΗΚΕ ΣΥΜΦΩΝΑ ΜΕ ΤΟ ΝΟΜΟ</p>
+        <blockList eId="motivation_list_1">
+          <item eId="motivation_list_1__item_1">
+            <p>Από τα άρθρα 106, 108, 110 παρ.<ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_2">2</ref>, <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_74">74</ref>, <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_75">75</ref>, <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_98">98</ref>, <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_96">96</ref> παράγραφοι <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_1">1</ref> και <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_3">3</ref>, <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_104">104</ref>, <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_495">495</ref>, <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_498">498</ref> παρ.<ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_1">1</ref>, <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_568">568</ref> παράγραφοι <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_1">1</ref>, <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_2">2</ref> και <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_4">4</ref>, <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_576">576</ref> παράγραφοι <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_1">1</ref>, <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_2">2</ref> και <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_3">3</ref> <ref href="/akn/gr/act/presidentialDecree/1985/503/!main">ΚΠολΔ</ref> - και όπως το <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_96">άρθρο 96 ΚΠολΔ</ref> πλέον ισχύει από 22.12.2017, κατά τα άρθρα <ref href="/akn/gr/act/law/2017/4509/!main#art_63">63</ref> και <ref href="/akn/gr/act/law/2017/4509/!main#art_80">80</ref> <ref href="/akn/gr/act/law/2017/4509/!main">ν.4509/2017</ref> (ΦΕΚ Α. 201/22.12.2017) - προκύπτουν (και) τα εξής: Αν, κατά τη συζήτηση της αναιρέσεως, δεν εμφανισθεί διάδικος ή δεν μετάσχει, σε αυτή, κανονικά, δηλ. με δικηγόρο, που να έχει πληρεξουσιότητα και να έχει χορηγηθεί η πληρεξουσιότητα, με τον τύπο, που ο νόμος ορίζει, το δικαστήριο ερευνά, αυτεπαγγέλτως, ποιος από τους διαδίκους έχει επισπεύσει τη συζήτηση (<ref href="/akn/gr/judgment/SCCC/2017/1312/!main">ΑΠ 1312/2017</ref>,<ref href="/akn/gr/judgment/SCCC/2017/1395/!main"> ΑΠ 1395/2017</ref> δημοσίευση ΝΟΜΟΣ). Ειδικότερα, επί δίκης αναιρέσεως, στην οποία δεν μετέχουν περισσότεροι, αν ο αντίδικος του διαδίκου, που επέσπευσε τη συζήτηση, δεν εμφανισθεί ή δεν εκπροσωπηθεί, κατά νόμο, από δικηγόρο, ο Άρειος Πάγος εξετάζει, αυτεπαγγέλτως, αν νομίμως κλητεύθηκε. Αν η κλήση για τη συζήτηση δεν επιδόθηκε καθόλου ή δεν επιδόθηκε νομίμως, ο Άρειος Πάγος κηρύσσει απαράδεκτη τη συζήτηση και η υπόθεση επαναφέρεται για συζήτηση, με νέα κλήτευση (κλήση). Στην αντίθετη περίπτωση, προχωρεί στη συζήτηση, παρά την απουσία εκείνου, που νομίμως έχει κλητευθεί. Την κλήτευση επικαλείται και αποδεικνύει ο διάδικος, που παρίσταται (<ref href="/akn/gr/judgment/SCCC/2017/1374/!main">ΑΠ 1374/2017</ref> δημοσίευση ΝΟΜΟΣ).</p>
+          </item>
+          <item eId="motivation_list_1__item_2">
+            <p>Στην προκειμένη περίπτωση, υπόκειται προς κρίση, ενώπιον του παρόντος Δικαστηρίου, η από 12.4.2019 (Γ.<ref href="/akn/gr/act/compulsoryLaw/1941/2783/!main">Α.Κ.</ref> 3727 / Ε.<ref href="/akn/gr/act/compulsoryLaw/1941/2783/!main">Α.Κ.</ref> 318/12.4.2019 - Εφετείο Αθηνών και Α.Δ. 710 / 28.6.2019 - Άρειος Πάγος) αίτηση αναιρέσεως της αναιρεσείουσας ανώνυμης εταιρίας υπό την επωνυμία ... ΑΝΩΝΥΜΟΣ ΒΙΟΜΗΧΑΝΙΚΗ ΚΑΙ ΕΜΠΟΡΙΚΗ ΕΤΑΙΡΙΑ (διακριτικός τίτλος ... Α.Β.Ε.Ε.), που εδρεύει στην ... και νομίμως εκπροσωπείται, κατά του αναιρεσίβλητου M., κατοίκου .... Προσβάλλεται δε, η <ref href="/akn/gr/judgment/AppelateCourtAthens/2018/4539/!main">4539/2018 οριστική απόφαση του Μονομελούς Εφετείου Αθηνών</ref>, η οποία εκδόθηκε, την 14.9.2018, αντιμωλία των διαδίκων, επί της από 15.5.2015 (<ref href="/akn/gr/act/compulsoryLaw/1941/2783/!main">Α.Κ.</ref> 3084 / 18.5.2015 - Πρωτοδικείο Αθηνών) εφέσεως της εκκαλούσας και ήδη αναιρεσείουσας κατά του εφεσίβλητου και ήδη αναιρεσίβλητου. Εκκαλούμενη ήταν η <ref href="/akn/gr/judgment/FirstInstanceCourtAthens/2015/954/!main">954/2015 οριστική απόφαση του Μονομελούς Πρωτοδικείου Αθηνών</ref>, η οποία εκδόθηκε, την 22.4.2015, αντιμωλία των διαδίκων, επί της από 18.7.2014 (Γ.<ref href="/akn/gr/act/compulsoryLaw/1941/2783/!main">Α.Κ.</ref> 87030 /<ref href="/akn/gr/act/compulsoryLaw/1941/2783/!main">Α.Κ.</ref>Δ. 3013 /21.7.2014) αγωγής του ενάγοντος και ήδη αναιρεσίβλητου κατά της εναγομένης και ήδη αναιρεσείουσας. Με την 954/2015 πρωτόδικη απόφαση, η αγωγή, η οποία αφορά απαιτήσεις του ενάγοντος από παροχή εργασίας, έγινε μερικώς δεκτή στην ουσία και με την 4539/2018 απόφαση, που προσβάλλεται, η έφεση έγινε τυπικά δεκτή και απορρίφθηκε κατ'ουσία. Τη συζήτηση της υποθέσεως για τη νόμιμη δικάσιμο, που αναφέρεται στην αρχή της παρούσης (10.12.2019), επισπεύδει η αναιρεσείουσα. Κατά την εκφώνηση της υποθέσεως από το πινάκιο, στη σειρά της, ο αναιρεσίβλητος δεν εμφανίσθηκε ούτε εκπροσωπήθηκε από δικηγόρο και δεν προκύπτει νόμιμη κλήτευσή του. Ειδικότερα, από τις 5192/10.10.2019 και 5182/9.10.2019 εκθέσεις επιδόσεως της αρμοδίας δικαστικής επιμελητρίας του Εφετείου Αθηνών, με έδρα το Πρωτοδικείο Αθηνών, Σ. Δ. Τ., που η αναιρεσείουσα, χωρίς να καταθέσει έγγραφες προτάσεις στο παρόν Δικαστήριο, προσκομίζει, προκύπτει ότι ο αναιρεσίβλητος καλείται, με θυροκόλληση (άρθρα 122, 128 παράγραφοι <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_2">2</ref> και <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_4">4</ref>, <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_130">130</ref> παρ.<ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_1">1</ref>, <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_136">136</ref>, <ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_568">568</ref> παρ.<ref href="/akn/gr/act/presidentialDecree/1985/503/!main#art_0__par_4">4</ref> <ref href="/akn/gr/act/presidentialDecree/1985/503/!main">ΚΠολΔ</ref>) και στις δύο πιο πάνω διευθύνσεις ... για τη συζήτηση της υποθέσεως στην ως άνω νόμιμη δικάσιμο (10.12.2019), ενώπιον του παρόντος Δικαστηρίου αναγράφεται, όμως, σε αμφότερες αυτές τις εκθέσεις επιδόσεως, ως απόφαση, που προσβάλλεται, η "<ref href="/akn/gr/judgment/FirstInstanceCourtAthens/2018/4539/!main">4539/2018 απόφαση του Μονομελούς Πρωτοδικείου Αθηνών</ref>" και όχι η ως άνω <ref href="/akn/gr/judgment/AppelateCourtAthens/2018/4539/!main">4539/2018 απόφαση του Μονομελούς Εφετείου Αθηνών</ref>.</p>
+          </item>
+          <item eId="motivation_list_1__item_3">
+            <p>Μετά ταύτα και κατά τα εκτεθέντα στη μείζονα σκέψη, εφ'όσον δεν προκύπτει νόμιμη κλήτευση από την αναιρεσείουσα, του αναιρεσίβλητου, ο οποίος δεν εμφανίσθηκε και δεν εκπροσωπήθηκε από δικηγόρο, πρέπει να κηρυχθεί απαράδεκτη η συζήτηση της ένδικης αιτήσεως αναιρέσεως.</p>
+          </item>
+        </blockList>
+      </motivation>
+      <decision>
+        <p>ΓΙΑ ΤΟΥΣ ΛΟΓΟΥΣ ΑΥΤΟΥΣ</p>
+        <p>Κηρύσσει απαράδεκτη τη συζήτηση της από 12.4.2019 αιτήσεως αναιρέσεως κατά της <ref href="/akn/gr/judgment/AppelateCourtAthens/2018/4539/!main">4539/2018 αποφάσεως του Μονομελούς Εφετείου Αθηνών</ref>.</p>
+      </decision>
+    </judgmentBody>
+    <conclusions>
+      <p>ΚΡΙΘΗΚΕ, αποφασίσθηκε στην Αθήνα, την <date refersTo="courtConferenceDate" date="2020-02-25">25 Φεβρουαρίου 2020</date>.</p>
+      <p>ΔΗΜΟΣΙΕΥΘΗΚΕ σε δημόσια</p>
+      <p> συνεδρίαση στο ακροατήριό του, στην Αθήνα, την 8 Απριλίου 2020.</p>
+      <p>H ΑΝΤΙΠΡΟΕΔΡΟΣ Η ΓΡΑΜΜΑΤΕΑΣ</p>
+    </conclusions>
+  </judgment>
+</akomaNtoso>
