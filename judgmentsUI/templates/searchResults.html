@@ -16,16 +16,24 @@
       {% endif %}
 
       <form method="get" class="mb-4">
+        <!-- ΝΕΟ: Αντί για <select name="year">... -->
         <div class="mb-3">
           <label class="form-label">Έτος</label>
-          <select name="year" class="form-select">
-            <option value="">–</option>
-            {% for y in range(2017, current_year+1) %}
-            <option value="{{ y }}" {% if params.year==y|string %}selected{% endif %}>
-              {{ y }}
-            </option>
-            {% endfor %}
-          </select>
+          <div class="row g-2">
+            <div class="col">
+              <label class="form-label small text-muted">Από</label>
+              <input name="from_year" type="number" min="1900" max="{{ current_year }}"
+                     class="form-control" value="{{ params.from_year }}">
+            </div>
+            <div class="col">
+              <label class="form-label small text-muted">Έως</label>
+              <input name="to_year" type="number" min="1900" max="{{ current_year }}"
+                     class="form-control" value="{{ params.to_year }}">
+            </div>
+          </div>
+          <div class="form-text">
+            Αφήστε κενό για χωρίς φίλτρο. Με ένα μόνο πεδίο, γίνεται φιλτράρισμα μόνο από/μέχρι.
+          </div>
         </div>
         <div class="mb-3">
           <label class="form-label">Δικαστήριο</label>
@@ -38,14 +46,11 @@
             {% endfor %}
           </select>
         </div>
+        <!-- ΝΕΟ: Αναζήτηση με Αρ. Απόφασης -->
         <div class="mb-3">
-          <label class="form-label">Αριθμός Αρχείου</label>
-          <input name="file_number"
-                 type="number"
-                 min="0"
-                 step="1"
-                 class="form-control"
-                 value="{{ params.file_number }}">
+          <label class="form-label">Αρ. Απόφασης</label>
+          <input name="doc_number" type="text" class="form-control"
+                 value="{{ params.doc_number }}" placeholder="56/2024">
         </div>
         <div class="mb-3">
           <label class="form-label">Λέξη-κλειδί Επικεφαλίδων</label>

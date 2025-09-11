@@ -193,12 +193,14 @@ def delete_decision(decision_id):
 def search():
     # 1) gather filters from URL
     params = {
-        'year':        request.args.get('year',''),
-        'court':       request.args.get('court',''),
-        'file_number': request.args.get('file_number',''),
-        'header_kw':   request.args.get('header_kw',''),
-        'body_kw':     request.args.get('body_kw',''),
-        'per_page':    request.args.get('per_page','10'),
+        'from_year':  request.args.get('from_year',''),
+        'to_year':    request.args.get('to_year',''),
+        'year':       request.args.get('year',''),  # legacy support
+        'court':      request.args.get('court',''),
+        'doc_number': request.args.get('doc_number',''),
+        'header_kw':  request.args.get('header_kw',''),
+        'body_kw':    request.args.get('body_kw',''),
+        'per_page':   request.args.get('per_page','10'),
     }
     try:
         page     = max(1, int(request.args.get('page','1')))
@@ -208,18 +210,35 @@ def search():
 
     # 2) build Mongo filter
     filt = {}
-    if params['year']:
-        filt['file_name'] = {
-            '$regex': fr"{re.escape(params['year'])}(?=\.xml)",
-            '$options': 'i'
-        }
+    # Year range filtering: use courtConferenceDate (Mongo Date)
+    fy = params.get('from_year') or params.get('year')
+    ty = params.get('to_year') or params.get('year')
+    date_range = {}
+    try:
+        if fy:
+            fy_i = int(fy)
+            date_range['$gte'] = datetime(fy_i, 1, 1)
+    except ValueError:
+        pass
+    try:
+        if ty:
+            ty_i = int(ty)
+            # include the whole 'to' year
+            date_range['$lte'] = datetime(ty_i, 12, 31, 23, 59, 59)
+    except ValueError:
+        pass
+    if date_range:
+        filt['courtConferenceDate'] = date_range
+
     if params['court']:
         filt['court'] = params['court']
-    if params['file_number']:
-        filt['file_name'] = {
-            '$regex': fr"\b{re.escape(params['file_number'])}\b",
+    if params.get('doc_number'):
+        # allow searching like "56/2024" or partial "56"
+        filt['header.docNumber'] = {
+            '$regex': re.escape(params['doc_number']),
             '$options': 'i'
         }
+
     ors = []
     if params['header_kw']:
         hw = re.compile(re.escape(params['header_kw']), re.IGNORECASE)
