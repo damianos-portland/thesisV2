@@ -210,23 +210,15 @@ def search():
 
     # 2) build Mongo filter
     filt = {}
-    # Year range filtering: use courtConferenceDate (Mongo Date)
-    fy = params.get('from_year') or params.get('year')
-    ty = params.get('to_year') or params.get('year')
+    # Year range filtering: compare STRING dates ("YYYY-MM-DD"), όχι datetime
+    fy = (params.get('from_year') or params.get('year') or '').strip()
+    ty = (params.get('to_year') or params.get('year') or '').strip()
+
     date_range = {}
-    try:
-        if fy:
-            fy_i = int(fy)
-            date_range['$gte'] = datetime(fy_i, 1, 1)
-    except ValueError:
-        pass
-    try:
-        if ty:
-            ty_i = int(ty)
-            # include the whole 'to' year
-            date_range['$lte'] = datetime(ty_i, 12, 31, 23, 59, 59)
-    except ValueError:
-        pass
+    if fy.isdigit():
+        date_range['$gte'] = f"{int(fy):04d}-01-01"
+    if ty.isdigit():
+        date_range['$lte'] = f"{int(ty):04d}-12-31"
     if date_range:
         filt['courtConferenceDate'] = date_range
 
