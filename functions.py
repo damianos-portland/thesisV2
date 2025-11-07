@@ -270,16 +270,11 @@ def clean_areios_pagos_text(src, dest, name_pattern=None):
                 # modify file name so that no dot is present
                 new_file_name = os.path.splitext(name)[0].replace('.', '') + TXT_EXT
                 # print new_fil_name
-                with open(os.path.join(src, name), 'r') as fin:
+                with open(os.path.join(src, name), 'r', encoding='utf-8', errors='ignore') as fin:
                     text = fin.read()
                     cleaned_text = subs_text(text, AreiosPagosGarbages)
-                    fout = codecs.open(
-                        os.path.join(dest, new_file_name),
-                        'w',
-                        'UTF-8'
-                    )
-                    fout.write(escapeXMLChars(cleaned_text).decode('UTF-8'))
-                    fout.close()
+                    with open(os.path.join(dest, new_file_name), 'w', encoding='utf-8') as fout:
+                        fout.write(escapeXMLChars(cleaned_text))
 
     print("Done...")
 
