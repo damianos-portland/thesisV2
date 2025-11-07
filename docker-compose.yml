@@ -1,0 +1,21 @@
+name: thesisv2
+
+services:
+  ui:
+    build: ./judgmentsUI
+    environment:
+      - MONGO_URI=mongodb://mongo:27017/
+      - PORT=8000
+      - FLASK_SECRET=3b473fda0a7b31b9b35a163113bc6c0b9dd23d595fd98c4e7b17ef6ea29afd97
+      - MAX_REQUEST_MB=50
+      - MAX_FORM_PARTS=20000
+  ports:
+      - "8081:8000"
+  networks:
+      - judgments-net
+  restart: unless-stopped
+
+networks:
+  judgments-net:
+    external: true
+
